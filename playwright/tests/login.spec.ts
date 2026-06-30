@@ -7,11 +7,10 @@ test('admin login works', async ({ page }) => {
   test.skip(!username || !password, 'Set WP_ADMIN_USER and WP_ADMIN_PASSWORD to run this test.');
 
   await page.goto('/wp-login.php');
-  await page.getByLabel('Username or Email Address').fill(username!);
-  await page.getByLabel('Password').fill(password!);
-  await page.getByRole('button', { name: 'Log In' }).click();
+  await page.locator('#user_login').fill(username!);
+  await page.locator('#user_pass').fill(password!);
+  await page.locator('#wp-submit').click();
 
   await expect(page).toHaveURL(/wp-admin/);
   await expect(page.locator('#wpadminbar')).toBeVisible();
 });
-

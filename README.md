@@ -5,8 +5,9 @@ Local development workspace for the Emotional Weddings WordPress site.
 ## Environment
 
 - WordPress root: `wordpress/`
-- Site URL: `https://www.emotionalweddings.rnova.tech`
-- Admin URL: `https://www.emotionalweddings.rnova.tech/wp-admin/`
+- Local URL: `http://emotionalweddings.local:8080`
+- Local admin URL: `http://emotionalweddings.local:8080/wp-admin/`
+- Production URL: `https://www.emotionalweddings.rnova.tech`
 - PHP: `8.3.31`
 - MySQL: `8.0.30`
 - Database: `rnovate2_wp49`
@@ -43,4 +44,3 @@ Playwright tests are scaffolded under `playwright/tests/`. Copy `.env.example` t
 npm install
 npm run test:e2e
 ```
-

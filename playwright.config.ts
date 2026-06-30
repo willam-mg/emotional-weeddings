@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
-const baseURL = process.env.WP_BASE_URL || 'https://www.emotionalweddings.rnova.tech';
+const baseURL = process.env.WP_BASE_URL || 'http://emotionalweddings.local:8080';
 
 export default defineConfig({
   testDir: './playwright/tests',
@@ -22,4 +22,3 @@ export default defineConfig({
     }
   ]
 });
-

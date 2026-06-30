@@ -14,8 +14,9 @@ Generated: 2026-06-30
 - Database user: `rnovate2_wp49`
 - Database host: `localhost`
 - Table prefix: `wpms_`
-- Site URL: `https://www.emotionalweddings.rnova.tech`
-- Home URL: `https://www.emotionalweddings.rnova.tech`
+- Local site URL: `http://emotionalweddings.local:8080`
+- Local home URL: `http://emotionalweddings.local:8080`
+- Production URL before local bootstrap: `https://www.emotionalweddings.rnova.tech`
 
 ## Theme
 

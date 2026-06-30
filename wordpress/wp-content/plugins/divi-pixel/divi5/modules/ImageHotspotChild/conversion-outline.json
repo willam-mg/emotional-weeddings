@@ -1,0 +1,110 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "tooltip_button": "tooltip_button.decoration.boxShadow",
+      "hotspot_img": "hotspot_img.decoration.boxShadow",
+      "tooltip_img": "tooltip_img.decoration.boxShadow",
+      "tooltip_box": "tooltip_box.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "tooltip_title": "tooltip_title.decoration.font",
+      "tooltip_desc": "tooltip_desc.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "tooltip_button": "tooltip_button.decoration.border",
+      "hotspot_img": "hotspot_img.decoration.border",
+      "tooltip_img": "tooltip_img.decoration.border",
+      "tooltip_box": "tooltip_box.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "image.decoration.sizing",
+    "height": "image.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "button": {
+      "tooltip_button": "tooltip_button"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "title": "module.meta.adminLabel.*",
+    "use_hotspot_icon": "use_hotspot_icon.innerContent.*",
+    "hotspot_image": "hotspot_img.innerContent.*.src",
+    "img_alt": "img_alt.innerContent.*",
+    "hotspot_image_width": "hotspot_image_width.innerContent.*",
+    "hotspot_icon": "hotspot_icon.innerContent.*",
+    "hotspot_icon_color": "hotspot_icon_color.innerContent.*",
+    "hotspot_icon_padding": "hotspot_icon_padding.innerContent.*.padding",
+    "hotspot_circle_icon": "hotspot_circle_icon.innerContent.*",
+    "hotspot_circle_color": "hotspot_circle_color.innerContent.*",
+    "hotspot_circle_border": "hotspot_circle_border.innerContent.*",
+    "hotspot_circle_border_color": "hotspot_circle_border_color.innerContent.*",
+    "use_hotspot_icon_font_size": "use_hotspot_icon_font_size.innerContent.*",
+    "hotspot_icon_size": "hotspot_icon_size.innerContent.*",
+    "hotspot_ripple_effect": "hotspot_ripple_effect.innerContent.*",
+    "hotspot_ripple_effect_style": "hotspot_ripple_effect_style.innerContent.*",
+    "hotspot_ripple_effect_color": "hotspot_ripple_effect_color.innerContent.*",
+    "hotspot_ripple_effect_size": "hotspot_ripple_effect_size.innerContent.*",
+    "hotspot_ripple_effect_speed": "hotspot_ripple_effect_speed.innerContent.*",
+    "hotspot_position_vertical": "hotspot_position_vertical.innerContent.*",
+    "hotspot_position_horizontal": "hotspot_position_horizontal.innerContent.*",
+    "type": "content_type.innerContent.*",
+    "library_id": "library_id.innerContent.*",
+    "use_tooltip_icon": "use_tooltip_icon.innerContent.*",
+    "tooltip_icon": "tooltip_icon.innerContent.*",
+    "tooltip_icon_color": "tooltip_icon_color.innerContent.*",
+    "use_tooltip_icon_circle": "use_tooltip_icon_circle.innerContent.*",
+    "tooltip_icon_circle_color": "tooltip_icon_circle_color.innerContent.*",
+    "use_tooltip_icon_circle_border": "use_tooltip_icon_circle_border.innerContent.*",
+    "tooltip_icon_circle_border_color": "tooltip_icon_circle_border_color.innerContent.*",
+    "tooltip_icon_padding": "tooltip_icon_padding.innerContent.*.padding",
+    "use_tooltip_icon_font_size": "use_tooltip_icon_font_size.innerContent.*",
+    "tooltip_icon_size": "tooltip_icon_size.innerContent.*",
+    "tooltip_img_src": "tooltip_img_src.innerContent.*.src",
+    "tooltip_img_alt": "tooltip_img_alt.innerContent.*",
+    "tooltip_image_width": "tooltip_image_width.innerContent.*",
+    "tooltip_bg": "tooltip_bg.innerContent.*",
+    "tooltip_title": "tooltip_title.innerContent.*",
+    "tooltip_title_level": "tooltip_title.decoration.font.font.*.headingLevel",
+    "tooltip_desc": "tooltip_desc.innerContent.*",
+    "show_tooltip_button": "show_tooltip_button.innerContent.*",
+    "tooltip_button_text": "tooltip_button.innerContent.*.text",
+    "tooltip_button_link": "tooltip_button.innerContent.*.linkUrl",
+    "tooltip_button_link_target": "tooltip_button.innerContent.*.linkTarget",
+    "tooltip_position": "tooltip_position.innerContent.*",
+    "tooltip_width": "tooltip_width.innerContent.*",
+    "tooltip_content_align": "tooltip_content_align.innerContent.*",
+    "hotspot_link": "hotspot_link.innerContent.*",
+    "hotspot_link_target": "hotspot_link_target.innerContent.*",
+    "use_tooltip_arrow": "use_tooltip_arrow.innerContent.*",
+    "arrow_color": "arrow_color.innerContent.*",
+    "tooltip_padding": "tooltip_box.decoration.spacing.*.padding"
+  },
+  "valueExpansionFunctionMap": {
+    "hotspot_icon": "convertFontIcon",
+    "hotspot_icon_padding": "convertSpacing",
+    "tooltip_icon": "convertFontIcon",
+    "tooltip_icon_padding": "convertSpacing",
+    "tooltip_padding": "convertSpacing"
+  }
+}

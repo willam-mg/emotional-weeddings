@@ -1,0 +1,75 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "main_selector.decoration.spacing",
+    "fonts": {
+      "lottie_title": "title.decoration.font",
+      "lottie_desc": "content.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "button": {
+      "lottie_button": "button"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "json_file": "json_file.innerContent.*",
+    "use_json_code": "use_json_code.innerContent.*",
+    "json_code": "json_code.innerContent.*",
+    "lottie_title": "lottie_title.innerContent.*",
+    "lottie_content": "lottie_content.innerContent.*",
+    "animate_on_scroll": "animate_on_scroll.innerContent.*",
+    "visibility_start": "visibility_start.innerContent.*",
+    "visibility_end": "visibility_end.innerContent.*",
+    "frame_start": "frame_start.innerContent.*",
+    "frame_end": "frame_end.innerContent.*",
+    "loop": "loop.innerContent.*",
+    "autoplay": "autoplay.innerContent.*",
+    "anim_delay": "anim_delay.innerContent.*",
+    "anim_start": "anim_start.innerContent.*",
+    "anim_start_viewport": "anim_start_viewport.innerContent.*",
+    "speed": "speed.innerContent.*",
+    "direction": "direction.innerContent.*",
+    "play_on_hover": "play_on_hover.innerContent.*",
+    "stop_on_hover": "stop_on_hover.innerContent.*",
+    "lottie_placement": "lottie_placement.innerContent.*",
+    "box_alignment": "box_alignment.innerContent.*",
+    "lottie_width": "lottie_width.innerContent.*",
+    "lottie_margin": "lottie_margin.decoration.spacing.*.margin",
+    "lottie_padding": "lottie_padding.decoration.spacing.*.padding",
+    "use_lottie_button": "button.advanced.use_button.*",
+    "lottie_button_text": "button.innerContent.*.text",
+    "lottie_button_link": "button.innerContent.*.linkUrl",
+    "lottie_button_link_target": "button.innerContent.*.linkTarget"
+  },
+  "valueExpansionFunctionMap": {
+    "lottie_margin": "convertSpacing",
+    "lottie_padding": "convertSpacing"
+  }
+}

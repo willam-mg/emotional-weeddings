@@ -1,0 +1,76 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "prefix": "typing_prefix.decoration.boxShadow",
+      "typing": "typing_text.decoration.boxShadow",
+      "suffix": "typing_suffix.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "all_font.decoration.font",
+      "prefix": "typing_prefix.decoration.font",
+      "typing": "typing_text.decoration.font",
+      "suffix": "typing_suffix.decoration.font",
+      "cursor": "cursor_char.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "prefix": "typing_prefix.decoration.border",
+      "typing": "typing_text.decoration.border",
+      "suffix": "typing_suffix.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "prefix": "css.*.prefix",
+    "typing": "css.*.typing",
+    "suffix": "css.*.suffix",
+    "cursor": "css.*.cursor"
+  },
+  "module": {
+    "typing_prefix": "typing_prefix.innerContent.*",
+    "typing_text": "typing_text.innerContent.*",
+    "typing_suffix": "typing_suffix.innerContent.*",
+    "text_wrapper_tag": "text_wrapper_tag.innerContent.*",
+    "flex_direction": "flex_direction.innerContent.*",
+    "flex_wrap": "flex_wrap.innerContent.*",
+    "typing_loop": "typing_loop.innerContent.*",
+    "show_cursor": "show_cursor.innerContent.*",
+    "cursor_char": "cursor_char.innerContent.*",
+    "typing_delay": "typing_delay.innerContent.*",
+    "typing_speed": "typing_speed.innerContent.*",
+    "typing_backspeed": "typing_backspeed.innerContent.*",
+    "typing_backdelay": "typing_backdelay.innerContent.*",
+    "anim_start": "anim_start.innerContent.*",
+    "anim_start_viewport_offset": "anim_start_viewport_offset.innerContent.*",
+    "typing_prefix_padding": "typing_prefix.decoration.spacing.*.padding",
+    "typing_padding": "typing_text.decoration.spacing.*.padding",
+    "typing_suffix_padding": "typing_suffix.decoration.spacing.*.padding"
+  },
+  "valueExpansionFunctionMap": {
+    "typing_prefix_padding": "convertSpacing",
+    "typing_padding": "convertSpacing",
+    "typing_suffix_padding": "convertSpacing"
+  }
+}

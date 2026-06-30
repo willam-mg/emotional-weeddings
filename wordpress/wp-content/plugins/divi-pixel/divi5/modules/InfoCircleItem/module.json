@@ -1,0 +1,575 @@
+{
+    "name": "dipi/info-circle-item",
+    "d4Shortcode": "dipi_info_circle_item",
+    "title": "Pixel Info Circle Item",
+    "titles": "Pixel Info Circle Items",
+    "moduleIcon": "dipi/info-circle-item",
+    "category": "child-module",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": ".dipi_info_circle {{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Info Circle Item"
+                        }
+                    }
+                },
+                "advanced": {
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "color": "light"
+                                }
+                            }
+                        }
+                    }
+                },
+                "decoration": {
+                    "sizing": {
+                        "desktop": {
+                            "value": {
+                                "width": "80%",
+                                "height": "80%"
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#ecf4f7"
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "selector": "{{selector}}.dipi_info_circle_item .dipi_info_circle-in",
+                "spacing": {
+                    "important": true
+                }
+            }
+        },
+        "use_info_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "info_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "1"
+                    }
+                }
+            }
+        },
+        "info_image": {
+            "type": "object",
+            "elementType": "imageLink",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "src": "",
+                            "alt": ""
+                        }
+                    }
+                }
+            }
+        },
+        "info_image_alt": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "use_content_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "content_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "1"
+                    }
+                }
+            }
+        },
+        "content_image_alt": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "show_content_button": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "content_button": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_content_button.et_pb_button",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi_content_button"
+            },
+            "default": {
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "on",
+                                    "value": {}
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                },
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "text": "Click Here",
+                            "linkUrl": "#",
+                            "linkTarget": "off"
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            },
+            "styleProps": {
+                "spacing": {
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "info_icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "info_image_icon_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "info_image_icon": {
+            "type": "object",
+            "selector": "{{selector}}.dipi_info_circle_item .dipi_info_circle_item_container .dipi-info-circle.dipi_info_circle-small",
+            "default": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "info_image_icon_hover": {
+            "type": "object",
+            "selector": "{{selector}}.dipi_info_circle_item .dipi_info_circle_item_container .dipi-info-circle.dipi_info_circle-small:hover, {{selector}}.dipi_info_circle_item .dipi_info_circle_item_container.active .dipi-info-circle.dipi_info_circle-small:hover",
+            "default": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#2C3D49"
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "info_image_icon_active": {
+            "type": "object",
+            "selector": "{{selector}}.dipi_info_circle_item .dipi_info_circle_item_container.active .dipi-info-circle.dipi_info_circle-small",
+            "default": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#2C3D49"
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "radius": {},
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "info_icon_hover_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#ffffff"
+                    }
+                }
+            }
+        },
+        "info_image_icon_hover_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "info_icon_active_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#ffffff"
+                    }
+                }
+            }
+        },
+        "info_image_icon_active_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "30px"
+                    }
+                }
+            }
+        },
+        "content_icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#7ebec5"
+                    }
+                }
+            }
+        },
+        "content_image": {
+            "type": "object",
+            "elementType": "imageLink",
+            "selector": "{{selector}}.dipi_info_circle_item .dipi_info_circle_item_container .dipi_info_circle_item-content-wrapper .dipi-content-image-icon-wrap",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "src": "",
+                            "alt": ""
+                        }
+                    }
+                },
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "transparent"
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "0px",
+                                    "bottom": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                },
+                                "padding": {
+                                    "top": "0px",
+                                    "bottom": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        }
+                    },
+                    "filters": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "content_image_icon_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "96px"
+                    }
+                }
+            }
+        },
+        "content_title": {
+            "type": "object",
+            "selector": "{{selector}}.dipi_info_circle_item .dipi-content-text .dipi-content-heading",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "headingLevel": "h2",
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "0px",
+                                    "bottom": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                },
+                                "padding": {
+                                    "top": "0px",
+                                    "bottom": "10px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content_desc": {
+            "type": "object",
+            "allowHtml": true,
+            "selector": "{{selector}}.dipi_info_circle_item .dipi-content-text .dipi-desc",
+            "inlineEditor": "richText",
+            "childrenSanitizer": "et_core_esc_previously",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "0px",
+                                    "bottom": "0px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                },
+                                "padding": {
+                                    "top": "0px",
+                                    "bottom": "10px",
+                                    "left": "0px",
+                                    "right": "0px"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "image_icon_css": {
+            "subName": "image_icon_css",
+            "selectorSuffix": ".dipi_info_circle_item .dipi_info_circle_item_container .dipi_info_circle-small .dipi-info-image-icon-wrap .et-pb-icon"
+        },
+        "circle_heading": {
+            "subName": "circle_heading",
+            "selectorSuffix": ".dipi_info_circle_item .dipi_info_circle_item_container .dipi-content-heading"
+        },
+        "circle_description": {
+            "subName": "circle_description",
+            "selectorSuffix": ".dipi_info_circle_item .dipi_info_circle_item_container .dipi-desc"
+        },
+        "circle_button": {
+            "subName": "circle_button",
+            "selectorSuffix": ".dipi_info_circle_item .dipi_info_circle_item_container .dipi_content_button"
+        }
+    }
+}

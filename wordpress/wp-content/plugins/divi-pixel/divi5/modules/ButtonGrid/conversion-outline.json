@@ -1,0 +1,47 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "button_grid": "button_grid.decoration.boxShadow"
+    },
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text_style": "text_style.decoration.font"
+    },
+    "button": {
+      "button_grid": "button_grid"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "flex_direction": "flex_direction.innerContent.*",
+    "flex_wrap": "flex_wrap.innerContent.*",
+    "justify_content": "justify_content.innerContent.*",
+    "align_items": "align_items.innerContent.*",
+    "module_id": "module.advanced.htmlAttributes.*.id",
+    "module_class": "module.advanced.htmlAttributes.*.class"
+  }
+}

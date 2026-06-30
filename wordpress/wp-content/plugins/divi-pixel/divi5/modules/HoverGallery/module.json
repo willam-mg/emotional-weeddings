@@ -1,0 +1,353 @@
+{
+    "name": "dipi/hover-gallery",
+    "moduleIcon": "dipi/hover-gallery",
+    "d4Shortcode": "dipi_hover_gallery",
+    "title": "Pixel Hover Gallery",
+    "titles": "Pixel Hover Galleries",
+    "childModuleName": "dipi/hover-gallery-item",
+    "childModuleTitle": "Pixel Hover Gallery Item",
+    "childrenName": [
+        "dipi/hover-gallery-item"
+    ],
+    "category": "module",
+    "viewScript": "dipi_hover_gallery",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": { "value": "Pixel Hover Gallery" }
+                    }
+                },
+                "decoration": {
+                    "sizing": {
+                        "desktop": {
+                            "value": {
+                                "height": "800px"
+                            }
+                        }
+                    },
+                    "itemSpacing": {
+                        "desktop": {
+                            "value": {
+                                "desktop": "0px"
+                            }
+                        }
+                    }
+                },
+                "advanced": {
+                    "height": {
+                        "desktop": {
+                            "value": {
+                                "desktop": "800px"
+                            }
+                        }
+                    },
+                    "columns": {
+                        "desktop": {
+                            "value": "3"
+                        }
+                    },
+                    "gridGap": {
+                        "desktop": {
+                            "value": "20px"
+                        }
+                    },
+                    "gridWidth": {
+                        "desktop": {
+                            "value": "80%"
+                        }
+                    },
+                    "gridFullHeight": {
+                        "desktop": {
+                            "value": "off"
+                        }
+                    },
+                    "activateOnClick": {
+                        "desktop": {
+                            "value": "off"
+                        }
+                    },
+                    "gridAlignment": {
+                        "desktop": {
+                            "value": "center-center"
+                        }
+                    },
+                    "galleryAnimation": {
+                        "desktop": {
+                            "value": {
+                                "useAnimation": "off",
+                                "animationName": "FadeIn",
+                                "animationDuration": "1000ms",
+                                "animationDelay": "200ms",
+                                "animationSpeed": "700ms"
+                            }
+                        }
+                    },
+                    "autoPlaySpeed": {
+                        "desktop": {
+                            "value": "3000ms"
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "spacing": {
+                    "important": true
+                }
+            }
+        },
+        "grid": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg__items"
+        },
+        "imageIcon": {
+            "type": "object",
+            "selector": "{{selector}} .et-pb-icon.dipi-hover-box-content-icon, {{selector}} .dipi-image-wrap",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "0px",
+                                    "right": "0px",
+                                    "bottom": "0px",
+                                    "left": "0px"
+                                },
+                                "padding": {
+                                    "top": "10px",
+                                    "right": "10px",
+                                    "bottom": "10px",
+                                    "left": "10px"
+                                }
+                            }
+                        }
+                    },
+                    "color": {
+                        "desktop": {
+                            "value": "#7ebec5"
+                        }
+                    },
+                    "iconSize": {
+                        "desktop": {
+                            "value": "40px"
+                        }
+                    }
+                }
+            }
+        },
+        "imageIconActive": {
+            "type": "object",
+            "selector": "{{selector}} .active .et-pb-icon.dipi-hover-box-content-icon, {{selector}} .active .dipi-image-wrap",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "0px",
+                                    "right": "0px",
+                                    "bottom": "0px",
+                                    "left": "0px"
+                                },
+                                "padding": {
+                                    "top": "10px",
+                                    "right": "10px",
+                                    "bottom": "10px",
+                                    "left": "10px"
+                                }
+                            }
+                        }
+                    },
+                    "color": {
+                        "desktop": {
+                            "value": "#7ebec5"
+                        }
+                    },
+                    "iconSize": {
+                        "desktop": {
+                            "value": "40px"
+                        }
+                    }
+                }
+            }
+        },
+        "item": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg__item",
+            "default": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "rgba(255,255,255,0.7)"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "itemActive": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg__item.active",
+            "default": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#ffffff"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg-title",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "titleActive": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg__item.active .dipi-hg-title",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg__item__content",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "contentActive": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg__item.active .dipi-hg__item__content",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "button": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg__item .dipi-hg-button",
+            "attributes": {
+                "class": "dipi-overlay-button"
+            },
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "text": "Click Here",
+                            "linkUrl": "#",
+                            "linkTarget": "off"
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false,
+                "allowEmptyUrl": true
+            }
+        },
+        "buttonActive": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-hg__item.active .dipi-hg-button",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "text": "Click Here",
+                            "linkUrl": "#",
+                            "linkTarget": "off"
+                        }
+                    }
+                },
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "on"
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "active_image": {
+            "subName": "active_image",
+            "selectorSuffix": " .dipi-hg__images .dipi-hg-image.active div"
+        }
+    }
+}

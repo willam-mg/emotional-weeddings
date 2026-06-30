@@ -1,0 +1,706 @@
+{
+    "name": "dipi/horizontal-timeline",
+    "d4Shortcode": "dipi_horizontal_timeline",
+    "title": "Pixel Horizontal Timeline",
+    "titles": "Pixel Horizontal Timelines",
+    "moduleIcon": "dipi/horizontal-timeline",
+    "childModuleName": "dipi/horizontal-timeline-item",
+    "childModuleTitle": "Pixel Horizontal Timeline Item",
+    "childrenName": [
+        "dipi/horizontal-timeline-item"
+    ],
+    "category": "module",
+    "style": ["dipi_animate", "magnific-popup"],
+    "viewScript": ["dipi_horizontal_timeline_public_d5", "dipi_swiper_d5"],
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Horizontal Timeline"
+                        }
+                    }
+                },
+                "advanced": {
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "color": "light",
+                                    "orientation": "center"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#ecf4f7"
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": true
+                }
+            }
+        },
+        "show_card_arrow": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "card_arrow_align": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "center"
+                    }
+                }
+            }
+        },
+        "container_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "padding": {
+                                "top": "30px",
+                                "right": "30px",
+                                "bottom": "30px",
+                                "left": "30px"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "show_lightbox": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    },
+                    "tablet": {
+                        "value": "on"
+                    },
+                    "phone": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "layout": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "mixed"
+                    },
+                    "tablet": {
+                        "value": "mixed"
+                    },
+                    "phone": {
+                        "value": "mixed"
+                    }
+                }
+            }
+        },
+        "start_position": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "top"
+                    }
+                }
+            }
+        },
+        "line_area_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "60px"
+                    }
+                }
+            }
+        },
+        "timeline_line_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "2px"
+                    }
+                }
+            }
+        },
+        "timeline_line_style": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "solid"
+                    }
+                }
+            }
+        },
+        "timeline_line_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#F2F3F3"
+                    }
+                }
+            }
+        },
+        "use_active_line": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "timeline_active_line_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "2px"
+                    }
+                }
+            }
+        },
+        "timeline_active_line_style": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "solid"
+                    }
+                }
+            }
+        },
+        "timeline_active_line_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#2C3D49"
+                    }
+                }
+            }
+        },
+        "timeline_active_horizontal_pos": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "50%"
+                    }
+                }
+            }
+        },
+        "card_arrow_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "12px"
+                    }
+                }
+            }
+        },
+        "card_arrow_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#F2F3F3"
+                    }
+                }
+            }
+        },
+        "title_font": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_horizontal_timeline_item .dipi_htl_item_header"
+        },
+        "desc_font": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_horizontal_timeline_item .dipi_htl_item_description"
+        },
+        "ribbon_font": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_horizontal_timeline_item .dipi_timeline_ribbon_text"
+        },
+        "item": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_horizontal_timeline_item .dipi_htl_item_card",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "border": {},
+                    "boxShadow": {}
+                }
+            },
+            "default": {
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "button": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_htl_item_button",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi_htl_item_button"
+            },
+            "default": {
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "on",
+                                    "value": {}
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            },
+            "styleProps": {
+                "selector": "{{selector}} .dipi_htl_item_button",
+                "boxShadow": {
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "box-shadow": "{{selector}} .dipi_htl_item_button"
+                            }
+                        }
+                    }
+                },
+                "button": {
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "text-align": "{{selector}} .dipi_htl_item_button"
+                            }
+                        }
+                    }
+                },
+                "spacing": {
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "margin": "{{selector}} .dipi_htl_item_button",
+                                "padding": "{{selector}} .dipi_htl_item_button"
+                            }
+                        }
+                    },
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "columns": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "4" },
+                    "tablet": { "value": "2" },
+                    "phone": { "value": "1" }
+                }
+            }
+        },
+        "space_between": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "30" }
+                }
+            }
+        },
+        "speed": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "500" }
+                }
+            }
+        },
+        "loop": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "autoplay": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "pause_on_hover": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "on" }
+                }
+            }
+        },
+        "autoplay_speed": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "5000" }
+                }
+            }
+        },
+        "navigation": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "navigation_on_hover": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "pagination": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "dynamic_bullets": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "on" }
+                }
+            }
+        },
+        "centered": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "effect": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "slide" }
+                }
+            }
+        },
+        "slide_shadows": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "on" }
+                }
+            }
+        },
+        "shadow_overlay_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "" }
+                }
+            }
+        },
+        "rotate": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "50" }
+                }
+            }
+        },
+        "continues": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "autoplay_reverse": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "navigation_prev_icon_yn": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "navigation_prev_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "&#x38;",
+                            "type": "divi",
+                            "weight": "400"
+                        }
+                    }
+                }
+            }
+        },
+        "navigation_next_icon_yn": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "navigation_next_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "&#x39;",
+                            "type": "divi",
+                            "weight": "400"
+                        }
+                    }
+                }
+            }
+        },
+        "navigation_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "30" }
+                }
+            }
+        },
+        "navigation_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "30" }
+                }
+            }
+        },
+        "navigation_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "" }
+                }
+            }
+        },
+        "navigation_bg_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "" }
+                }
+            }
+        },
+        "navigation_circle": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "off" }
+                }
+            }
+        },
+        "navigation_position_left": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "-66px" }
+                }
+            }
+        },
+        "navigation_position_right": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "-66px" }
+                }
+            }
+        },
+        "pagination_position": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "-40" }
+                }
+            }
+        },
+        "pagination_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "#d8d8d8" }
+                }
+            }
+        },
+        "pagination_active_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": { "value": "" }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "img": {
+            "subName": "img",
+            "selectorSuffix": " .dipi_htl_item_image"
+        },
+        "icon": {
+            "subName": "icon",
+            "selectorSuffix": " .dipi_timeline_font_icon"
+        },
+        "title": {
+            "subName": "title",
+            "selectorSuffix": " .dipi_htl_item_header"
+        },
+        "description": {
+            "subName": "description",
+            "selectorSuffix": " .dipi_htl_item_description"
+        },
+        "button": {
+            "subName": "button",
+            "selectorSuffix": " .dipi_htl_item_button"
+        },
+        "navigation": {
+            "subName": "navigation",
+            "selectorSuffix": " div.dipi-carousel-main .swiper-arrow-button"
+        },
+        "prev_main_navigation": {
+            "subName": "prev_main_navigation",
+            "selectorSuffix": " div.dipi-carousel-main .swiper-arrow-button.swiper-button-prev"
+        },
+        "next_thumbs_navigation": {
+            "subName": "next_thumbs_navigation",
+            "selectorSuffix": " div.dipi-carousel-main .swiper-arrow-button.swiper-button-next"
+        },
+        "pagination": {
+            "subName": "pagination",
+            "selectorSuffix": " div.dipi-carousel-main .swiper-pagination"
+        },
+        "active_slide": {
+            "subName": "active_slide",
+            "selectorSuffix": " .swiper-slide-active"
+        },
+        "not_active_slide": {
+            "subName": "not_active_slide",
+            "selectorSuffix": " .dipi_horizontal_timeline_item:not(.swiper-slide-active)"
+        }
+    }
+}
+

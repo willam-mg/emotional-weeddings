@@ -1,0 +1,53 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "main_image.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "advanced_text.decoration.font"
+    },
+    "borders": {
+      "default": "main_image.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "magnifier_img": "css.*.magnifier_img"
+  },
+  "module": {
+    "main_image": "main_image.innerContent.*.src",
+    "img_alt": "img_alt.innerContent.*",
+    "speed": "speed.innerContent.*",
+    "lens_size": "lens_size.innerContent.*",
+    "touch_bottom_offset": "touch_bottom_offset.innerContent.*",
+    "touch_lens_h_offset": "touch_lens_h_offset.innerContent.*",
+    "touch_lens_v_offset": "touch_lens_v_offset.innerContent.*",
+    "lens_border_size": "lens_border_size.innerContent.*",
+    "lens_border_color": "lens_border_color.innerContent.*",
+    "use_inset_shadow": "use_inset_shadow.innerContent.*",
+    "inset_shadow_size": "inset_shadow_size.innerContent.*",
+    "inset_shadow_color": "inset_shadow_color.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

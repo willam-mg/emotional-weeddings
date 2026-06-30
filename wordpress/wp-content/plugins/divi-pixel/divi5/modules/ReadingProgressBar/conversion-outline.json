@@ -1,0 +1,47 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "advanced_text.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "bar_position": "bar_position.innerContent.*",
+    "bar_animation": "bar_animation.innerContent.*",
+    "bar_bg_color": "bar_bg_color.innerContent.*",
+    "bar_color": "bar_color.innerContent.*",
+    "bar_striped_color": "bar_striped_color.innerContent.*",
+    "bar_size": "bar_size.innerContent.*",
+    "exclude_footer": "exclude_footer.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

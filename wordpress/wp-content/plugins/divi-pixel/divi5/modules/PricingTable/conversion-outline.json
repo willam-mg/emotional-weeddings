@@ -1,0 +1,52 @@
+{
+    "advanced": {
+        "animation": "module.decoration.animation",
+        "box_shadow": {
+            "default": "module.decoration.boxShadow"
+        },
+        "disabled_on": "module.decoration.disabledOn",
+        "module": "module.advanced.htmlAttributes",
+        "overflow": "module.decoration.overflow",
+        "position_fields": "module.decoration.position",
+        "scroll": "module.decoration.scroll",
+        "sticky": "module.decoration.sticky",
+        "text_shadow": {
+            "default": "module.advanced.text.textShadow"
+        },
+        "transform": "module.decoration.transform",
+        "transition": "module.decoration.transition",
+        "z_index": "module.decoration.zIndex",
+        "fonts": {
+            "default": "module.decoration.bodyFont.body",
+            "default_text": "module.decoration.bodyFont.body",
+            "default_link": "module.decoration.bodyFont.link",
+            "default_ul": "module.decoration.bodyFont.ul",
+            "default_ol": "module.decoration.bodyFont.ol",
+            "default_quote": "module.decoration.bodyFont.quote"
+        },
+        "background": "module.decoration.background",
+        "borders": {
+            "default": "module.decoration.border"
+        },
+        "text": "module.decoration.text",
+        "max_width": "module.decoration.sizing",
+        "height": "module.decoration.sizing",
+        "margin_padding": "module.decoration.spacing",
+        "filters": {
+            "default": "module.decoration.filters"
+        },
+        "link_options": "module.advanced.link"
+    },
+    "css": {
+        "before": "css.*.before",
+        "main_element": "css.*.mainElement",
+        "after": "css.*.after",
+        "free_form": "css.*.freeForm"
+    },
+    "module": {
+        "use_animation": "useAnimation.*",
+        "items_animation": "itemsAnimation.*",
+        "use_animation_delay": "useAnimationDelay.*",
+        "items_animation_delay": "itemsAnimationDelay.*"
+    }
+}

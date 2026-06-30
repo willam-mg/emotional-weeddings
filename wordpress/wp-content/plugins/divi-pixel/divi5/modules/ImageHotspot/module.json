@@ -1,0 +1,188 @@
+{
+    "name": "dipi/image-hotspot",
+    "d4Shortcode": "dipi_image_hotspot",
+    "title": "Pixel Image Hotspot",
+    "titles": "Pixel Image Hotspot",
+    "moduleIcon": "dipi/image-hotspot",
+    "childModuleName": "dipi/image-hotspot-child",
+    "childModuleTitle": "Pixel Image Hotspot Item",
+    "childrenName": [
+        "dipi/image-hotspot-child"
+    ],
+    "category": "module",
+    "viewScript": "dipi_image_hotspot_public",
+    "style": "dipi_animate",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Image Hotspot"
+                        }
+                    }
+                },
+                "advanced": {
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "color": "light"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#ecf4f7"
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": true
+                }
+            }
+        },
+        "img_src": {
+            "type": "object",
+            "elementType": "imageLink",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "src": "",
+                            "alt": ""
+                        }
+                    }
+                }
+            }
+        },
+        "img_alt": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "hide_tooltip": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "trigger_on_click": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "tooltip_animation": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "fadeIn"
+                    }
+                }
+            }
+        },
+        "tooltip_animation_speed": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "600ms"
+                    }
+                }
+            }
+        },
+        "tooltip_z_index": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "9999"
+                    }
+                }
+            }
+        },
+        "image": {
+            "type": "object",
+            "selector": "{{selector}}.dipi_image_hotspot .dipi-image-hotspot > img, {{selector}}.dipi_image_hotspot .dipi-image-hotspot > picture > img",
+            "default": {
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "hotspot_img": {
+            "subName": "hotspot_img",
+            "selectorSuffix": " .dipi-hotspot-image"
+        },
+        "hotspot_icon": {
+            "subName": "hotspot_icon",
+            "selectorSuffix": " .dipi-hotspot-icon"
+        },
+        "tooltip_img": {
+            "subName": "tooltip_img",
+            "selectorSuffix": " .dipi-tooltip-image"
+        },
+        "tooltip_icon": {
+            "subName": "tooltip_icon",
+            "selectorSuffix": " .dipi-tooltip-icon"
+        },
+        "title": {
+            "subName": "title",
+            "selectorSuffix": " .dipi-tooltip-title"
+        },
+        "description": {
+            "subName": "description",
+            "selectorSuffix": " .dipi-tooltip-desc"
+        },
+        "button": {
+            "subName": "button",
+            "selectorSuffix": " .dipi-tooltip-button"
+        }
+    }
+}

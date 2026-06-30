@@ -1,0 +1,48 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "mockup": "mockup.innerContent.*",
+    "mockup_size": "mockup_size.innerContent.*",
+    "enable_vertical_scroll": "enable_vertical_scroll.innerContent.*",
+    "scroll_speed": "scroll_speed.innerContent.*",
+    "back_scroll_speed": "back_scroll_speed.innerContent.*",
+    "effect": "effect.innerContent.*",
+    "rotate": "rotate.innerContent.*",
+    "speed": "speed.innerContent.*",
+    "loop": "loop.innerContent.*",
+    "autoplay": "autoplay.innerContent.*",
+    "pause_on_hover": "pause_on_hover.innerContent.*",
+    "autoplay_speed": "autoplay_speed.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

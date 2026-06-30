@@ -1,0 +1,50 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "image.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "borders": {
+      "default": "image.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "hotspot_img": "css.*.hotspot_img",
+    "hotspot_icon": "css.*.hotspot_icon",
+    "tooltip_img": "css.*.tooltip_img",
+    "tooltip_icon": "css.*.tooltip_icon",
+    "title": "css.*.title",
+    "description": "css.*.description",
+    "button": "css.*.button"
+  },
+  "module": {
+    "img_src": "img_src.innerContent.*.src",
+    "img_alt": "img_alt.innerContent.*",
+    "hide_tooltip": "hide_tooltip.innerContent.*",
+    "trigger_on_click": "trigger_on_click.innerContent.*",
+    "tooltip_animation": "tooltip_animation.innerContent.*",
+    "tooltip_animation_speed": "tooltip_animation_speed.innerContent.*",
+    "tooltip_z_index": "tooltip_z_index.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

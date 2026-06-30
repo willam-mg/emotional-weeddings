@@ -1,0 +1,2 @@
+<?php
+return ['x-generator'=>'GlotPress/4.0.3','translation-revision-date'=>'2021-08-12 17:58:22+0000','plural-forms'=>'nplurals=2; plural=n != 1;','project-id-version'=>'Plugins - Mixed Media Gallery Blocks - Stable (latest release)','language'=>'es','messages'=>['https://blockslib.com/'=>'https://blockslib.com/','GalleryCreator'=>'GalleryCreator']];

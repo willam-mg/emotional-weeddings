@@ -1,0 +1,110 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "info_image_icon": "info_image_icon.decoration.boxShadow",
+      "info_image_icon_hover": "info_image_icon_hover.decoration.boxShadow",
+      "info_image_icon_active": "info_image_icon_active.decoration.boxShadow",
+      "content_image": "content_image.decoration.boxShadow",
+      "content_button": "content_button.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "content_title": "content_title.decoration.font",
+      "content_desc": "content_desc.decoration.font",
+      "content_button": "content_button.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "info_image_icon": "info_image_icon.decoration.border",
+      "info_image_icon_hover": "info_image_icon_hover.decoration.border",
+      "info_image_icon_active": "info_image_icon_active.decoration.border",
+      "content_image": "content_image.decoration.border",
+      "content_button": "content_button.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "image.decoration.sizing",
+    "height": "image.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters",
+      "child_filters_target": "content_image.decoration.filters"
+    },
+    "link_options": "module.advanced.link",
+    "button": {
+      "content_button": "content_button"
+    }
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "image_icon_css": "css.*.image_icon_css",
+    "circle_heading": "css.*.circle_heading",
+    "circle_description": "css.*.circle_description",
+    "circle_button": "css.*.circle_button"
+  },
+  "module": {
+    "admin_label": "module.meta.adminLabel.*",
+    "use_info_icon": "use_info_icon.innerContent.*",
+    "info_icon": "info_icon.innerContent.*",
+    "info_image": "info_image.innerContent.*.src",
+    "info_image_alt": "info_image_alt.innerContent.*",
+    "use_content_icon": "use_content_icon.innerContent.*",
+    "content_icon": "content_icon.innerContent.*",
+    "content_image": "content_image.innerContent.*.src",
+    "content_image_alt": "content_image_alt.innerContent.*",
+    "show_content_button": "show_content_button.innerContent.*",
+    "info_icon_color": "info_icon_color.innerContent.*",
+    "info_image_icon_width": "info_image_icon_width.innerContent.*",
+    "info_icon_hover_color": "info_icon_hover_color.innerContent.*",
+    "info_icon_active_color": "info_icon_active_color.innerContent.*",
+    "info_image_icon_active_width": "info_image_icon_active_width.innerContent.*",
+    "content_icon_color": "content_icon_color.innerContent.*",
+    "content_image_icon_width": "content_image_icon_width.innerContent.*",
+    "content_title": "content_title.innerContent.*",
+    "content_description": "content_desc.innerContent.*",
+    "content_button_text": "content_button.innerContent.*.text",
+    "content_button_link": "content_button.innerContent.*.linkUrl",
+    "content_button_link_target": "content_button.innerContent.*.linkTarget",
+    "info_image_icon_hover_width": "info_image_icon_hover_width.innerContent.*",
+    "info_image_icon_background_color": "info_image_icon.decoration.background.*.color",
+    "info_image_icon_margin": "info_image_icon.decoration.spacing.*.margin",
+    "info_image_icon_padding": "info_image_icon.decoration.spacing.*.padding",
+    "info_image_icon_hover_background_color": "info_image_icon_hover.decoration.background.*.color",
+    "info_image_icon_hover_margin": "info_image_icon_hover.decoration.spacing.*.margin",
+    "info_image_icon_hover_padding": "info_image_icon_hover.decoration.spacing.*.padding",
+    "info_image_icon_active_background_color": "info_image_icon_active.decoration.background.*.color",
+    "info_image_icon_active_margin": "info_image_icon_active.decoration.spacing.*.margin",
+    "info_image_icon_active_padding": "info_image_icon_active.decoration.spacing.*.padding",
+    "content_image_icon_background_color": "content_image.decoration.background.*.color",
+    "content_title_margin": "content_title.decoration.spacing.*.margin",
+    "content_title_padding": "content_title.decoration.spacing.*.padding",
+    "content_desc_margin": "content_desc.decoration.spacing.*.margin",
+    "content_desc_padding": "content_desc.decoration.spacing.*.padding"
+  },
+  "valueExpansionFunctionMap": {
+    "info_icon": "convertFontIcon",
+    "content_icon": "convertFontIcon",
+    "info_image_icon_margin": "convertSpacing",
+    "info_image_icon_padding": "convertSpacing",
+    "info_image_icon_hover_margin": "convertSpacing",
+    "info_image_icon_hover_padding": "convertSpacing",
+    "info_image_icon_active_margin": "convertSpacing",
+    "info_image_icon_active_padding": "convertSpacing",
+    "content_title_margin": "convertSpacing",
+    "content_title_padding": "convertSpacing",
+    "content_desc_margin": "convertSpacing",
+    "content_desc_padding": "convertSpacing"
+  }
+}

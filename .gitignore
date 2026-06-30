@@ -1,0 +1,36 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencies and build output
+node_modules/
+/vendor/
+coverage/
+test-results/
+playwright-report/
+
+# WordPress generated/runtime content
+wordpress/wp-config.php
+wordpress/*.sql
+wordpress/**/error_log
+wordpress/wp-content/debug.log
+wordpress/wp-content/uploads/
+wordpress/wp-content/cache/
+wordpress/wp-content/et-cache/
+wordpress/wp-content/upgrade/
+wordpress/wp-content/upgrade-temp-backup/
+wordpress/wp-content/backuply/
+wordpress/wp-content/speedycache-config/
+wordpress/wp-content/advanced-cache.php
+
+# Database exports and backups
+database/*.sql
+database/backups/*.sql
+!database/backups/.gitkeep
+
+# Local secrets
+.env
+.env.*
+!.env.example

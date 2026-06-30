@@ -1,0 +1,55 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "advanced_text.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "overlay_bg.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "type": "type.innerContent.*",
+    "image2d": "image2d.innerContent.*",
+    "direction": "direction.innerContent.*",
+    "repeat": "repeat.innerContent.*",
+    "image": "image.innerContent.*",
+    "is_autoload": "is_autoload.innerContent.*",
+    "image0": "image0.innerContent.*",
+    "image1": "image1.innerContent.*",
+    "image2": "image2.innerContent.*",
+    "image3": "image3.innerContent.*",
+    "image4": "image4.innerContent.*",
+    "image5": "image5.innerContent.*",
+    "poster": "poster.innerContent.*",
+    "videomp4": "videomp4.innerContent.*",
+    "videowebm": "videowebm.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

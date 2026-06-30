@@ -1,0 +1,74 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "main_bg.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "image": "image.innerContent.*.src",
+    "img_alt": "img_alt.innerContent.*",
+    "use_custom_mask": "use_custom_mask.innerContent.*",
+    "shape": "shape.innerContent.*",
+    "custom_mask": "custom_mask.innerContent.*.src",
+    "shape_rotate": "shape_rotate.innerContent.*",
+    "shape_scale_x": "shape_scale_x.innerContent.*",
+    "shape_scale_y": "shape_scale_y.innerContent.*",
+    "shape_flip": "shape_flip.innerContent.*",
+    "image_width": "image_width.innerContent.*",
+    "image_horz": "image_horz.innerContent.*",
+    "image_vert": "image_vert.innerContent.*",
+    "viewbox_width": "viewbox_width.innerContent.*",
+    "viewbox_height": "viewbox_height.innerContent.*",
+    "viewbox_x": "viewbox_x.innerContent.*",
+    "viewbox_y": "viewbox_y.innerContent.*",
+    "layer_1_enable": "layer_1_enable.innerContent.*",
+    "layer_1_background_type": "layer_1_background_type.innerContent.*",
+    "layer_1_background_color": "layer_1_background_color.innerContent.*",
+    "layer_1_gradient_color_start": "layer_1_gradient_color_start.innerContent.*",
+    "layer_1_gradient_color_end": "layer_1_gradient_color_end.innerContent.*",
+    "layer_2_enable": "layer_2_enable.innerContent.*",
+    "docration_element_1": "docration_element_1.innerContent.*",
+    "layer_2_above_image": "layer_2_above_image.innerContent.*",
+    "layer_2_background_color": "layer_2_background_color.innerContent.*",
+    "layer_2_horz": "layer_2_horz.innerContent.*",
+    "layer_2_vert": "layer_2_vert.innerContent.*",
+    "layer_2_scale": "layer_2_scale.innerContent.*",
+    "layer_2_rotate": "layer_2_rotate.innerContent.*",
+    "layer_3_enable": "layer_3_enable.innerContent.*",
+    "docration_element_2": "docration_element_2.innerContent.*",
+    "layer_3_above_image": "layer_3_above_image.innerContent.*",
+    "layer_3_background_color": "layer_3_background_color.innerContent.*",
+    "layer_3_horz": "layer_3_horz.innerContent.*",
+    "layer_3_vert": "layer_3_vert.innerContent.*",
+    "layer_3_scale": "layer_3_scale.innerContent.*",
+    "layer_3_rotate": "layer_3_rotate.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

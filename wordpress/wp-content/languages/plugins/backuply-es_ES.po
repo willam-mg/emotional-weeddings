@@ -1,0 +1,932 @@
+# Translation of Plugins - Backuply &#8211; Backup, Restore, Migrate and Clone - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Backuply &#8211; Backup, Restore, Migrate and Clone - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-04 09:30:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - Backuply &#8211; Backup, Restore, Migrate and Clone - Stable (latest release)\n"
+
+#: main/settings.php:1626
+msgid "Keeping more than 30 backups may consume significant disk space."
+msgstr "Conservar más de 30 copias de seguridad puede consumir espacio en disco significativo."
+
+#: main/settings.php:1624
+msgid "Count"
+msgstr "Recuento"
+
+#: main/settings.php:1622
+msgid "Custom"
+msgstr "Personalizado"
+
+#: main/license.php:152
+msgid "documentation"
+msgstr "documentación"
+
+#: main/license.php:152
+msgid "For more details, please refer to the"
+msgstr "Para más detalles, consulta la"
+
+#: main/license.php:151
+msgid "The license comes with your plan, and the Cloud Key is automatically generated when you add a Backuply Cloud location for the first time on a site."
+msgstr "La licencia viene incluida con tu plan y la clave de Cloud se genera automáticamente cuando añades una ubicación de Backuply Cloud por primera vez en un sitio."
+
+#: main/license.php:151
+msgid "Backuply Cloud requires both a Backuply License and a Cloud Key."
+msgstr "Backuply Cloud requiere tanto una licencia de Backuply como una clave de Cloud."
+
+#: main/license.php:131
+msgid "The Pro version will be updated using"
+msgstr "La versión Pro se actualizará mediante"
+
+#: main/license.php:105
+msgid "Delete License"
+msgstr "Borrar licencia"
+
+#: main/license.php:18
+msgid "The license has been deleted successfully."
+msgstr "La licencia se ha borrado correctamente."
+
+#. translators: %1$s is replaced with a "string" of name of plugins, and %2$s
+#. is replaced with "string" which can be "is" or "are" based on the count of
+#. the plugin
+#: main/promo.php:504
+msgid "New versions of %1$s %2$s available. Updating ensures better performance, security, and access to the latest features."
+msgstr "Hay nuevas versiones de %1$s %2$s disponibles. Actualizar garantiza un mejor rendimiento, seguridad y acceso a las últimas características."
+
+#: main/promo.php:287
+msgid "Your website is running on LiteSpeed server, it might cause issue creating a backup, please"
+msgstr "Tu sitio web está en un servidor LiteSpeed, lo que podría causar problemas al crear una copia de seguridad, por favor"
+
+#: main/settings.php:2098
+msgid "Unknown server"
+msgstr "Servidor desconocido"
+
+#: main/settings.php:2093
+msgid "PHP post max size"
+msgstr "Tamaño máximo de publicación PHP"
+
+#: main/settings.php:2089
+msgid "PHP time limit"
+msgstr "Límite de tiempo PHP"
+
+#: main/settings.php:2084
+msgid "PHP memory limit"
+msgstr "Límite de memoria PHP"
+
+#: main/settings.php:2068
+msgid "Environment Info"
+msgstr "Información del entorno"
+
+#: main/settings.php:987
+msgid "Backuply was unable to create a directory where it creates backups, please create the following folders in wp-content/backuply directory"
+msgstr "Backuply no ha podido crear un directorio donde guardar las copias de seguridad. Crea las siguientes carpetas en el directorio wp-content/backuply"
+
+#: main/promo.php:477 main/promo.php:487
+msgid "Click here to renew"
+msgstr "Haz clic aquí para renovar"
+
+#: main/promo.php:476
+msgid "Alert : Your Backuply license will expire in %s. Renew to keep getting updates!"
+msgstr "Alerta: tu licencia de Backuply caducará en %s. ¡Renuévala para seguir recibiendo actualizaciones!"
+
+#: main/promo.php:474 main/promo.php:484
+msgid "Dismiss for 60 days"
+msgstr "Descartar durante 60 días"
+
+#: main/promo.php:486
+msgid "Alert: Your Backuply license has expired. Please renew immediately to keep getting updates "
+msgstr "Alerta: tu licencia de Backuply ha caducado. Renuévala de inmediato para seguir recibiendo actualizaciones "
+
+#: main/settings.php:2026
+msgid "Select File"
+msgstr "Seleccionar archivo"
+
+#: main/ajax.php:1141
+msgid "Upload failed, file type is different than the expected"
+msgstr "Error de subida, el tipo de archivo es diferente del esperado"
+
+#: main/ajax.php:1114
+msgid "File with same name already exists"
+msgstr "Ya existe un archivo con el mismo nombre"
+
+#: main/ajax.php:1099 main/ajax.php:1102
+msgid "Unable to clean the already uploaded data."
+msgstr "No se ha podido limpiar los datos ya subidos."
+
+#: main/ajax.php:1096
+msgid "Abort successful"
+msgstr "Cancelación correcta"
+
+#: main/ajax.php:1089
+msgid "You are not uploading a Backup file, please choose the correct backup file"
+msgstr "No estás subiendo un archivo de copia de seguridad, por favor elige el archivo correcto de copia de seguridad"
+
+#: main/settings.php:1166
+msgid "You can write maximum of 80 characters"
+msgstr "Puedes escribir un máximo de 80 caracteres"
+
+#: main/settings.php:116
+msgid "Try Now"
+msgstr "Prueba ahora"
+
+#: main/settings.php:113
+msgid "10 GB of free storage for All Pro users"
+msgstr "10 GB de almacenamiento gratuito para todos los usuarios Pro"
+
+#: main/settings.php:112
+msgid "Easy to integrate with Backuply."
+msgstr "Fácil de integrar con Backuply."
+
+#: main/settings.php:97
+msgid "If you find it useful, Please rate and support us."
+msgstr "Si te resulta útil, valóralo y apóyanos."
+
+#: main/ajax.php:432
+msgid "Please check the logs, there were some files, which Backuply was unable to replace as those files were not writable"
+msgstr "Revisa los registros, había algunos archivos que Backuply no ha podido reemplazar porque no tenían permisos de escritura"
+
+#: main/settings.php:1651
+msgid "Set cron time as per your choice in the Cron Job wizard"
+msgstr "Establece el tiempo del cron según tus preferencias en el asistente de Cron Job"
+
+#: main/settings.php:1650
+msgid "Doc on how to setup Custom Auto Backup"
+msgstr "Documentación sobre cómo configurar la copia de seguridad automática personalizada"
+
+#: main/settings.php:1649
+msgid "Auto Backup Cron Command"
+msgstr "Comando cron de copia de seguridad automática"
+
+#: main/settings.php:1165
+msgid "Backup Note(Optional)"
+msgstr "Nota de copia de seguridad (opcional)"
+
+#: main/settings.php:111
+msgid "Never lose your data with Backuply Cloud."
+msgstr "No pierdas tus datos con Backuply Cloud."
+
+#: main/ajax.php:1122
+msgid "The data recieved is malformed, the size of data is more then the data sent!"
+msgstr "¡Los datos recibidos están mal formados, el tamaño de los datos es mayor que el de los datos enviados!"
+
+#: main/ajax.php:1118
+msgid "The data recieved is malformed, the size of data is less then the data sent!"
+msgstr "¡Los datos recibidos están mal formados, el tamaño de los datos es menor que el de los datos enviados!"
+
+#: main/settings.php:2211
+msgid "Rate Us if you find Backuply useful"
+msgstr "Valóranos si Backuply te resulta útil"
+
+#: functions.php:1788 main/ajax.php:1047
+msgid "No Storage location provided"
+msgstr "No se ha proporcionado ninguna ubicación de almacenamiento"
+
+#: main/ajax.php:1030
+msgid "Unable to download the file"
+msgstr "No ha sido posible descargar el archivo"
+
+#: main/ajax.php:1010
+msgid "File name was not given, so download can not proceed."
+msgstr "No se ha facilitado el nombre del archivo, por lo que no se puede proceder a la descarga."
+
+#: main/ajax.php:1023
+msgid "Backuply Cloud has not been added yet as a Backup location, if you have already added it then remove it and add it again."
+msgstr "Backuply Cloud no se ha añadido todavía como ubicación de copia de seguridad. Si ya lo has añadido, quítalo y añádelo de nuevo."
+
+#: main/ajax.php:1017
+msgid "Backuply Cloud Not found"
+msgstr "No se ha encontrado Backuply Cloud"
+
+#: main/ajax.php:943
+msgid "Verification Completed!"
+msgstr "¡Verificación completada!"
+
+#: main/ajax.php:930 main/promo.php:419
+msgid "There was issue fetching License details"
+msgstr "Hubo un problema al obtener los detalles de la licencia"
+
+#: main/ajax.php:922
+msgid "You could not find a license key to verify the confirmation"
+msgstr "No has podido encontrar una clave de licencia para verificar la confirmación"
+
+#: main/ajax.php:832
+msgid "Your license is not activated, please go to License page and activate it"
+msgstr "Tu licencia no está activada, por favor ve a la página de licencia y actívala"
+
+#: main/ajax.php:824
+msgid "Please enter a license to Proceed"
+msgstr "Por favor, introduce una licencia para proceder"
+
+#: lib/bcloud.php:3160
+msgid "Something went wrong! Unable to complete Upload."
+msgstr "¡Algo ha ido mal! No se ha podido completar la subida."
+
+#: main/settings.php:689
+msgid "Your License is not linked yet"
+msgstr "Tu licencia aún no está enlazada"
+
+#: main/ajax.php:846
+msgid "Did not get any response from Backuply API"
+msgstr "No se ha obtenido ninguna respuesta de la API de Backuply"
+
+#: main/ajax.php:839
+msgid "Something went wrong while sending request to Backuply API"
+msgstr "Algo ha ido mal al enviar la petición a la API de Backuply"
+
+#: main/admin.php:241
+msgid "Backuply Cloud"
+msgstr "Backuply Cloud"
+
+#: lib/bcloud.php:3058
+msgid "Failed to connect to the Backuply Cloud"
+msgstr "Ha habido un error al conectar con Backuply Cloud"
+
+#: lib/bcloud.php:3074
+msgid "Failed to generate Backuply Cloud Keys"
+msgstr "Ha habido un error al general las claves de Backuply Cloud"
+
+#: main/ajax.php:810 main/settings.php:687
+msgid "Backuply Cloud is already added as a Location"
+msgstr "Backuply Cloud ya está añadido como ubicación"
+
+#: main/settings.php:1195
+msgid "Quota"
+msgstr "Cuota"
+
+#: main/settings.php:1374
+msgid "Keep this empty if you dont already have a Backuply Cloud Key"
+msgstr "Deja esto vacío si aún no tienes una clave de Backuply Cloud"
+
+#: main/settings.php:1371
+msgid "Backuply Cloud Key"
+msgstr "Clave de Backuply Cloud"
+
+#: main/promo.php:311
+msgid "You already have a license linked to this WordPress install, you dont need trial license you can directly add Backuply Cloud"
+msgstr "Ya tienes una licencia enlazada a esta instalación de WordPress. No necesitas una licencia de periodo de prueba, puedes añadir Backuply Cloud directamente."
+
+#: main/ajax.php:946
+msgid "The license is still inactive, please check if you have checked the Confirmation email sent to your email"
+msgstr "La licencia sigue inactiva. Comprueba si has revisado el correo electrónico de confirmación enviado a tu dirección de correo electrónico."
+
+#: main/ajax.php:909
+msgid "Backuply Cloud has been integrated Successfully, It's ready to use now"
+msgstr "Backuply Cloud se ha integrado correctamente. Ya está listo para usar."
+
+#: main/ajax.php:862
+msgid "Did not got the Backuply Cloud key, contact support!"
+msgstr "No se ha obtenido la clave de Backuply Cloud. ¡Contacta con el soporte!"
+
+#: lib/bcloud.php:3123
+msgid "File upload failed! As we didn't recieve ETAG in the response from %s."
+msgstr "¡Error al subir el archivo! No se recibió el ETAG en la respuesta de %s."
+
+#: lib/bcloud.php:3112
+msgid "ETAG wasn't returend from %s server"
+msgstr "El ETAG no fue devuelto por el servidor %s"
+
+#: main/settings.php:1631
+msgid "Backup options"
+msgstr "Opciones de copia de seguridad"
+
+#: main/settings.php:1602
+msgid "Unlimited"
+msgstr "Ilimitado"
+
+#: main/settings.php:1598
+msgid "Backup Rotation"
+msgstr "Rotación de copias de seguridad"
+
+#: main/settings.php:1575
+msgid "Don't Backup"
+msgstr "No hagas copias de seguridad"
+
+#: main/settings.php:1572
+msgid "Auto Backup"
+msgstr "Copia de seguridad automática"
+
+#: main/settings.php:1567
+msgid "Auto Backups Settings"
+msgstr "Ajustes de copias de seguridad automáticas"
+
+#: main/settings.php:1061
+msgid "Your Backup folder is not secure, index.html file is missing"
+msgstr "Tu carpeta de copia de seguridad no es segura, falta el archivo index.html"
+
+#: main/settings.php:2110
+msgid "Backuply Pro"
+msgstr "Backuply Pro"
+
+#: main/settings.php:1073
+msgid "Pro Version"
+msgstr "Versión Pro"
+
+#: main/settings.php:1436
+msgid "If checked, AWS will encrypt the data we upload"
+msgstr "Si está marcada, AWS cifrará los datos que subamos"
+
+#: main/settings.php:1433
+msgid "Enable Server Side Encryption"
+msgstr "Activar el cifrado en el servidor"
+
+#: main/settings.php:1384
+msgid "Select the S3 Compatible Storage if any"
+msgstr "Selecciona el almacenamiento compatible con S3 si lo hay"
+
+#: main/settings.php:1383
+msgid "S3 Compatible Storages"
+msgstr "Almacenamientos compatibles con S3"
+
+#: main/admin.php:200
+msgid "You haven't taken a backup since you activated Backuply, Take a backup and secure your website!"
+msgstr "No has hecho una copia de seguridad desde que activaste Backuply, ¡Haz una copia de seguridad y protege tu sitio web!"
+
+#: main/settings.php:1714
+msgid "Exclude a pattern"
+msgstr "Excluir un patrón"
+
+#: main/settings.php:1710
+msgid "Exclude Specific Folder/Folder"
+msgstr "Excluir carpeta/carpeta específica"
+
+#: main/settings.php:1708
+msgid "Exclude specific files, or though certain patters"
+msgstr "Excluir archivos específicos, o a través de ciertos patrones"
+
+#: main/settings.php:1707
+msgid "Exclude Files/Folders"
+msgstr "Excluir archivos/carpetas"
+
+#: main/settings.php:1675
+msgid "Select database tables from the following list"
+msgstr "Selecciona las tablas de la base de datos de la siguiente lista"
+
+#: main/settings.php:1672
+msgid "Exclude DB Table"
+msgstr "Excluir tabla de la BD"
+
+#: main/settings.php:1666
+msgid "Exclude Settings"
+msgstr "Excluir ajustes"
+
+#: functions.php:1637
+msgid "Anywhere"
+msgstr "En cualquier parte"
+
+#: functions.php:1636
+msgid "At end"
+msgstr "Al final"
+
+#: functions.php:1635
+msgid "At beginning"
+msgstr "Al principio"
+
+#: functions.php:1634
+msgid "With specific extension"
+msgstr "Con extensión específica"
+
+#: functions.php:1630
+msgid "No type found!"
+msgstr "¡No se ha encontrado ningún tipo!"
+
+#. Author URI of the plugin
+#: backuply.php
+msgid "https://backuply.com"
+msgstr "https://backuply.com"
+
+#: main/settings.php:2222
+msgid "Finish"
+msgstr "Terminar"
+
+#: main/settings.php:2221
+msgid "Stop"
+msgstr "Detener"
+
+#: main/settings.php:2218
+msgid "Kill Process"
+msgstr "Matar el proceso"
+
+#: main/admin.php:198
+msgid "It's been %1$s days you took a backup, would you like to take a backup with Backuply and secure your website!"
+msgstr "Hace %1$s días que hiciste una copia de seguridad, ¡te gustaría hacer una copia de seguridad con Backuply y asegurar tu web!"
+
+#: main/settings.php:1515
+msgid "Backup Options"
+msgstr "Opciones de copia de seguridad"
+
+#: main/settings.php:1509
+msgid "Backups Settings"
+msgstr "Ajustes de las copias de seguridad"
+
+#: main/settings.php:1501
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: main/settings.php:1197 main/settings.php:1283 main/settings.php:1854
+#: main/settings.php:1962
+msgid "Delete"
+msgstr "Borrar"
+
+#: main/settings.php:1196
+msgid "Edit"
+msgstr "Editar"
+
+#: main/settings.php:1194 main/settings.php:1534 main/settings.php:1849
+#: main/settings.php:2206
+msgid "Backup Location"
+msgstr "Ubicación de la copia de seguridad"
+
+#: main/settings.php:1169
+msgid "Stop Backup"
+msgstr "Detener copia de seguridad"
+
+#: main/settings.php:1069
+msgid "Settings"
+msgstr "Ajustes"
+
+#: main/settings.php:1016
+msgid "Backup is under process..."
+msgstr "La copia de seguridad está en proceso..."
+
+#: main/settings.php:966
+msgid "Backup Location added successfully"
+msgstr "Ubicación de la copia de seguridad añadida correctamente"
+
+#: main/settings.php:386
+msgid "Invalid Protocol"
+msgstr "Protocolo no válido"
+
+#: main/settings.php:361
+msgid "Backup location was deleted successfully"
+msgstr "La ubicación de la copia de seguridad se ha eliminado correctamente"
+
+#: main/settings.php:336
+msgid "The Backup settings were saved successfully"
+msgstr "Los ajustes de la copia de seguridad se han guardado correctamente"
+
+#: main/settings.php:430 main/settings.php:694 main/settings.php:735
+msgid "Failed to create a folder"
+msgstr "La creación de la carpeta ha fallado"
+
+#: main/settings.php:426
+msgid "Unable to rename the folder"
+msgstr "No ha sido posible renombrar la carpeta"
+
+#: main/settings.php:242
+msgid "There were some invalid files/folders selected"
+msgstr "Se han seleccionado algunos archivos/carpetas no válidos"
+
+#: main/settings.php:214
+msgid "The backup was deleted successfully."
+msgstr "La copia de seguridad se ha borrado correctamente."
+
+#: main/settings.php:194 main/settings.php:205 main/settings.php:224
+#: main/settings.php:349 main/settings.php:370 main/settings.php:615
+msgid "Security check Failed!"
+msgstr "¡La comprobación de seguridad ha fallado!"
+
+#: main/ajax.php:306
+msgid "The specified location not found"
+msgstr "No se ha encontrado la ubicación especificada"
+
+#: init.php:226
+msgid "Once a month"
+msgstr "Una vez al mes"
+
+#: init.php:221
+msgid "Once a Week"
+msgstr "Una vez a la semana"
+
+#: init.php:216
+msgid "Once a day"
+msgstr "Una vez al día"
+
+#: init.php:211
+msgid "Every Two Hours"
+msgstr "Cada 2 horas"
+
+#: init.php:206
+msgid "Every One Hour"
+msgstr "Cada hora"
+
+#: init.php:201
+msgid "Every 30 Minutes"
+msgstr "Cada 30 minutos"
+
+#: main/admin.php:248
+msgid "Go Pro"
+msgstr "Ir a la versión Pro"
+
+#: main/admin.php:239
+msgid "License"
+msgstr "Licencia"
+
+#: main/admin.php:236 main/settings.php:1068 main/settings.php:1105
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: main/admin.php:233 main/admin.php:236
+msgid "Backuply Dashboard"
+msgstr "Escritorio de Backuply"
+
+#: functions.php:1043
+msgid "Unable to delete "
+msgstr "No se ha podido borrar "
+
+#: functions.php:961
+msgid "You are trying to access a PRO feature through FREE version"
+msgstr "Estás intentando acceder a una característica PRO a través de la versión GRATUITA"
+
+#: main/license.php:49
+msgid "The license key is invalid"
+msgstr "La clave de licencia no es válida"
+
+#. Plugin Name of the plugin
+#: backuply.php main/admin.php:233
+msgid "Backuply"
+msgstr "Backuply"
+
+#. Plugin URI of the plugin
+#: backuply.php
+msgid "http://wordpress.org/plugins/backuply/"
+msgstr "http://wordpress.org/plugins/backuply/"
+
+#. Description of the plugin
+#: backuply.php
+msgid "Backuply is a Wordpress Backup plugin. Backups are the best form of security and safety a website can have."
+msgstr "Backuply es un plugin de copias de seguridad para WordPress. Las copias de seguridad son la mejor forma de seguridad y protección que puede tener una web."
+
+#: backup_ins.php:1970
+msgid "Back up was unsuccessful."
+msgstr "La copia de seguridad no tuvo éxito."
+
+#: backup_ins.php:1956
+msgid "Could not select the database."
+msgstr "No se ha podido seleccionar la base de datos."
+
+#: backup_ins.php:1948
+msgid "Cannot connect to mysql."
+msgstr "No se puede conectar a mysql."
+
+#: backup_ins.php:1772
+msgid "Cannot write a temporary file !"
+msgstr "¡No se puede escribir un archivo temporal!"
+
+#. Author of the plugin
+#: backuply.php
+msgid "Softaculous"
+msgstr "Softaculous"
+
+#: backup_ins.php:1976
+msgid "Could not create sql file from database."
+msgstr "No se ha podido crear el archivo sql de la base de datos."
+
+#: main/license.php:25
+msgid "The license key was not submitted"
+msgstr "No ha sido enviada la clave de licencia"
+
+#: backup_ins.php:2088
+msgid "The backup utility could not back up the files."
+msgstr "La utilidad de copia de seguridad no ha podido realizar la copia de seguridad de los archivos."
+
+#: backup_ins.php:2047
+msgid "There were errors while trying to make a file of permissions"
+msgstr "Ha habido errores al intentar crear un archivo de permisos"
+
+#: main/settings.php:2209
+msgid "We are restoring your site it may take some time."
+msgstr "Estamos restaurando tu sitio, puede llevar algún tiempo."
+
+#: main/settings.php:2208
+msgid "We are backing up your site it may take some time."
+msgstr "Estamos haciendo una copia de seguridad de tu sitio, puede llevar algún tiempo."
+
+#: main/settings.php:2196
+msgid "Restore in progress"
+msgstr "Restauración en curso"
+
+#: main/settings.php:2195
+msgid "Backup in Progress"
+msgstr "Copia de seguridad en curso"
+
+#: main/settings.php:1855 main/settings.php:1968 main/settings.php:1971
+msgid "Download"
+msgstr "Descargar"
+
+#: main/settings.php:1853 main/settings.php:1954
+msgid "Restore"
+msgstr "Restaurar"
+
+#: main/settings.php:1852
+msgid "Will Restore"
+msgstr "Restaurará"
+
+#: main/settings.php:1851
+msgid "File Size"
+msgstr "Tamaño de archivo"
+
+#: main/settings.php:1848
+msgid "Backup Time"
+msgstr "Tiempo de copia de seguridad"
+
+#: main/settings.php:1801
+msgid "Save Settings"
+msgstr "Guardar los ajustes"
+
+#: main/settings.php:1791
+msgid "Debug Mode"
+msgstr "Modo de depuración"
+
+#: main/settings.php:1793
+msgid "Enable Debug Mode (Don't keep it always enabled)"
+msgstr "Activa el modo depuración (no lo mantengas siempre activado)"
+
+#: main/settings.php:1731
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: main/settings.php:1725
+msgid "Additional Settings"
+msgstr "Ajustes adicionales"
+
+#: main/settings.php:1744
+msgid "Additional Files"
+msgstr "Archivos adicionales"
+
+#: main/settings.php:1732
+msgid "The email address to send mails to"
+msgstr "La dirección de correo electrónico a la que enviar los correos"
+
+#: main/settings.php:1465
+msgid "FTP Password"
+msgstr "Contraseña del FTP"
+
+#: main/settings.php:1459
+msgid "The Username of your FTP Account"
+msgstr "El nombre de usuario de tu cuenta FTP"
+
+#: main/settings.php:1458
+msgid "FTP Username"
+msgstr "Nombre de usuario del FTP"
+
+#: main/settings.php:1466
+msgid "The Password of your FTP account"
+msgstr "La contraseña de tu cuenta del FTP"
+
+#: main/settings.php:1452
+msgid "Enter the port to connect (default FTP port is 21)"
+msgstr "Introduce el puerto para conectarte (el puerto FTP por defecto es el 21)"
+
+#: main/settings.php:1451
+msgid "Port"
+msgstr "Puerto"
+
+#: main/settings.php:1349
+msgid "Location Name"
+msgstr "Nombre de la ubicación"
+
+#: main/settings.php:1192 main/settings.php:1356
+msgid "Protocol"
+msgstr "Protocolo"
+
+#: main/settings.php:1191
+msgid "Name"
+msgstr "Nombre"
+
+#: main/settings.php:1136 main/settings.php:1526 main/settings.php:1641
+msgid "Backup Database"
+msgstr "Copia de seguridad de la base de datos"
+
+#: main/settings.php:1202
+msgid "Local Folder"
+msgstr "Carpeta local"
+
+#: main/settings.php:1124 main/settings.php:1168
+msgid "Create Backup"
+msgstr "Crear copia de seguridad"
+
+#: main/settings.php:1041
+msgid "Restoration is under process..."
+msgstr "La restauración está en proceso..."
+
+#: main/settings.php:629
+msgid "No backup location name was specified"
+msgstr "No se ha especificado el nombre de la ubicación de la copia de seguridad"
+
+#: main/settings.php:605
+msgid "Backup location details saved successfully"
+msgstr "Los datos de la ubicación de la copia de seguridad se han guardado correctamente"
+
+#: main/settings.php:570
+msgid "The backup path is not an absolute path. Please provide an absolute path"
+msgstr "La ruta de la copia de seguridad no es una ruta absoluta. Por favor, proporciona una ruta absoluta"
+
+#: main/settings.php:544 main/settings.php:548 main/settings.php:553
+#: main/settings.php:871 main/settings.php:875 main/settings.php:880
+msgid "Could not connect to the server"
+msgstr "No se ha podido conectar con el servidor."
+
+#: main/settings.php:1072 main/settings.php:2061
+msgid "Support"
+msgstr "Soporte"
+
+#: main/settings.php:1275
+msgid "Edit Location"
+msgstr "Editar ubicación"
+
+#: main/settings.php:1755
+msgid "Check All"
+msgstr "Marcar todo"
+
+#: main/settings.php:1747
+msgid "Select additional files/folders from the following list"
+msgstr "Selecciona archivos/carpetas adicionales de la siguiente lista"
+
+#: main/settings.php:1650
+msgid "You will need to manually set Custom Cron"
+msgstr "Tendrás que establecer manualmente el Cron personalizado"
+
+#: main/settings.php:1483
+msgid "If checked, Backuply will check for any existing info files on this Backup Location and compare it with the local info files. Any info file not present on the local system, will be synced from the remote location"
+msgstr "Si se marca, Backuply buscará archivos de información existentes en esta ubicación de copia de seguridad y los comparará con los archivos de información locales. Cualquier archivo de información que no esté presente en el sistema local se sincronizará desde la ubicación remota."
+
+#: main/settings.php:1480
+msgid "Sync Infos"
+msgstr "Sincronizar información"
+
+#: main/settings.php:1473
+msgid "Backup Directory e.g. /backups or you can leave empty to allow Backuply to manage the"
+msgstr "Directorio de copias de seguridad, p. ej. /backups, o déjalo vacío para que Backuply lo gestione"
+
+#: main/settings.php:1472
+msgid "Backup Location (Optional)"
+msgstr "Ubicación de copia de seguridad (opcional)"
+
+#: main/settings.php:1445
+msgid "Enter the server host e.g. ftp.mydomain.com"
+msgstr "Introduce el servidor, p. ej. ftp.midominio.com"
+
+#: main/settings.php:1444
+msgid "Server Host (Required)"
+msgstr "Servidor (obligatorio)"
+
+#: main/settings.php:1427
+msgid "Enter the AWS S3 bucket name where you wish to create Backuply backups. If the bucket is not present, it will be created automatically"
+msgstr "Introduce el nombre del bucket de AWS S3 donde deseas crear las copias de seguridad de Backuply. Si el bucket no existe, se creará automáticamente."
+
+#: main/settings.php:1426
+msgid "AWS S3 Bucket Name"
+msgstr "Nombre del bucket de AWS S3"
+
+#: main/settings.php:1420
+msgid "AWS S3 Secret Key"
+msgstr "Clave secreta de AWS S3"
+
+#: main/settings.php:1414
+msgid "AWS S3 Access Key"
+msgstr "Clave de acceso de AWS S3"
+
+#: main/settings.php:1408
+msgid "Enter your AWS S3 Region e.g. \"us-east-1\""
+msgstr "Introduce tu región de AWS S3, p. ej. \"us-east-1\""
+
+#: main/settings.php:1407
+msgid "AWS S3 Region"
+msgstr "Región de AWS S3"
+
+#: main/settings.php:1401
+msgid "Enter your AWS S3 Endpoint e.g. \"s3.amazonaws.com\""
+msgstr "Introduce tu punto de conexión de AWS S3, p. ej. \"s3.amazonaws.com\""
+
+#: main/settings.php:1400
+msgid "AWS S3 Endpoint"
+msgstr "Punto de conexión de AWS S3"
+
+#: main/settings.php:1357
+msgid "Select the protocol by which Backuply will communicate"
+msgstr "Selecciona el protocolo mediante el cual se comunicará Backuply"
+
+#: main/settings.php:1350
+msgid "Choose a name for backup location for your reference"
+msgstr "Elige un nombre para la ubicación de copia de seguridad como referencia"
+
+#: main/settings.php:1291 main/settings.php:1491
+msgid "Add Backup Location"
+msgstr "Añadir ubicación de copia de seguridad"
+
+#: main/settings.php:1193 main/settings.php:1850
+msgid "Host"
+msgstr "Servidor"
+
+#: main/settings.php:1131 main/settings.php:1520 main/settings.php:1636
+msgid "Backup Directories"
+msgstr "Directorios de copias de seguridad"
+
+#: main/settings.php:1071 main/settings.php:1834
+msgid "Backup History"
+msgstr "Historial de copias de seguridad"
+
+#: main/settings.php:1070 main/settings.php:1181
+msgid "Backup Locations"
+msgstr "Ubicaciones de copia de seguridad"
+
+#: main/settings.php:1055
+msgid "Your Backup folder is not secure please fix it"
+msgstr "Tu carpeta de copias de seguridad no es segura. Por favor, corrígelo."
+
+#: main/settings.php:895
+msgid "The backup path is not an absolute path (%1$s). Please provide an absolute path within your home dir (%2$s)"
+msgstr "La ruta de la copia de seguridad no es una ruta absoluta (%1$s). Por favor, proporciona una ruta absoluta dentro de tu directorio de inicio (%2$s)."
+
+#: main/settings.php:837
+msgid "Failed to connect to the WebDAV server"
+msgstr "Error al conectar con el servidor WebDAV"
+
+#: main/settings.php:819
+msgid "No Backup Location was specified"
+msgstr "No se ha especificado ninguna ubicación de copia de seguridad"
+
+#: main/settings.php:811
+msgid "No FTP user was specified"
+msgstr "No se ha especificado ningún usuario FTP"
+
+#: main/settings.php:792
+msgid "Failed to generate Dropbox Access Token"
+msgstr "Error al generar el token de acceso de Dropbox"
+
+#: main/settings.php:752
+msgid "Please provide the AWS S3 secret key"
+msgstr "Por favor, proporciona la clave secreta de AWS S3"
+
+#: main/settings.php:750
+msgid "Please provide the AWS S3 access key"
+msgstr "Por favor, proporciona la clave de acceso de AWS S3"
+
+#: main/settings.php:748
+msgid "Please provide the AWS S3 bucket name"
+msgstr "Por favor, proporciona el nombre del bucket de AWS S3"
+
+#: main/settings.php:746
+msgid "Please provide the AWS S3 region"
+msgstr "Por favor, proporciona la región de AWS S3"
+
+#: main/settings.php:744
+msgid "Please provide the AWS S3 endpoint"
+msgstr "Por favor, proporciona el punto de conexión de AWS S3"
+
+#: main/settings.php:724
+msgid "Failed to generate Google Drive Access Token"
+msgstr "Error al generar el token de acceso de Google Drive"
+
+#: main/settings.php:673
+msgid "Failed to generate OneDrive Access Token"
+msgstr "Error al generar el token de acceso de OneDrive"
+
+#: main/settings.php:655 main/settings.php:707
+msgid "It seems you cancelled the authorization process"
+msgstr "Parece que has cancelado el proceso de autorización"
+
+#: main/settings.php:540 main/settings.php:867
+msgid "Specified %1$s Path does not exist"
+msgstr "La ruta %1$s especificada no existe"
+
+#: main/settings.php:536 main/settings.php:863
+msgid "Could not Resolve Domain Name"
+msgstr "No se ha podido resolver el nombre de dominio"
+
+#: main/settings.php:532 main/settings.php:859
+msgid "Could not login with specified details"
+msgstr "No se ha podido acceder con los datos especificados"
+
+#: main/settings.php:521 main/settings.php:847
+msgid "Backup Location with the same path already exists"
+msgstr "Ya existe una ubicación de copia de seguridad con la misma ruta"
+
+#: main/settings.php:490
+msgid "Please provide either a password or private key"
+msgstr "Por favor, proporciona una contraseña o una clave privada"
+
+#: main/settings.php:450 main/settings.php:770
+msgid "Failed to create bucket"
+msgstr "Error al crear el bucket"
+
+#: main/ajax.php:298 main/ajax.php:320
+msgid "No location id specified"
+msgstr "No se ha especificado ningún ID de ubicación"
+
+#: main/ajax.php:123
+msgid "Below are the errors faced"
+msgstr "A continuación se muestran los errores encontrados"
+
+#: main/admin.php:248
+msgid "Backuply Go Pro"
+msgstr "Backuply Go Pro"
+
+#: main/license.php:43
+msgid "The response was malformed"
+msgstr "La respuesta estaba mal formada"

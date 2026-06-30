@@ -1,0 +1,117 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "item.decoration.boxShadow",
+      "button": "button.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "module.advanced.text",
+      "title": "title_font.decoration.font",
+      "desc": "desc_font.decoration.font",
+      "ribbon": "ribbon_font.decoration.font",
+      "button": "button.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "item": "item.decoration.border",
+      "button": "button.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "button": {
+      "button": "button"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "img": "css.*.img",
+    "icon": "css.*.icon",
+    "title": "css.*.title",
+    "description": "css.*.description",
+    "button": "css.*.button",
+    "navigation": "css.*.navigation",
+    "prev_main_navigation": "css.*.prev_main_navigation",
+    "next_thumbs_navigation": "css.*.next_thumbs_navigation",
+    "pagination": "css.*.pagination",
+    "active_slide": "css.*.active_slide",
+    "not_active_slide": "css.*.not_active_slide"
+  },
+  "module": {
+    "module_id": "module.advanced.htmlAttributes.*.id",
+    "module_class": "module.advanced.htmlAttributes.*.class",
+    "show_card_arrow": "show_card_arrow.innerContent.*",
+    "card_arrow_align": "card_arrow_align.innerContent.*",
+    "container_padding": "container_padding.innerContent.*.padding",
+    "show_lightbox": "show_lightbox.innerContent.*",
+    "layout": "layout.innerContent.*",
+    "start_position": "start_position.innerContent.*",
+    "line_area_size": "line_area_size.innerContent.*",
+    "timeline_line_width": "timeline_line_width.innerContent.*",
+    "timeline_line_style": "timeline_line_style.innerContent.*",
+    "timeline_line_color": "timeline_line_color.innerContent.*",
+    "use_active_line": "use_active_line.innerContent.*",
+    "timeline_active_line_width": "timeline_active_line_width.innerContent.*",
+    "timeline_active_line_style": "timeline_active_line_style.innerContent.*",
+    "timeline_active_line_color": "timeline_active_line_color.innerContent.*",
+    "timeline_active_horizontal_pos": "timeline_active_horizontal_pos.innerContent.*",
+    "card_arrow_size": "card_arrow_size.innerContent.*",
+    "card_arrow_color": "card_arrow_color.innerContent.*",
+    "columns": "columns.innerContent.*",
+    "space_between": "space_between.innerContent.*",
+    "effect": "effect.innerContent.*",
+    "slide_shadows": "slide_shadows.innerContent.*",
+    "shadow_overlay_color": "shadow_overlay_color.innerContent.*",
+    "rotate": "rotate.innerContent.*",
+    "speed": "speed.innerContent.*",
+    "loop": "loop.innerContent.*",
+    "continues": "continues.innerContent.*",
+    "autoplay": "autoplay.innerContent.*",
+    "autoplay_reverse": "autoplay_reverse.innerContent.*",
+    "pause_on_hover": "pause_on_hover.innerContent.*",
+    "autoplay_speed": "autoplay_speed.innerContent.*",
+    "navigation": "navigation.innerContent.*",
+    "navigation_on_hover": "navigation_on_hover.innerContent.*",
+    "pagination": "pagination.innerContent.*",
+    "dynamic_bullets": "dynamic_bullets.innerContent.*",
+    "centered": "centered.innerContent.*",
+    "navigation_prev_icon_yn": "navigation_prev_icon_yn.innerContent.*",
+    "navigation_next_icon_yn": "navigation_next_icon_yn.innerContent.*",
+    "navigation_prev_icon": "navigation_prev_icon.innerContent.*",
+    "navigation_next_icon": "navigation_next_icon.innerContent.*",
+    "navigation_size": "navigation_size.innerContent.*",
+    "navigation_padding": "navigation_padding.innerContent.*",
+    "navigation_color": "navigation_color.innerContent.*",
+    "navigation_bg_color": "navigation_bg_color.innerContent.*",
+    "navigation_circle": "navigation_circle.innerContent.*",
+    "navigation_position_left": "navigation_position_left.innerContent.*",
+    "navigation_position_right": "navigation_position_right.innerContent.*",
+    "pagination_position": "pagination_position.innerContent.*",
+    "pagination_color": "pagination_color.innerContent.*",
+    "pagination_active_color": "pagination_active_color.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {
+    "container_padding": "convertSpacing",
+    "navigation_prev_icon": "convertFontIcon",
+    "navigation_next_icon": "convertFontIcon"
+  }
+}
+

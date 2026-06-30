@@ -1,0 +1,265 @@
+{
+    "name": "dipi/price-list",
+    "moduleIcon": "dipi/price-list",
+    "d4Shortcode": "dipi_price_list",
+    "title": "Pixel Price List",
+    "titles": "Pixel Price Lists",
+    "childModuleName": "dipi/price-list-item",
+    "childModuleTitle": "Pixel Price List Item",
+    "childrenName": [
+        "dipi/price-list-item"
+    ],
+    "category": "module",
+    "viewScript": "dipi_price_list_public",
+    "style": "magnific-popup",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "styleProps": {
+                "boxShadow": {
+                    "selector": "{{selector}}.et_pb_module"
+                },
+                "border": {
+                    "selector": "{{selector}}.et_pb_module",
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "border-radius": "{{selector}}.et_pb_module"
+                            }
+                        }
+                    }
+                },
+                "sizing": {
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "margin-left": "{{selector}}.et_pb_module",
+                                "margin-right": "{{selector}}.et_pb_module"
+                            }
+                        }
+                    },
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin-left": true,
+                                "margin-right": true
+                            }
+                        }
+                    }
+                },
+                "spacing": {
+                    "important": true
+                }
+            }
+        },
+        "item": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_price_list_item"
+        },
+        "image": {
+            "type": "object",
+            "selector": "{{selector}} img",
+            "elementType": "imageLink",
+            "styleProps": {
+                "border": {
+                    "selector": "{{selector}} .dipi_price_list_image_wrapper img",
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "border-radius": "{{selector}} .dipi_price_list_image_wrapper img"
+                            }
+                        }
+                    }
+                },
+                "boxShadow": {
+                    "selector": "{{selector}} .dipi_price_list_image_wrapper img",
+                    "useOverlay": true
+                }
+            },
+            "styleComponentsProps": {
+                "background": false,
+                "boxShadow": {
+                    "settings": {
+                        "overlay": true
+                    }
+                }
+            },
+            "innerContent": {
+                "desktop": {
+                    "value": {
+                        "alt": ""
+                    }
+                }
+            },
+            "default": {
+                "decoration": {
+                    "showLightbox": {
+                        "desktop": {
+                            "value": "on"
+                        }
+                    },
+                    "useThumbnails": {
+                        "desktop": {
+                            "value": "off"
+                        }
+                    },
+                    "imageSize": {
+                        "desktop": {
+                            "value": "full"
+                        }
+                    },
+                    "imageSpacing": {
+                        "desktop": {
+                            "value": "0px"
+                        }
+                    },
+                    "imageWidth": {
+                        "desktop": {
+                            "value": "25%"
+                        }
+                    },
+                    "imageMinWidth": {
+                        "desktop": {
+                            "value": "0%"
+                        }
+                    }
+                }
+            }
+        },
+        "separator": {
+            "type": "object",
+            "selector": "{{selector}} img"
+        },
+        "title": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_price_list_title",
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "size": "21px",
+                                    "lineHeight": "1em",
+                                    "weight": "600"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "font": {
+                    "important": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": true
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content": {
+            "type": "object",
+            "selector": "{{selector}} .example_child_module__content",
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": "#333333",
+                                    "size": "14px",
+                                    "lineHeight": "1.6em"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "font": {
+                    "selectors": {
+                        "desktop": {
+                            "value": "{{selector}} .dipi_price_list_content"
+                        }
+                    }
+                }
+            }
+        },
+        "price": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_price_list_price",
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": "#333333",
+                                    "size": "14px",
+                                    "lineHeight": "1.6em"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "font": {
+                    "selectors": {
+                        "desktop": {
+                            "value": "{{selector}} .dipi_price_list_price"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "priceListItem": {
+            "subName": "priceListItem",
+            "selectorSuffix": " .dipi_price_list_item"
+        },
+        "imageWrap": {
+            "subName": "imageWrap",
+            "selectorSuffix": " .dipi_price_list_image_wrapper"
+        },
+        "image": {
+            "subName": "image",
+            "selectorSuffix": " .dipi_price_list_image_wrapper img"
+        },
+        "textWrap": {
+            "subName": "textWrap",
+            "selectorSuffix": " .dipi_price_list_text_wrapper"
+        },
+        "title": {
+            "subName": "title",
+            "selectorSuffix": " .dipi_price_list_title"
+        },
+        "price": {
+            "subName": "price",
+            "selectorSuffix": " .dipi_price_list_price"
+        },
+        "separator": {
+            "subName": "separator",
+            "selectorSuffix": " .dipi_price_list_separator"
+        },
+        "description": {
+            "subName": "description",
+            "selectorSuffix": " .dipi_price_list_content"
+        },
+        "prefix": {
+            "subName": "prefix",
+            "selectorSuffix": " .dipi_price_list_prefix_price"
+        },
+        "suffix": {
+            "subName": "suffix",
+            "selectorSuffix": " .dipi_price_list_suffix_price"
+        }
+    }
+}

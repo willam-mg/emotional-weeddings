@@ -1,0 +1,713 @@
+{
+    "name": "dipi/image-hotspot-child",
+    "d4Shortcode": "dipi_image_hotspot_child",
+    "title": "Pixel Image Hotspot Item",
+    "titles": "Pixel Image Hotspot Items",
+    "moduleIcon": "dipi/image-hotspot-child",
+    "category": "child-module",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": ".dipi_image_hotspot {{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Image Hotspot Item"
+                        }
+                    }
+                },
+                "advanced": {
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "color": "light"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#ecf4f7"
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": true
+                }
+            }
+        },
+        "use_hotspot_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "hotspot_img": {
+            "type": "object",
+            "elementType": "imageLink",
+            "selector": "{{selector}} .dipi-hotspot .dipi-hotspot-image",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "src": "",
+                            "alt": ""
+                        }
+                    }
+                },
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "img_alt": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "hotspot_image_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "100px"
+                    }
+                }
+            }
+        },
+        "hotspot_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "&#x5;",
+                            "type": "divi",
+                            "weight": "400"
+                        }
+                    }
+                }
+            }
+        },
+        "hotspot_icon_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "padding": {
+                                "top": "15px",
+                                "right": "15px",
+                                "bottom": "15px",
+                                "left": "15px"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "hotspot_icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#7EBEC5"
+                    }
+                }
+            }
+        },
+        "hotspot_circle_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "hotspot_circle_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "hotspot_circle_border": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "hotspot_circle_border_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "use_hotspot_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "hotspot_icon_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "24px"
+                    }
+                }
+            }
+        },
+        "hotspot_ripple_effect": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "hotspot_ripple_effect_style": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "style-1"
+                    }
+                }
+            }
+        },
+        "hotspot_ripple_effect_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "hotspot_ripple_effect_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "100px"
+                    }
+                }
+            }
+        },
+        "hotspot_ripple_effect_speed": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "2.5"
+                    }
+                }
+            }
+        },
+        "hotspot_position_vertical": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "10%"
+                    }
+                }
+            }
+        },
+        "hotspot_position_horizontal": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "10%"
+                    }
+                }
+            }
+        },
+        "content_type": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "default"
+                    }
+                }
+            }
+        },
+        "library_id": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "0"
+                    }
+                }
+            }
+        },
+        "use_tooltip_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "tooltip_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "&#x1;",
+                            "type": "divi",
+                            "weight": "400"
+                        }
+                    }
+                }
+            }
+        },
+        "tooltip_icon_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "padding": {
+                                "top": "25px",
+                                "right": "25px",
+                                "bottom": "25px",
+                                "left": "25px"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "tooltip_icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "use_tooltip_icon_circle": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "tooltip_icon_circle_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "use_tooltip_icon_circle_border": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "tooltip_icon_circle_border_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "use_tooltip_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "tooltip_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "40px"
+                    }
+                }
+            }
+        },
+        "tooltip_img_src": {
+            "type": "object",
+            "elementType": "imageLink",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "src": "",
+                            "alt": ""
+                        }
+                    }
+                }
+            }
+        },
+        "tooltip_img_alt": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "tooltip_image_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "100px"
+                    }
+                }
+            }
+        },
+        "tooltip_bg": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "tooltip_title": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-tooltip-title",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "size": "18px",
+                                    "lineHeight": "1em",
+                                    "headingLevel": "h2"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "tooltip_desc": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-tooltip-desc",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "size": "14px",
+                                    "lineHeight": "1em"
+                                }
+                            }
+                        }
+                    }
+                },
+                "styleProps": {
+                    "font": {
+                        "important": true
+                    }
+                }
+            }
+        },
+        "show_tooltip_button": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "tooltip_button": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-tooltip-button",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi-tooltip-button"
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            },
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "text": "Click Here",
+                            "linkUrl": "#",
+                            "linkTarget": "off"
+                        }
+                    }
+                },
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "on",
+                                    "settings": {
+                                        "unicode": "&#x31;",
+                                        "type": "divi",
+                                        "weight": "400"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "important": true
+                },
+                "sizing": {
+                    "important": true
+                }
+            }
+        },
+        "tooltip_position": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "left"
+                    }
+                }
+            }
+        },
+        "tooltip_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "300px"
+                    }
+                }
+            }
+        },
+        "tooltip_content_align": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "left"
+                    }
+                }
+            }
+        },
+        "hotspot_link": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "hotspot_link_target": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "same_window"
+                    }
+                }
+            }
+        },
+        "use_tooltip_arrow": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "arrow_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#000"
+                    }
+                }
+            }
+        },
+        "tooltip_img": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-tooltip-image",
+            "default": {
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "tooltip_box": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-tooltip-wrap",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "10px",
+                                    "right": "10px",
+                                    "bottom": "10px",
+                                    "left": "10px"
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {}
+}

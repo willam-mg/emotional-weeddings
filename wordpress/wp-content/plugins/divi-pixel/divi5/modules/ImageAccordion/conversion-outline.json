@@ -1,0 +1,51 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "advanced_text.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "accordion_container": "css.*.accordion_container",
+    "accordion_image_icon": "css.*.accordion_image_icon",
+    "accordion_title": "css.*.accordion_title",
+    "accordion_description": "css.*.accordion_description"
+  },
+  "module": {
+    "accordion_style": "accordion_style.innerContent.*",
+    "accordion_direction": "accordion_direction.innerContent.*",
+    "accordion_height": "accordion_height.innerContent.*",
+    "active_image_relative_width": "active_image_relative_width.innerContent.*",
+    "always_visible": "always_visible.innerContent.*",
+    "always_visible_fields": "always_visible_fields.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {
+    "always_visible_fields": "dipiConvertVisibleFields"
+  }
+}

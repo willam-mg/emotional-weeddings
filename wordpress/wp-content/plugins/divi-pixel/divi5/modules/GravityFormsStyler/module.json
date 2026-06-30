@@ -1,0 +1,1863 @@
+{
+    "name": "dipi/gravity-forms-styler",
+    "d4Shortcode": "dipi_gravity_forms_styler",
+    "title": "Pixel Gravity Forms Styler",
+    "titles": "Pixel Gravity Forms Styler",
+    "moduleIcon": "dipi/gravity-forms-styler",
+    "category": "module",
+    "viewScript": "dipi_gravity_forms_styler_public",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Gravity Forms Styler"
+                        }
+                    }
+                },
+                "advanced": {
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "color": "light"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#ecf4f7"
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "important": true
+                }
+            }
+        },
+        "gf_form_id": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "0"
+                    }
+                }
+            }
+        },
+        "form_title": {
+            "type": "object",
+            "selector": "{{selector}} .gform_title",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "gf_title"
+                    }
+                },
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "boxShaodw": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "form_desc": {
+            "type": "object",
+            "selector": "{{selector}} .gform_description",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "gf_desc"
+                    }
+                },
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "boxShaodw": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "use_ajax": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "tabindex": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "field_values": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "progress_bar": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gf_progressbar",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "progress_active_bar": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gf_progressbar .gf_progressbar_percentage",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "progress_bar_label": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gf_progressbar .gf_progressbar_percentage span",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "boxShaodw": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "field_container": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gfield",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "input_field": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .ginput_container_time.gfield_time_ampm select, .gform_wrapper .gfield .ginput_container input:not(.gfield-choice-input))",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "textarea_field": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .ginput_container_multiselect select, .gform_wrapper .gfield textarea.textarea)",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "select_field": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .ginput_address_country select, .gform_wrapper  .ginput_address_state select, .gform_wrapper .gfield .ginput_container_select select.gfield_select)",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "0px",
+                                    "right": "8px",
+                                    "bottom": "0px",
+                                    "left": "8px"
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "select_arrow": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .ginput_address_country:after, {{selector}} .gform_wrapper .gfield .ginput_container_select:after",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "0px",
+                                    "right": "8px",
+                                    "bottom": "0px",
+                                    "left": "8px"
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "use_custom_select_arrow": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "select_arrow_use_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "select_arrow_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "&#xf078;",
+                            "type": "fa",
+                            "weight": "900"
+                        }
+                    }
+                }
+            }
+        },
+        "select_arrow_icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "select_arrow_icon_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "1em"
+                    }
+                }
+            }
+        },
+        "select_option_bg_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "checkbox_radio_container": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .gfield .ginput_container_consent,  .gform_wrapper .gfield .gfield_checkbox, .gform_wrapper .gfield .gfield_radio)",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "checkbox_radio_one_option": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gfield .gchoice",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "checkbox_radio_button_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "checkbox_radio_button_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "checkbox_radio_label": {
+            "type": "object",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "section_field": {
+            "type": "object",
+            "selecotr": "{{selector}} .gform_wrapper .gfield.gsection",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "html_field": {
+            "type": "object",
+            "selecotr": "{{selector}} .gform_wrapper .gfield.gfield_html",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "consent_field_container": {
+            "type": "object",
+            "selecotr": "{{selector}} .gform_wrapper .gfield .ginput_container_consent",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "consent_field_button_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "consent_field_button_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "consent_field_label": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gfield .ginput_container_consent .gfield_consent_label",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "text": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "pagination_title": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gf_progressbar_title",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "boxShaodw": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "pagination_cur_page": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gf_step_current_page",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "pagination_count": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gf_step_page_count",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "progressbar_label": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gf_progressbar .gf_progressbar_percentage span",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "field_label": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gfield_label",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "required_field_indicator": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gfield_required",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "field_description": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .gfield_description, .ginput_complex.ginput_container > span > label, .ginput_complex .ginput_container_time > label, .ginput_container_fileupload .gform_fileupload_rules)",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "input_field_focus": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gfield .ginput_container input:not(.gfield-choice-input):focus",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "input_field_placeholder": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .gfield .ginput_container input:not(.gfield-choice-input)::placeholder, .gform_wrapper .gfield textarea.textarea::placeholder)",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "select_dropdown_field": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .ginput_address_country select option, .gform_wrapper .ginput_address_state select option, .gform_wrapper .gfield .ginput_container_select select.gfield_select option)",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "section_title": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gfield.gsection  .gsection_title",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "section_desc": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper .gfield.gsection  .gsection_description",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "confirm_msg": {
+            "type": "object",
+            "selector": "{{selector}} .gform_confirmation_wrapper  .gform_confirmation_message",
+            "default": {
+                "decoration": {
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "header": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper h1",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "size": "30px"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "header_2": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper h2",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "header_3": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper h3",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "header_4": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper h4",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "header_5": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper h5",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "size": "16px",
+                                    "lineHeight": "1em"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "header_6": {
+            "type": "object",
+            "selector": "{{selector}} .gform_wrapper h6",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {}
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "focus_field": {
+            "selector": "{{selector}} :is(.gform_wrapper .gfield input:focus, .gform_wrapper .gfield textarea:focus, .gform_wrapper .gfield select:focus)",
+            "decoration": {
+                "border": {
+                    "desktop": {
+                        "value": {
+                            "styles": {
+                                "all": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                },
+                "boxShadow": {
+                    "desktop": {
+                        "value": {}
+                    }
+                }
+            }
+        },
+        "all": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .gform_page_footer button, .gform_wrapper .gform_page_footer input[type=button],  .gform_wrapper .gform_page_footer input[type=submit], .gform_wrapper .gform_footer button, .gform_wrapper .gform_footer input[type=button],  .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .dipi_gf_submit_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer button, .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer input[type=button],  .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer input[type=submit], .gform-theme--framework.gform-theme.gform_wrapper .gform_footer button, .gform-theme--framework.gform-theme.gform_wrapper .gform_footer input[type=button],  .gform-theme--framework.gform-theme.gform_wrapper .gform_footer input[type=submit], .gform-theme--framework.gform-theme.gform_wrapper .dipi_gf_submit_button, #field_submit input:is([type=submit]))",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi-more-link"
+            },
+            "default": {
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "off",
+                                    "value": {}
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            },
+            "styleProps": {
+                "boxShaodw": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "submit": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .gform_page_footer input[type=submit].button.gform_button, .gform_wrapper .gform_page_footer button[type=submit], .gform_wrapper .gform_footer input[type=submit].button.gform_button, .gform_wrapper .gform_footer button[type=submit], .gform_wrapper .dipi_gf_submit_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer input[type=submit].button.gform_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer button[type=submit], .gform-theme--framework.gform-theme.gform_wrapper .gform_footer input[type=submit].button.gform_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_footer button[type=submit], .gform-theme--framework.gform-theme.gform_wrapper .dipi_gf_submit_button, #field_submit input:is([type=submit]))",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi-more-link"
+            },
+            "default": {
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "off"
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": "",
+                                        "width": "2px"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            },
+            "styleProps": {
+                "boxShaodw": {
+                    "important": true
+                },
+                "border": {
+                    "important": true
+                },
+                "borderWidth": {
+                    "important": true
+                },
+                "spacing": {
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "prev": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .gform_page_footer input[type=button].button.gform_previous_button, .gform_wrapper .gform_page_footer button[type=button].dipi_gf_prev_button.gform_button, .gform_wrapper .gform_footer input[type=button].button.gform_previous_button, .gform_wrapper .gform_footer button[type=button].dipi_gf_prev_button.gform_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer input[type=button].button.gform_previous_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer button[type=button].dipi_gf_prev_button.gform_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_footer input[type=button].button.gform_previous_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_footer button[type=button].dipi_gf_prev_button).gform_button",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi-more-link"
+            },
+            "default": {
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "off",
+                                    "value": {}
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            },
+            "styleProps": {
+                "boxShaodw": {
+                    "important": true
+                }
+            }
+        },
+        "next": {
+            "type": "object",
+            "selector": "{{selector}} :is(.gform_wrapper .gform_page_footer input[type=button].button.gform_next_button, .gform_wrapper .gform_page_footer button[type=button].dipi_gf_next_button.gform_button, .gform_wrapper .gform_footer input[type=button].button.gform_next_button, .gform_wrapper .gform_footer button[type=button].dipi_gf_next_button.gform_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer input[type=button].button.gform_next_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_page_footer button[type=button].dipi_gf_next_button.gform_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_footer input[type=button].button.gform_next_button, .gform-theme--framework.gform-theme.gform_wrapper .gform_footer button[type=button].dipi_gf_next_button.gform_button)",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi-more-link"
+            },
+            "default": {
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "off",
+                                    "value": {}
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            },
+            "styleProps": {
+                "boxShaodw": {
+                    "important": true
+                }
+            }
+        },
+        "main_spacing": {
+            "selector": "{{selector}}.dipi_gravity_forms_styler .dipi_gf_styler_wrapper",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "spacing": {
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin": true,
+                                "padding": true
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "gf_button_selector": {
+            "subName": "gf_button_selector",
+            "selectorSuffix": " :is( .gform_wrapper .gform_page_footer button, .gform_wrapper .gform_page_footer input[type=button],  .gform_wrapper .gform_page_footer input[type=submit], .gform_wrapper .gform_footer button, .gform_wrapper .gform_footer input[type=button],  .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .dipi_gf_submit_button)"
+        },
+        "gf_submit_button_selector": {
+            "subName": "gf_submit_button_selector",
+            "selectorSuffix": " :is( .gform_wrapper .gform_page_footer input[type=submit].button.gform_button, .gform_wrapper .gform_page_footer button[type=submit], .gform_wrapper .gform_footer input[type=submit].button.gform_button, .gform_wrapper .gform_footer button[type=submit], .gform_wrapper .dipi_gf_submit_button)"
+        },
+        "gf_prev_button_selector": {
+            "subName": "gf_prev_button_selector",
+            "selectorSuffix": " :is( .gform_wrapper .gform_page_footer input[type=button].button.gform_previous_button, .gform_wrapper .gform_page_footer button[type=button].dipi_gf_prev_button.gform_button, .gform_wrapper .gform_footer input[type=button].button.gform_previous_button, .gform_wrapper .gform_footer button[type=button].dipi_gf_prev_button.gform_button)"
+        },
+        "gf_next_button_selector": {
+            "subName": "gf_next_button_selector",
+            "selectorSuffix": " :is( .gform_wrapper .gform_page_footer input[type=button].button.gform_next_button, .gform_wrapper .gform_page_footer button[type=button].dipi_gf_next_button.gform_button, .gform_wrapper .gform_footer input[type=button].button.gform_next_button, .gform_wrapper .gform_footer button[type=button].dipi_gf_next_button.gform_button)"
+        },
+        "form_heading": {
+            "subName": "form_heading",
+            "selectorSuffix": " .gform_heading"
+        },
+        "form_title_selector": {
+            "subName": "form_title_selector",
+            "selectorSuffix": " .gform_title"
+        },
+        "form_title_hover_selector": {
+            "subName": "form_title_hover_selector",
+            "selectorSuffix": ":hover .gform_title"
+        },
+        "form_desc_selector": {
+            "subName": "form_desc_selector",
+            "selectorSuffix": " .gform_description"
+        },
+        "form_desc_hover_selector": {
+            "subName": "form_desc_hover_selector",
+            "selectorSuffix": ":hover .gform_description"
+        },
+        "pagination_title_selector": {
+            "subName": "pagination_title_selector",
+            "selectorSuffix": " .gform_wrapper .gf_progressbar_title"
+        },
+        "pagination_cur_page_selector": {
+            "subName": "pagination_cur_page_selector",
+            "selectorSuffix": " .gform_wrapper .gf_step_current_page"
+        },
+        "pagination_count_selector": {
+            "subName": "pagination_count_selector",
+            "selectorSuffix": " .gform_wrapper .gf_step_page_count"
+        },
+        "progressbar_wrapper_selector": {
+            "subName": "progressbar_wrapper_selector",
+            "selectorSuffix": " .gf_progressbar_wrapper"
+        },
+        "progressbar_selector": {
+            "subName": "progressbar_selector",
+            "selectorSuffix": " .gform_wrapper .gf_progressbar"
+        },
+        "progressbar_active_selector": {
+            "subName": "progressbar_active_selector",
+            "selectorSuffix": " .gform_wrapper .gf_progressbar .gf_progressbar_percentage"
+        },
+        "progressbar_label_selector": {
+            "subName": "progressbar_label_selector",
+            "selectorSuffix": " .gform_wrapper .gf_progressbar .gf_progressbar_percentage span"
+        },
+        "field_container_selector": {
+            "subName": "field_container_selector",
+            "selectorSuffix": " .gform_wrapper .gfield"
+        },
+        "field_label_selector": {
+            "subName": "field_label_selector",
+            "selectorSuffix": " .gform_wrapper .gfield_label"
+        },
+        "field_sub_label_selector": {
+            "subName": "field_sub_label_selector",
+            "selectorSuffix": " .ginput_complex.ginput_container > span > label"
+        },
+        "required_field_indicator_selector": {
+            "subName": "required_field_indicator_selector",
+            "selectorSuffix": " .gform_wrapper .gfield_required"
+        },
+        "fileupolad_desc_selector": {
+            "subName": "fileupolad_desc_selector",
+            "selectorSuffix": " .ginput_container_fileupload .gform_fileupload_rules"
+        },
+        "field_desc_selector": {
+            "subName": "field_desc_selector",
+            "selectorSuffix": " :is(.gform_wrapper .gfield_description, .ginput_container_fileupload .gform_fileupload_rules, .ginput_complex.ginput_container > span > label)"
+        },
+        "input_container_selector": {
+            "subName": "input_container_selector",
+            "selectorSuffix": " .gform_wrapper .ginput_container"
+        },
+        "time_selector": {
+            "subName": "time_selector",
+            "selectorSuffix": " .gform_wrapper .ginput_container_time.gfield_time_ampm select"
+        },
+        "address_country_selector": {
+            "subName": "address_country_selector",
+            "selectorSuffix": " .gform_wrapper .ginput_address_country select"
+        },
+        "address_country_container_selector": {
+            "subName": "address_country_container_selector",
+            "selectorSuffix": " .gform_wrapper .ginput_address_country"
+        },
+        "address_country_arrow_selector": {
+            "subName": "address_country_arrow_selector",
+            "selectorSuffix": " .gform_wrapper .ginput_address_country:after"
+        },
+        "multi_select_selector": {
+            "subName": "multi_select_selector",
+            "selectorSuffix": " .gform_wrapper .ginput_container_multiselect select"
+        },
+        "input_field_selector": {
+            "subName": "input_field_selector",
+            "selectorSuffix": " :is(.gform_wrapper .ginput_container_time.gfield_time_ampm select, .gform_wrapper .gfield .ginput_container input:not(.gfield-choice-input))"
+        },
+        "input_field_focus_selector": {
+            "subName": "input_field_focus_selector",
+            "selectorSuffix": " .gform_wrapper .gfield .ginput_container input:not(.gfield-choice-input):focus"
+        },
+        "focus_field_selector": {
+            "subName": "focus_field_selector",
+            "selectorSuffix": " :is( .gform_wrapper .gfield input:focus, .gform_wrapper .gfield textarea:focus, .gform_wrapper .gfield select:focus)"
+        },
+        "placeholder_selector": {
+            "subName": "placeholder_selector",
+            "selectorSuffix": " :is( .gform_wrapper .gfield .ginput_container input:not(.gfield-choice-input)::placeholder, .gform_wrapper .gfield textarea.textarea::placeholder)"
+        },
+        "textarea_field_selector": {
+            "subName": "textarea_field_selector",
+            "selectorSuffix": " :is( .gform_wrapper .ginput_container_multiselect select,  .gform_wrapper .gfield textarea.textarea)"
+        },
+        "select_field_selector": {
+            "subName": "select_field_selector",
+            "selectorSuffix": " :is( .gform_wrapper .ginput_address_country select,  .gform_wrapper .gfield textarea.textarea)"
+        },
+        "select_container_selector": {
+            "subName": "select_container_selector",
+            "selectorSuffix": " :is( .gform_wrapper .ginput_address_country,  .gform_wrapper .gfield .ginput_container_select)"
+        },
+        "select_arrow_selector": {
+            "subName": "select_arrow_selector",
+            "selectorSuffix": " :is( .gform_wrapper .ginput_address_country:after,  .gform_wrapper .gfield .ginput_container_select:after)"
+        },
+        "select_option_selector": {
+            "subName": "select_option_selector",
+            "selectorSuffix": " .gform_wrapper .gfield select.gfield_select option"
+        },
+        "section_selector": {
+            "subName": "section_selector",
+            "selectorSuffix": " .gform_wrapper .gfield.gsection"
+        },
+        "section_title_selector": {
+            "subName": "section_title_selector",
+            "selectorSuffix": " .gform_wrapper .gfield.gsection  .gsection_title"
+        },
+        "section_desc_selector": {
+            "subName": "section_desc_selector",
+            "selectorSuffix": " .gform_wrapper .gfield.gsection  .gsection_description"
+        },
+        "html_field_selector": {
+            "subName": "html_field_selector",
+            "selectorSuffix": " .gform_wrapper .gfield.gfield_html"
+        },
+        "consent_field_container_selector": {
+            "subName": "consent_field_container_selector",
+            "selectorSuffix": " .gform_wrapper .gfield .ginput_container_consent"
+        },
+        "consent_field_button_selector": {
+            "subName": "consent_field_button_selector",
+            "selectorSuffix": " .gform_wrapper .gfield .ginput_container_consent input[type=checkbox]"
+        },
+        "consent_field_label_selector": {
+            "subName": "consent_field_label_selector",
+            "selectorSuffix": " .gform_wrapper .gfield .ginput_container_consent .gfield_consent_label"
+        },
+        "checkbox_radio_container_selector": {
+            "subName": "checkbox_radio_container_selector",
+            "selectorSuffix": " :is(.gform_wrapper .gfield .ginput_container_consent, .gform_wrapper .gfield .gfield_checkbox, .gform_wrapper .gfield .gfield_radio)"
+        },
+        "checkbox_radio_one_option_selector": {
+            "subName": "checkbox_radio_one_option_selector",
+            "selectorSuffix": " .gform_wrapper .gfield .gchoice"
+        },
+        "checkbox_radio_button_selector": {
+            "subName": "checkbox_radio_button_selector",
+            "selectorSuffix": " :is(.gform_wrapper .gfield .ginput_container_consent input[type=checkbox], .gform_wrapper .gfield .gchoice .gfield-choice-input)"
+        },
+        "checkbox_radio_label_selector": {
+            "subName": "checkbox_radio_label_selector",
+            "selectorSuffix": " :is(.gform_wrapper .gfield .ginput_container_consent .gfield_consent_label, .gform_wrapper .gfield  .gchoice > label)"
+        },
+        "confirm_msg_selector": {
+            "subName": "confirm_msg_selector",
+            "selectorSuffix": " .gform_confirmation_wrapper .gform_confirmation_message"
+        }
+    }
+}

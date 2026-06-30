@@ -1,0 +1,45 @@
+{
+  "advanced": {
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "fonts": {
+      "title": "title.decoration.font",
+      "price": "price.decoration.font",
+      "description": "content.decoration.font"
+    },
+    "margin_padding": "module.decoration.spacing",
+    "background": "module.decoration.background",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "icon": "css.*.icon",
+    "title": "css.*.title",
+    "description": "css.*.description",
+    "button": "css.*.button"
+  },
+  "module": {
+    "title": "title.innerContent.*",
+    "price": "price.innerContent.*",
+    "price_prefix": "pricePrefix.innerContent.*",
+    "price_suffix": "priceSuffix.innerContent.*",
+    "content": "content.innerContent.*",
+    "image": "image.innerContent.*.src",
+    "img_alt": "image.innerContent.*.alt",
+    "gallery_ids": "gallery.*"
+  }
+}

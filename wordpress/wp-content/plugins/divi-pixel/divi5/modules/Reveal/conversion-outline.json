@@ -1,0 +1,79 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "show_less_button": "show_less_button.decoration.boxShadow",
+      "show_more_button": "show_more_button.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "advanced_text.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "button": {
+      "show_less_button": "show_less_button",
+      "show_more_button": "show_more_button"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "container_selector": "container_selector.innerContent.*",
+    "default_show_status": "default_show_status.innerContent.*",
+    "reveal_button_align": "reveal_button_align.innerContent.*",
+    "less_button_text": "show_less_button.innerContent.*.text",
+    "less_container_height": "less_container_height.innerContent.*",
+    "less_v_offset": "less_v_offset.innerContent.*",
+    "less_animation_time": "less_animation_time.innerContent.*",
+    "more_button_text": "show_more_button.innerContent.*.text",
+    "more_v_offset": "more_v_offset.innerContent.*",
+    "more_animation_time": "more_animation_time.innerContent.*",
+    "use_overlay": "use_overlay.innerContent.*",
+    "overlay_as": "overlay_as.innerContent.*",
+    "append_to": "append_to.innerContent.*",
+    "overlay_z_index": "overlay_z_index.innerContent.*",
+    "overlay_bg_color": "overlay_bg.decoration.background.*.color",
+    "overlay_bg_use_color_gradient": "overlay_bg.decoration.background.*.gradient.enabled",
+    "overlay_bg_color_gradient_repeat": "overlay_bg.decoration.background.*.gradient.repeat",
+    "overlay_bg_color_gradient_type": "overlay_bg.decoration.background.*.gradient.type",
+    "overlay_bg_color_gradient_direction": "overlay_bg.decoration.background.*.gradient.direction",
+    "overlay_bg_color_gradient_direction_radial": "overlay_bg.decoration.background.*.gradient.directionRadial",
+    "overlay_bg_color_gradient_stops": "overlay_bg.decoration.background.*.gradient.stops",
+    "overlay_bg_color_gradient_unit": "overlay_bg.decoration.background.*.gradient.unit",
+    "overlay_bg_color_gradient_overlays_image": "overlay_bg.decoration.background.*.gradient.overlaysImage",
+    "overlay_bg_color_gradient_start": "overlay_bg.decoration.background.*.gradient.start",
+    "overlay_bg_color_gradient_start_position": "overlay_bg.decoration.background.*.gradient.startPosition",
+    "overlay_bg_color_gradient_end": "overlay_bg.decoration.background.*.gradient.end",
+    "overlay_bg_color_gradient_end_position": "overlay_bg.decoration.background.*.gradient.positionEnd",
+    "show_more_button_use_icon": "show_more_button.deocoration.button.*.icon.enable",
+    "show_less_button_use_icon": "show_less_button.deocoration.button.*.icon.enable"
+  },
+  "valueExpansionFunctionMap": {
+    "overlay_bg_color_gradient_stops": "convertGradientStops",
+    "show_more_button_use_icon": "dipiConvertButtonIconEnable",
+    "show_less_button_use_icon": "dipiConvertButtonIconEnable"
+  }
+}

@@ -1,0 +1,105 @@
+{
+    "advanced": {
+        "box_shadow": {
+            "default": "module.decoration.boxShadow",
+            "feature_icon": "featureIcon.decoration.boxShadow",
+            "image": "image.decoration.boxShadow",
+            "button": "button.decoration.boxShadow"
+        },
+        "overflow": "module.decoration.overflow",
+        "position_fields": "module.decoration.position",
+        "text_shadow": {
+            "default": "module.advanced.text.textShadow"
+        },
+        "transform": "module.decoration.transform",
+        "transition": "module.decoration.transition",
+        "z_index": "module.decoration.zIndex",
+        "text": "module.decoration.text",
+        "fonts": {
+            "header": "content.decoration.headingFont.h1",
+            "header_2": "content.decoration.headingFont.h2",
+            "header_3": "content.decoration.headingFont.h3",
+            "header_4": "content.decoration.headingFont.h4",
+            "header_5": "content.decoration.headingFont.h5",
+            "header_6": "content.decoration.headingFont.h6",
+            "prefix": "pricePrefix.decoration.font",
+            "suffix": "priceSuffix.decoration.font",
+            "default": "content.decoration.bodyFont.body",
+            "default_text": "content.decoration.bodyFont.body",
+            "default_link": "content.decoration.bodyFont.link",
+            "default_ul": "content.decoration.bodyFont.ul",
+            "default_ol": "content.decoration.bodyFont.ol",
+            "default_quote": "content.decoration.bodyFont.quote"
+        },
+        "button": {
+            "button": "button"
+        },
+        "borders": {
+            "default": "module.decoration.border",
+            "feature_icon": "featureIcon.decoration.border",
+            "image": "icon.decoration.border"
+        },
+        "image_icon": {
+            "image_icon": "imageIcon.decoration"
+        },
+        "margin_padding": "module.decoration.spacing",
+        "background": "module.decoration.background",
+        "max_width": "module.decoration.sizing",
+        "height": "module.decoration.sizing",
+        "filters": {
+            "default": "module.decoration.filters"
+        },
+        "link_options": "module.advanced.link"
+    },
+    "css": {
+        "before": "css.*.before",
+        "main_element": "css.*.mainElement",
+        "after": "css.*.after",
+        "free_form": "css.*.freeForm"
+    },
+    "module": {
+        "module_id": "moduleId.*",
+        "module_class": "moduleClass.*",
+        "admin_label": "module.meta.adminLabel.*",
+        "item_type": "module.advanced.itemType.*",
+        "text_content": "content.innerContent.*",
+        "item_image": "image.innerContent.*.src",
+        "item_image_alt": "image.innerContent.*.alt",
+        "use_lightbox": "image.innerContent.*.useLightbox",
+        "gallery_ids": "gallery.*",
+        "item_icon": "icon.innerContent.*",
+        "price": "price.innerContent.*",
+        "price_prefix": "pricePrefix.innerContent.*",
+        "price_prefix_placement": "price.decoration.pricePrefixPlacement.*",
+        "price_suffix": "priceSuffix.innerContent.*",
+        "price_suffix_placement": "price.decoration.priceSuffixPlacement.*",
+        "feature_text": "featureText.innerContent.*.text",
+        "feature_text_tag": "featureText.innerContent.*.tag",
+        "feature_icon": "featureIcon.innerContent.*",
+        "feature_icon_placement": "featureIcon.decoration.iconPlacement.*",
+        "button_text": "button.innerContent.*.text",
+        "button_url": "button.innerContent.*.linkUrl",
+        "button_url_new_window": "button.innerContent.*.linkTarget",
+        "ribbon_type": "ribbon.decoration.ribbonType.*",
+        "ribbon_text": "ribbonText.innerContent.*",
+        "ribbon_image": "ribbonImage.innerContent.*.src",
+        "ribbon_position": "ribbon.decoration.ribbonPlacement.*",
+        "ribbon_transform_x": "ribbon.decoration.ribbonPosition.*.horizontal",
+        "ribbon_transform_y": "ribbon.decoration.ribbonPosition.*.vertical",
+        "feature_icon_size": "featureIcon.decoration.iconSize.*",
+        "feature_icon_color": "featureIcon.decoration.iconColor.*",
+        "feature_icon_bg": "featureIcon.decoration.iconBackgroundColor.*",
+        "feature_icon_padding": "featureIcon.decoration.spacing.*.padding",
+        "feature_icon_margin": "featureIcon.decoration.spacing.*.margin",
+        "icon_color": "icon.decoration.color.*",
+        "image_icon_background_color": "icon.decoration.backgroundColor.*",
+        "image_icon_width": "icon.decoration.imageIconWidth.*",
+        "image_icon_custom_padding": "icon.decoration.spacing.*.padding",
+        "image_icon_custom_margin": "icon.decoration.spacing.*.margin",
+        "icon_alignment": "icon.decoration.alignment.*"
+    },
+    "valueExpansionFunctionMap": {
+        "item_icon": "convertFontIcon",
+        "feature_icon": "convertFontIcon"
+    }
+}

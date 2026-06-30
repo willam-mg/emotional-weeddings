@@ -1,0 +1,68 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "fonts": {
+      "first": "first_text.decoration.font",
+      "second": "second_text.decoration.font"
+    },
+    "background": "module.decoration.background",
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "toggle_button_container": "css.*.toggle_button_container",
+    "toggle_button_slider": "css.*.toggle_button_slider",
+    "toggle_button_inner_slider": "css.*.toggle_button_inner_slider"
+  },
+  "module": {
+    "first_text": "first_text.innerContent.*",
+    "first_divi_library": "first_divi_library.innerContent.*",
+    "second_text": "second_text.innerContent.*",
+    "second_divi_library": "second_divi_library.innerContent.*",
+    "toggle_alignment": "toggle_alignment.innerContent.*",
+    "toggle_size": "toggle_size.innerContent.*",
+    "first_btn_color": "first_btn_color.innerContent.*",
+    "first_bg_color": "first_bg_color.innerContent.*",
+    "second_btn_color": "second_btn_color.innerContent.*",
+    "second_bg_color": "second_bg_color.innerContent.*",
+    "first_content_animation": "first_content_animation.innerContent.*",
+    "first_content_delay": "first_content_delay.innerContent.*",
+    "first_content_speed": "first_content_speed.innerContent.*",
+    "second_content_animation": "second_content_animation.innerContent.*",
+    "second_content_delay": "second_content_delay.innerContent.*",
+    "second_content_speed": "second_content_speed.innerContent.*",
+    "first_disable_browser_lazyload": "first_disable_browser_lazyload.innerContent.*",
+    "first_disable_wprocket_lazyload": "first_disable_wprocket_lazyload.innerContent.*",
+    "second_disable_browser_lazyload": "second_disable_browser_lazyload.innerContent.*",
+    "second_disable_wprocket_lazyload": "second_disable_wprocket_lazyload.innerContent.*",
+    "first_toggle_selector": "first_toggle_selector.innerContent.*",
+    "first_scroll_toggle_offset": "first_scroll_toggle_offset.innerContent.*",
+    "second_toggle_selector": "second_toggle_selector.innerContent.*",
+    "second_scroll_toggle_offset": "second_scroll_toggle_offset.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

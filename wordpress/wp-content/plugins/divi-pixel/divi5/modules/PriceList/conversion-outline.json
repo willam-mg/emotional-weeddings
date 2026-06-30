@@ -1,0 +1,74 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "images": "image.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.decoration.module",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "fonts": {
+      "title": "title.decoration.font",
+      "price": "price.decoration.font",
+      "description": "content.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "images": "image.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "price_list_item": "css.*.priceListItem",
+    "img_wrap": "css.*.imageWrap",
+    "img": "css.*.image",
+    "txt_wrap": "css.*.textWrap",
+    "title": "css.*.title",
+    "price": "css.*.price",
+    "separator": "css.*.separator",
+    "description": "css.*.description",
+    "dipi_price_list_prefix_price": "css.*.prefix",
+    "dipi_price_list_suffix_price": "css.*.suffix"
+  },
+  "module": {
+    "list_item_flex_direction": "layout.*",
+    "image_flex_align_items": "module.advanced.imageAlignment.*",
+    "header_flex_align_items": "item.decoration.headerAlignment.*",
+    "item_spacing": "item.decoration.itemSpacing.*",
+    "item_padding": "item.decoration.itemPadding.*.padding",
+    "item_text_padding": "item.decoration.textSpacing.*",
+    "show_lightbox": "image.decoration.showLightbox.*",
+    "use_thumbnails": "image.decoration.useThumbnails.*",
+    "image_size_desktop": "image.decoration.imageSize.value.desktop",
+    "image_size_tablet": "image.decoration.imageSize.value.tablet",
+    "image_size_phone": "image.decoration.imageSize.value.phone",
+    "image_spacing": "image.decoration.imageSpacing.*",
+    "image_width": "image.decoration.imageWidth.*",
+    "image_min_width": "image.decoration.imageMinWidth.*",
+    "separator_style": "separator.decoration.separatorStyle.*",
+    "separator_weight": "separator.decoration.separatorWeight.*",
+    "separator_color": "separator.decoration.separatorColor.*",
+    "separator_spacing": "separator.decoration.separatorSpacing.*"
+  },
+  "valueExpansionFunctionMap": {
+    "item_padding": "convertSpacing"
+  }
+}

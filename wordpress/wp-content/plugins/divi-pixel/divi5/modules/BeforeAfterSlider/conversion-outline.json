@@ -1,0 +1,84 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "fonts": {
+      "labels": "advanced_label.decoration.font"
+    },
+    "borders": {
+      "slider_line": "advanced_slider_line.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "margin_padding": "module.decoration.spacing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.main_element",
+    "after": "css.*.after",
+    "free_form": "css.*.free_form",
+    "dss_image_before": "css.*.dss_image_before",
+    "dss_image_after": "css.*.dss_image_after",
+    "dss_label_before": "css.*.dss_label_before",
+    "dss_label_after": "css.*.dss_label_after",
+    "slider_line": "css.*.slider_line",
+    "h_slider_line": "css.*.h_slider_line",
+    "v_slider_line": "css.*.v_slider_line",
+    "handle_container": "css.*.handle_container",
+    "dss_overlay": "css.*.dss_overlay"
+  },
+  "module": {
+    "module_id": "module.advanced.htmlAttributes.*.id",
+    "module_class": "module.advanced.htmlAttributes.*.class",
+    "before_image": "before_image.innerContent.*.src",
+    "before_image_alt": "before_image_alt.innerContent.*",
+    "after_image": "after_image.innerContent.*.src",
+    "after_image_alt": "after_image_alt.innerContent.*",
+    "direction": "direction.innerContent.*",
+    "move_slider": "move_slider.innerContent.*",
+    "handle_icon": "handle_icon.innerContent.*",
+    "before_label": "before_label.innerContent.*",
+    "after_label": "after_label.innerContent.*",
+    "always_show_labels": "always_show_labels.innerContent.*",
+    "before_label_bg_color": "before_label_bg_color.innerContent.*",
+    "after_label_bg_color": "after_label_bg_color.innerContent.*",
+    "enable_overlay": "enable_overlay.innerContent.*",
+    "overlay_color": "overlay_color.innerContent.*",
+    "overlay_visibility": "overlay_visibility.innerContent.*",
+    "offset": "offset.innerContent.*",
+    "slider_color": "slider_color.innerContent.*",
+    "slider_width": "slider_width.innerContent.*",
+    "slider_handle_icon_color": "slider_handle_icon_color.innerContent.*",
+    "handle_container_bg_blur": "handle_container_bg_blur.innerContent.*",
+    "handle_use_circle": "handle_use_circle.innerContent.*",
+    "slider_handle_color": "handle_circle.innerContent.*.styles.all.color",
+    "slider_handle_bg_color": "slider_handle_bg_color.innerContent.*",
+    "handle_circle_size": "handle_circle_size.innerContent.*",
+    "handle_circle_border_width": "handle_circle.innerContent.*.styles.all.width",
+    "handle_circle_border_style": "handle_circle.innerContent.*.styles.all.style",
+    "handle_icon_size": "handle_icon_size.innerContent.*",
+    "handle_icon_arrow_width": "handle_icon_arrow_width.innerContent.*",
+    "handle_icon_gap": "handle_icon_gap.innerContent.*",
+    "handle_hover_icon_gap": "handle_hover_icon_gap.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {
+    "content_image_icon": "convertFontIcon",
+    "content_hover_image_icon": "convertFontIcon"
+  }
+}

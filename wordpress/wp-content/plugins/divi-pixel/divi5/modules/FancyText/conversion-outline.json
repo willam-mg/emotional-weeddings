@@ -1,0 +1,57 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "all": "all_font.decoration.font",
+      "prefix": "prefix_font.decoration.font",
+      "text": "text_font.decoration.font",
+      "suffix": "suffix_font.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "text_spacing": "text_spacing.innerContent.*.padding",
+    "prefix": "prefix.innerContent.*",
+    "suffix": "suffix.innerContent.*",
+    "sp_direction": "sp_direction.innerContent.*",
+    "in_animation": "in_animation.innerContent.*",
+    "out_animation": "out_animation.innerContent.*",
+    "highlight_animation_start": "highlight_animation_start.innerContent.*",
+    "highlight_animation_start_viewport": "highlight_animation_start_viewport.innerContent.*",
+    "speed": "speed.innerContent.*",
+    "duration": "duration.innerContent.*",
+    "animation_only_once": "animation_only_once.innerContent.*",
+    "html_element": "all_font.decoration.font.font.*.headingLevel"
+  },
+  "valueExpansionFunctionMap": {
+    "text_spacing": "convertSpacing"
+  }
+}

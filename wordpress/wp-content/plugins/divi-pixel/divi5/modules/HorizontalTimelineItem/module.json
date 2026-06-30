@@ -1,0 +1,780 @@
+{
+    "name": "dipi/horizontal-timeline-item",
+    "d4Shortcode": "dipi_horizontal_timeline_item",
+    "title": "Pixel Horizontal Timeline Item",
+    "titles": "Pixel Horizontal Timeline Items",
+    "moduleIcon": "dipi/horizontal-timeline-item",
+    "category": "child-module",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": ".dipi_horizontal_timeline {{selector}}.dipi_horizontal_timeline_item .dipi_htl_item_card",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Horizontal Timeline Item"
+                        }
+                    }
+                },
+                "advanced": {
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "color": "light",
+                                    "orientation": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#ecf4f7"
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "important": true
+                }
+            }
+        },
+        "ribbon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "title": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "desc_text": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "show_button": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "use_timeline_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "timeline_icon": {
+            "type": "object",
+            "selector": "{{selector}} .ribbon-ico",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "L",
+                            "type": "divi",
+                            "weight": "400"
+                        }
+                    }
+                }
+            }
+        },
+        "timeline_icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#2C3D49",
+                        "hover": "#ffffff"
+                    }
+                }
+            }
+        },
+        "ribbon_use_circle": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "ribbon_circle_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#F2F3F3"
+                    }
+                }
+            }
+        },
+        "ribbon_use_circle_border": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "ribbon_circle_border_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#000"
+                    }
+                }
+            }
+        },
+        "ribbon_use_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "timeline_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "96px"
+                    }
+                }
+            }
+        },
+        "timeline_icon_wrapper": {
+            "type": "object",
+            "selector": ".dipi_horizontal_timeline {{selector}} .ribbon-ico",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "15px",
+                                    "right": "15px",
+                                    "bottom": "15px",
+                                    "left": "15px"
+                                }
+                            }
+                        },
+                        "tablet": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        },
+                        "mobile": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "ribbon_text_bgcolor": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "transparent"
+                    }
+                }
+            }
+        },
+        "use_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "font_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {}
+                    }
+                }
+            }
+        },
+        "icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#000"
+                    }
+                }
+            }
+        },
+        "use_circle": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "circle_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#eee"
+                    }
+                }
+            }
+        },
+        "use_circle_border": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "circle_border_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#000"
+                    }
+                }
+            }
+        },
+        "url": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "url_new_window": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "alt": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "icon_placement": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "top"
+                    }
+                }
+            }
+        },
+        "icon_img_alignment": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "center"
+                    }
+                }
+            }
+        },
+        "image_max_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "100%"
+                    }
+                }
+            }
+        },
+        "use_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "96px"
+                    }
+                }
+            }
+        },
+        "icon_image_margin_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "margin": {
+                                "top": "0px",
+                                "right": "0px",
+                                "bottom": "20px",
+                                "left": "0px"
+                            },
+                            "padding": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            }
+                        }
+                    },
+                    "tablet": {
+                        "value": {
+                            "margin": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            },
+                            "padding": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            }
+                        }
+                    },
+                    "phone": {
+                        "value": {
+                            "margin": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            },
+                            "padding": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "icon_settings": {
+            "type": "object",
+            "selector": "{{selector}} .et-pb-icon",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        },
+                        "tablet": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        },
+                        "phone": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "custom_card_arrow": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "card_arrow_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "12px"
+                    }
+                }
+            }
+        },
+        "card_arrow_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#eaebec"
+                    }
+                }
+            }
+        },
+        "card_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "100%"
+                    }
+                }
+            }
+        },
+        "card_max_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "550px"
+                    }
+                }
+            }
+        },
+        "card_margin_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "margin": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            },
+                            "padding": {
+                                "top": "30px",
+                                "right": "30px",
+                                "bottom": "30px",
+                                "left": "30px"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "card_content_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "padding": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "button": {
+            "type": "object",
+            "selector": "{{selector}} .et_pb_button.dipi_htl_item_button",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi_htl_item_button"
+            },
+            "default": {
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "on",
+                                    "value": {}
+                                }
+                            }
+                        }
+                    }
+                },
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "text": "Click Here",
+                            "linkUrl": "#",
+                            "linkTarget": "off"
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            }
+        },
+        "title_font": {
+            "type": "object",
+            "selector": ".dipi_horizontal_timeline {{selector}} .dipi_htl_item_header",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "headingLevel": "h4"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "desc_font": {
+            "type": "object",
+            "selector": ".dipi_horizontal_timeline {{selector}} .dipi_htl_item_description"
+        },
+        "ribbon_text": {
+            "type": "object",
+            "selector": ".dipi_horizontal_timeline {{selector}} .dipi_timeline_ribbon .dipi_timeline_ribbon_text",
+            "default": {
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "image": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_htl_item_image .et_pb_image_wrap",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "card_item": {
+            "subName": "card_item",
+            "selectorSuffix": " .dipi_htl_item_card"
+        },
+        "timeline_item_image": {
+            "subName": "timeline_item_image",
+            "selectorSuffix": " .dipi_htl_item_image"
+        },
+        "timeline_item_title": {
+            "subName": "timeline_item_title",
+            "selectorSuffix": " .dipi_htl_item_header"
+        },
+        "timeline_item_content": {
+            "subName": "timeline_item_content",
+            "selectorSuffix": " .dipi_htl_item_content"
+        },
+        "timeline_item_button": {
+            "subName": "timeline_item_button",
+            "selectorSuffix": " .et_pb_button_wrapper .et_pb_button.dipi_htl_item_button"
+        },
+        "timeline_item_ribbon_text": {
+            "subName": "timeline_item_ribbon_text",
+            "selectorSuffix": " .dipi_timeline_ribbon .dipi_timeline_ribbon_text"
+        },
+        "timeline_item_icon": {
+            "subName": "timeline_item_icon",
+            "selectorSuffix": " .ribbon-ico"
+        },
+        "timeline_item_icon_settings": {
+            "subName": "timeline_item_icon_settings",
+            "selectorSuffix": " .et-pb-icon"
+        }
+    }
+}

@@ -1,0 +1,66 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "circle_list": "circle_list.decoration.boxShadow",
+      "image": "image_icon.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "advanced_text.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "image_icon": "image_icon.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters",
+      "child_filters_target": "image_icon.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "image_icon_css": "css.*.image_icon_css",
+    "circle_heading": "css.*.circle_heading",
+    "circle_description": "css.*.circle_description",
+    "circle_button": "css.*.circle_button"
+  },
+  "module": {
+    "circle_list_size": "circle_list_size.innerContent.*",
+    "icon_area_offset": "icon_area_offset.innerContent.*",
+    "info_image_icon_animation": "info_image_icon_animation.innerContent.*",
+    "content_animation": "content_animation.innerContent.*",
+    "start_angle": "start_angle.innerContent.*",
+    "select_event": "select_event.innerContent.*",
+    "auto_mode": "auto_mode.innerContent.*",
+    "auto_time": "auto_time.innerContent.*",
+    "auto_rotate_mode": "auto_rotate_mode.innerContent.*",
+    "reverse_anim_direction": "reverse_anim_direction.innerContent.*",
+    "auto_rotate_time": "auto_rotate_time.innerContent.*",
+    "auto_rotate_angle": "auto_rotate_angle.innerContent.*",
+    "show_as_list": "show_as_list.innerContent.*",
+    "icon_color": "icon_color.innerContent.*",
+    "image_icon_width": "image_icon_width.innerContent.*",
+    "circle_list_border_width": "circle_list.decoration.border.*.styles.all.width",
+    "circle_list_border_style": "circle_list.decoration.border.*.styles.all.style",
+    "circle_list_border_color": "circle_list.decoration.border.*.styles.all.color",
+    "image_icon_background_color": "image_icon.decoration.background.*.color"
+  },
+  "valueExpansionFunctionMap": {}
+}

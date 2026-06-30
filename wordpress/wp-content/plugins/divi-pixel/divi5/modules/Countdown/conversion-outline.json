@@ -1,0 +1,96 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "text": "advanced_text.decoration.font",
+      "clock": "clock_font.decoration.font",
+      "labels": "labels_font.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "dipi_countdown_flip_clock_count": "css.*.dipi_countdown_flip_clock_count",
+    "dipi_countdown_flip_clock_curr_top": "css.*.dipi_countdown_flip_clock_curr_top",
+    "dipi_countdown_flip_clock_next_top": "css.*.dipi_countdown_flip_clock_next_top",
+    "dipi_countdown_flip_clock_curr_bot": "css.*.dipi_countdown_flip_clock_curr_bot",
+    "dipi_countdown_flip_clock_next_bot": "css.*.dipi_countdown_flip_clock_next_bot",
+    "dipi_countdown_flip_clock_label": "css.*.dipi_countdown_flip_clock_label",
+    "dipi_countdown_flip_clock_time": "css.*.dipi_countdown_flip_clock_time",
+    "dipi_countdown_flip_clock_weeks": "css.*.dipi_countdown_flip_clock_weeks",
+    "dipi_countdown_flip_clock_days": "css.*.dipi_countdown_flip_clock_days",
+    "dipi_countdown_flip_clock_hours": "css.*.dipi_countdown_flip_clock_hours",
+    "dipi_countdown_flip_clock_mins": "css.*.dipi_countdown_flip_clock_mins",
+    "dipi_countdown_flip_clock_secs": "css.*.dipi_countdown_flip_clock_secs",
+    "dipi_countdown_flip_face_clock_weeks": "css.*.dipi_countdown_flip_face_clock_weeks",
+    "dipi_countdown_flip_face_clock_days": "css.*.dipi_countdown_flip_face_clock_days",
+    "dipi_countdown_flip_face_clock_hours": "css.*.dipi_countdown_flip_face_clock_hours",
+    "dipi_countdown_flip_face_clock_mins": "css.*.dipi_countdown_flip_face_clock_mins",
+    "dipi_countdown_flip_face_clock_secs": "css.*.dipi_countdown_flip_face_clock_secs"
+  },
+  "module": {
+    "date_type": "date_type.innerContent.*",
+    "date_time_picker": "date_time_picker.innerContent.*",
+    "date_time_text": "date_time_text.innerContent.*",
+    "date_time_offset": "date_time_offset.innerContent.*",
+    "use_cookie": "use_cookie.innerContent.*",
+    "cookie_id": "cookie_id.innerContent.*",
+    "finish_countdown": "finish_countdown.innerContent.*",
+    "forwarding_url": "forwarding_url.innerContent.*",
+    "script": "script.innerContent.*",
+    "html": "html.innerContent.*",
+    "style": "style.innerContent.*",
+    "custom_format": "custom_format.innerContent.*",
+    "label_weeks": "label_weeks.innerContent.*",
+    "label_days": "label_days.innerContent.*",
+    "label_hours": "label_hours.innerContent.*",
+    "label_minutes": "label_minutes.innerContent.*",
+    "label_seconds": "label_seconds.innerContent.*",
+    "clock_label_position": "clock_label_position.innerContent.*",
+    "show_weeks": "show_weeks.innerContent.*",
+    "show_days": "show_days.innerContent.*",
+    "show_hours": "show_hours.innerContent.*",
+    "show_minutes": "show_minutes.innerContent.*",
+    "show_seconds": "show_seconds.innerContent.*",
+    "clock_background": "clock_background.innerContent.*",
+    "flip_clock_top_border": "flip_clock_top_border.innerContent.*",
+    "flip_clock_separator_top_border": "flip_clock_separator_top_border.innerContent.*",
+    "flip_clock_separator_bottom_border": "flip_clock_separator_bottom_border.innerContent.*",
+    "flip_clock_bottom_border": "flip_clock_bottom_border.innerContent.*",
+    "clock_face_width": "clock_face_width.innerContent.*",
+    "clock_face_height": "clock_face_height.innerContent.*",
+    "clock_face_margin": "clock_face_margin.innerContent.*.margin",
+    "clock_face_padding": "clock_face_padding.innerContent.*.padding",
+    "block_clock_equalize_width": "block_clock_equalize_width.innerContent.*",
+    "block_clock_face_alignment": "block_clock_face_alignment.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {
+    "clock_face_margin": "convertSpacing",
+    "clock_face_padding": "convertSpacing"
+  }
+}

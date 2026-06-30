@@ -1,0 +1,776 @@
+{
+    "name": "dipi/faq",
+    "d4Shortcode": "dipi_faq",
+    "title": "Pixel FAQ",
+    "titles": "Pixel FAQs",
+    "moduleIcon": "dipi/faq",
+    "category": "module",
+    "viewScript": "dipi_faq_public",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel FAQ"
+                        }
+                    }
+                },
+                "advanced": {
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "color": "light"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#ecf4f7"
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "important": true
+                }
+            }
+        },
+        "show_all": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "show_uncategorized": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "faq_categories": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "excluded_post_ids": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "included_post_ids": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "faq_order_by": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "title"
+                    }
+                }
+            }
+        },
+        "faq_order": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "ASC"
+                    }
+                }
+            }
+        },
+        "output_json": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "output_html": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "heading_tag": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "span"
+                    }
+                }
+            }
+        },
+        "faq_layout": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "toggles"
+                    }
+                }
+            }
+        },
+        "accordion_open_first": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "accordion_close_all": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "icon_animate": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "icon_animate_delay": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "icon_closed": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "&#x3b;",
+                            "type": "divi",
+                            "weight": "400"
+                        }
+                    }
+                }
+            }
+        },
+        "icon_open": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "&#x3a;",
+                            "type": "divi",
+                            "weight": "400"
+                        }
+                    }
+                }
+            }
+        },
+        "icon_open_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#ccc"
+                    }
+                }
+            }
+        },
+        "icon_closed_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#ccc"
+                    }
+                }
+            }
+        },
+        "icon_open_bg_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "icon_closed_bg_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "icon_open_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "16px"
+                    }
+                }
+            }
+        },
+        "icon_closed_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "16px"
+                    }
+                }
+            }
+        },
+        "icon_open_border_radius": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "0px"
+                    }
+                }
+            }
+        },
+        "icon_closed_border_radius": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "0px"
+                    }
+                }
+            }
+        },
+        "icon_open_padding": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-title .dipi-faq-icon-open",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "left": "",
+                                    "bottom": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "icon_closed_padding": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-title .dipi-faq-icon-closed",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "left": "",
+                                    "bottom": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "entry_background_closed": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#f4f4f4"
+                    }
+                }
+            }
+        },
+        "entry_background_open": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#fff"
+                    }
+                }
+            }
+        },
+        "entry_closed_spacing": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "left": "",
+                                    "bottom": "30px"
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "left": "",
+                                    "bottom": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "entry_open_spacing": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry.open",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "left": "",
+                                    "bottom": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "left": "",
+                                    "bottom": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title_background_closed": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "title_background_open": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "title_padding_closed": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry .dipi-faq-title",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "20px",
+                                    "right": "50px",
+                                    "left": "20px",
+                                    "bottom": "20px"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title_padding_open": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry.open .dipi-faq-title",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "left": "",
+                                    "bottom": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content_background_closed": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "content_background_open": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "content_padding_closed": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry .dipi-faq-content",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "20px",
+                                    "left": "20px",
+                                    "bottom": "20px"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content_padding_open": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry.open .dipi-faq-content",
+            "default": {
+                "decoration": {
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "left": "",
+                                    "bottom": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title_closed_font": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry .dipi-faq-title h1,{{selector}} .dipi-faq-entry .dipi-faq-title h2,{{selector}} .dipi-faq-entry .dipi-faq-title h3,{{selector}} .dipi-faq-entry .dipi-faq-title h4,{{selector}} .dipi-faq-entry .dipi-faq-title h5,{{selector}} .dipi-faq-entry .dipi-faq-title h6,{{selector}} .dipi-faq-entry .dipi-faq-title p,{{selector}} .dipi-faq-entry .dipi-faq-title span",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "size": "16px"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title_closed_border": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry .dipi-faq-title",
+            "default": {
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title_open_font": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry.open .dipi-faq-title h1,{{selector}} .dipi-faq-entry.open .dipi-faq-title h2,{{selector}} .dipi-faq-entry.open .dipi-faq-title h3,{{selector}} .dipi-faq-entry.open .dipi-faq-title h4,{{selector}} .dipi-faq-entry.open .dipi-faq-title h5,{{selector}} .dipi-faq-entry.open .dipi-faq-title h6,{{selector}} .dipi-faq-entry.open .dipi-faq-title p,{{selector}} .dipi-faq-entry.open .dipi-faq-title span",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "title_open_border": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry.open .dipi-faq-title",
+            "default": {
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content_closed": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry .dipi-faq-content",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content_open": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry.open .dipi-faq-content",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "content_link_font": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry .dipi-faq-content a",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "entries_closed": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry",
+            "default": {
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "entries_open": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-faq-entry.open",
+            "default": {
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "wrapper": {
+            "subName": "wrapper",
+            "selectorSuffix": " .dipi-faq-wrapper"
+        },
+        "entry": {
+            "subName": "entry",
+            "selectorSuffix": " .dipi-faq-entry"
+        },
+        "entry_closed": {
+            "subName": "entry_closed",
+            "selectorSuffix": " .dipi-faq-entry.closed"
+        },
+        "entry_open": {
+            "subName": "entry_open",
+            "selectorSuffix": " .dipi-faq-entry.open"
+        },
+        "title": {
+            "subName": "title",
+            "selectorSuffix": " .dipi-faq-title"
+        },
+        "title_closed": {
+            "subName": "title_closed",
+            "selectorSuffix": " .closed .dipi-faq-title"
+        },
+        "title_open": {
+            "subName": "title_open",
+            "selectorSuffix": " .open .dipi-faq-title"
+        },
+        "content": {
+            "subName": "content",
+            "selectorSuffix": " .dipi-faq-content"
+        },
+        "content_closed": {
+            "subName": "content_closed",
+            "selectorSuffix": " .closed .dipi-faq-content"
+        },
+        "content_open": {
+            "subName": "content_open",
+            "selectorSuffix": " .open .dipi-faq-content"
+        }
+    }
+}

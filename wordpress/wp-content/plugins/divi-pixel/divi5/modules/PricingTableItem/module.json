@@ -1,0 +1,494 @@
+{
+    "name": "dipi/pricing-table-item",
+    "moduleIcon": "dipi/pricing-table-item",
+    "d4Shortcode": "dipi_pricing_table_item",
+    "title": "Pixel Pricing Table Item",
+    "titles": "Pixel Pricing Table Items",
+    "category": "child-module",
+    "viewScript": "dipi-popup-gallery",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Pricing Table Item"
+                        }
+                    }
+                },
+                "advanced": {
+                    "itemType": {
+                        "desktop": {
+                            "value": "Text"
+                        }
+                    },
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "orientation": "center"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "sizing": {
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "margin-left": "{{selector}}.et_pb_module",
+                                "margin-right": "{{selector}}.et_pb_module"
+                            }
+                        }
+                    },
+                    "important": {
+                        "desktop": {
+                            "value": {
+                                "margin-left": true,
+                                "margin-right": true
+                            }
+                        }
+                    }
+                },
+                "spacing": {
+                    "important": true
+                }
+            }
+        },
+        "content": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-pt-text, {{selector}} .dipi-pt-feature",
+            "tagName": "div",
+            "inlineEditor": "richText",
+            "attributes": {
+                "class": "dipi-pt-text"
+            },
+            "childrenSanitizer": "et_core_esc_previously",
+            "allowHtml": true,
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": "#333333",
+                                    "size": "14px",
+                                    "lineHeight": "1.6em"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "bodyFont": {
+                    "selectors": {
+                        "desktop": {
+                            "value": "{{selector}} .dipi-pt-text, {{selector}} .dipi-pt-price, {{selector}} .dipi-pt-price-container, {{selector}} .dipi-pt-feature, {{selector}} .dipi-pt-ribbon-txt",
+                            "hover": "{{selector}}:hover, {{selector}} .dipi-pt-price:hover, {{selector}}:hover .dipi-pt-text, {{selector}} .dipi-pt-price-container:hover, {{selector}} .dipi-pt-feature:hover, {{selector}} .dipi-pt-ribbon-txt:hover"
+                        }
+                    }
+                },
+                "headingFont": {
+                    "selectors": {
+                        "desktop": {
+                            "value": "{{selector}} .dipi-pt-text",
+                            "hover": "{{selector}} .dipi-pt-text:hover"
+                        }
+                    },
+                    "important": {
+                        "h1": {
+                            "font": {
+                                "desktop": {
+                                    "value": {
+                                        "color": true
+                                    }
+                                }
+                            }
+                        },
+                        "h2": {
+                            "font": {
+                                "desktop": {
+                                    "value": {
+                                        "color": true
+                                    }
+                                }
+                            }
+                        },
+                        "h3": {
+                            "font": {
+                                "desktop": {
+                                    "value": {
+                                        "color": true
+                                    }
+                                }
+                            }
+                        },
+                        "h4": {
+                            "font": {
+                                "desktop": {
+                                    "value": {
+                                        "color": true
+                                    }
+                                }
+                            }
+                        },
+                        "h5": {
+                            "font": {
+                                "desktop": {
+                                    "value": {
+                                        "color": true
+                                    }
+                                }
+                            }
+                        },
+                        "h6": {
+                            "font": {
+                                "desktop": {
+                                    "value": {
+                                        "color": true
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "image": {
+            "type": "object",
+            "selector": "{{selector}} img",
+            "elementType": "imageLink",
+            "styleProps": {
+                "boxShadow": {
+                    "selector": "{{selector}} .et_pb_image_wrap",
+                    "useOverlay": true
+                }
+            },
+            "styleComponentsProps": {
+                "background": false,
+                "boxShadow": {
+                    "settings": {
+                        "overlay": true
+                    }
+                }
+            },
+            "innerContent": {
+                "desktop": {
+                    "value": {
+                        "alt": ""
+                    }
+                }
+            },
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "alt": "Tilt Image"
+                        }
+                    }
+                }
+            }
+        },
+        "icon": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-pt-icon",
+            "default": {
+                "decoration": {
+                    "alignment": {
+                        "desktop": {
+                            "value": "center"
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "selector": "{{selector}} .dipi-pt-image .et_pb_image_wrap, {{selector}} .dipi-pt-icon .et_pb_image_wrap",
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "border-radius": "{{selector}} .dipi-pt-image .et_pb_image_wrap, {{selector}} .dipi-pt-icon .et_pb_image_wrap"
+                            }
+                        }
+                    }
+                },
+                "boxShadow": {
+                    "selector": "{{selector}} .dipi-pt-image .et_pb_image_wrap, {{selector}} .dipi-pt-icon .et_pb_image_wrap"
+                },
+                "spacing": {
+                    "selector": "{{selector}} .dipi-pt-image .et_pb_image_wrap, {{selector}} .dipi-pt-icon .et_pb_image_wrap"
+                }
+            }
+        },
+        "price": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-pt-price",
+            "tagName": "span",
+            "inlineEditor": "plainText",
+            "attributes": {
+                "class": "dipi-pt-price"
+            },
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "99"
+                    }
+                },
+                "decoration": {
+                    "priceSuffixPlacement": {
+                        "desktop": {
+                            "value": "bottom"
+                        }
+                    },
+                    "pricePrefixPlacement": {
+                        "desktop": {
+                            "value": "top"
+                        }
+                    }
+                }
+            },
+            "styleProps": {}
+        },
+        "pricePrefix": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-pt-price-prefix",
+            "tagName": "span",
+            "inlineEditor": "plainText",
+            "attributes": {
+                "class": "dipi-pt-price-prefix"
+            },
+            "childrenSanitizer": "et_core_esc_previously"
+        },
+        "priceSuffix": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-pt-price-suffix",
+            "tagName": "span",
+            "inlineEditor": "plainText",
+            "attributes": {
+                "class": "dipi-pt-price-suffix"
+            },
+            "childrenSanitizer": "et_core_esc_previously"
+        },
+        "featureText": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "text": "Feature Text",
+                            "tag": "span"
+                        }
+                    }
+                }
+            }
+        },
+        "featureIcon": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-pt-feature-icon",
+            "default": {
+                "decoration": {
+                    "iconPlacement": {
+                        "desktop": {
+                            "value": "left"
+                        }
+                    },
+                    "iconSize": {
+                        "desktop": {
+                            "value": "16px"
+                        }
+                    },
+                    "iconColor": {
+                        "desktop": {
+                            "value": "#000000"
+                        }
+                    },
+                    "iconBackgroundColor": {
+                        "desktop": {
+                            "value": "#ffffff"
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "0px",
+                                    "right": "0px",
+                                    "bottom": "0px",
+                                    "left": "0px"
+                                },
+                                "padding": {
+                                    "top": "0px",
+                                    "right": "0px",
+                                    "bottom": "0px",
+                                    "left": "0px"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "spacing": {
+                    "selector": "{{selector}} .dipi-pt-feature-icon",
+                    "important": true
+                },
+                "border": {
+                    "selector": "{{selector}} .dipi-pt-feature-icon",
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "border-radius": "{{selector}} .dipi-pt-feature-icon",
+                                "border-width": "{{selector}} .dipi-pt-feature-icon",
+                                "border-style": "{{selector}} .dipi-pt-feature-icon"
+                            }
+                        }
+                    }
+                },
+                "boxShadow": {
+                    "selector": "{{selector}} .dipi-pt-feature-icon"
+                }
+            }
+        },
+        "ribbon": {
+            "type": "object",
+            "default": {
+                "decoration": {
+                    "ribbonType": {
+                        "desktop": {
+                            "value": "text"
+                        }
+                    },
+                    "ribbonPosition": {
+                        "desktop": {
+                            "value": "top_right"
+                        }
+                    }
+                }
+            }
+        },
+        "ribbonText": {
+            "type": "object",
+            "selector": "{{selector}} .dipi-pt-ribbon-txt",
+            "tagName": "div",
+            "inlineEditor": "plainText",
+            "attributes": {
+                "class": "dipi-pt-ribbon-txt"
+            },
+            "childrenSanitizer": "et_core_esc_previously"
+        },
+        "ribbonImage": {
+            "type": "object",
+            "selector": "{{selector}} img.dipi-pt-ribbon-image",
+            "attributes": {
+                "class": "dipi-pt-ribbon-img"
+            },
+            "elementType": "imageLink",
+            "default": {
+                "decoration": {
+                    "imageWidth": {
+                        "desktop": {
+                            "value": "50px"
+                        }
+                    }
+                }
+            }
+        },
+        "button": {
+            "type": "object",
+            "selector": ".dipi_pricing_table {{selector}} .dipi-pt-btn-wrap .et_pb_button.dipi-pt-btn",
+            "attributes": {
+                "class": "dipi-pt-btn"
+            },
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "text": "Click Here",
+                            "linkUrl": "#",
+                            "linkTarget": "off"
+                        }
+                    }
+                },
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "on"
+                                },
+                                "alignment": "center"
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false,
+                "allowEmptyUrl": true
+            },
+            "styleProps": {
+                "font": {
+                    "important": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": true,
+                                    "font-size": true,
+                                    "letter-spacing": true
+                                }
+                            }
+                        }
+                    }
+                },
+                "spacing": {
+                    "important": true,
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "margin": "{{selector}} .dipi-pt-btn-wrap .dipi-pt-btn",
+                                "padding": "{{selector}} .dipi-pt-btn-wrap .dipi-pt-btn"
+                            }
+                        }
+                    }
+                },
+                "alignment": {
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "justify-content": "{{selector}} .dipi-pt-btn"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {}
+}

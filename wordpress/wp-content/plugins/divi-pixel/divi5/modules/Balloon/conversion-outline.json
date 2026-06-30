@@ -1,0 +1,88 @@
+{
+    "advanced": {
+        "animation": "module.decoration.animation",
+        "box_shadow": {
+            "default": "module.decoration.boxShadow",
+            "balloon_img": "balloon_img.decoration.boxShadow",
+            "button": "button.decoration.boxShadow"
+        },
+        "disabled_on": "module.decoration.disabledOn",
+        "module": "module.advanced.htmlAttributes",
+        "overflow": "module.decoration.overflow",
+        "position_fields": "module.decoration.position",
+        "scroll": "module.decoration.scroll",
+        "sticky": "module.decoration.sticky",
+        "transform": "module.decoration.transform",
+        "transition": "module.decoration.transition",
+        "z_index": "module.decoration.zIndex",
+        "margin_padding": "module.decoration.spacing",
+        "fonts": {
+            "text": "advanced_text.decoration.font",
+            "balloon_title": "balloon_title.decoration.font",
+            "balloon_description": "balloon_description.decoration.font",
+            "button": "button.decoration.font"
+        },
+        "borders": {
+            "default": "module.decoration.border",
+            "balloon_img": "balloon_img.decoration.border",
+            "button": "button.decoration.border"
+        },
+        "background": "module.decoration.background",
+        "max_width": "module.decoration.sizing",
+        "height": "module.decoration.sizing",
+        "filters": {
+            "default": "module.decoration.filters"
+        },
+        "button": {
+            "button": "button"
+        },
+        "link_options": "module.advanced.link"
+    },
+    "css": {
+        "before": "css.*.before",
+        "main_element": "css.*.mainElement",
+        "after": "css.*.after",
+        "free_form": "css.*.freeForm",
+        "balloon_img": "css.*.balloon_img",
+        "balloon_icon": "css.*.balloon_icon",
+        "title": "css.*.title",
+        "description": "css.*.description",
+        "button": "css.*.button"
+    },
+    "module": {
+        "module_id": "module.advanced.htmlAttributes.*.id",
+        "module_class": "module.advanced.htmlAttributes.*.class",
+        "selector": "selector.innerContent.*",
+        "ballon_placement": "ballon_placement.innerContent.*",
+        "ballon_animation": "ballon_animation.innerContent.*",
+        "content_type": "content_type.innerContent.*",
+        "content_alignment": "content_alignment.innerContent.*",
+        "use_balloon_icon": "use_balloon_icon.innerContent.*",
+        "balloon_icon": "balloon_icon.innerContent.*",
+        "icon_color": "icon_color.innerContent.*",
+        "use_icon_circle": "use_icon_circle.innerContent.*",
+        "icon_circle_color": "icon_circle_color.innerContent.*",
+        "use_icon_circle_border": "use_icon_circle_border.innerContent.*",
+        "icon_circle_border_color": "icon_circle_border_color.innerContent.*",
+        "use_icon_size": "use_icon_size.innerContent.*",
+        "icon_size": "icon_size.innerContent.*",
+        "balloon_img": "balloon_img.innerContent.*.src",
+        "img_alt": "img_alt.innerContent.*",
+        "balloon_image_width": "balloon_image_width.innerContent.*",
+        "balloon_title": "balloon_title.innerContent.*",
+        "balloon_description": "balloon_description.innerContent.*",
+        "use_cta": "use_cta.innerContent.*",
+        "button_text": "button.innerContent.*.text",
+        "button_link": "button.innerContent.*.linkUrl",
+        "button_target": "button.innerContent.*.linkTarget",
+        "divi_library": "divi_library.innerContent.*",
+        "interactive": "interactive.innerContent.*",
+        "trigger_on_click": "trigger_on_click.innerContent.*",
+        "append_to": "append_to.innerContent.*",
+        "use_balloon_arrow": "use_balloon_arrow.innerContent.*",
+        "balloon_z_index": "balloon_z_index.innerContent.*",
+        "balloon_arrow_color": "balloon_arrow_color.innerContent.*"
+    },
+    "valueExpansionFunctionMap": {}
+}
+

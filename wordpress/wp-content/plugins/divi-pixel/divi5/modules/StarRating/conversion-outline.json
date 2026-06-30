@@ -1,0 +1,61 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "title": "title.decoration.font",
+      "description": "description.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "title": "css.*.title",
+    "description": "css.*.description",
+    "active_star": "css.*.active_star",
+    "active_star_before": "css.*.active_star_before",
+    "inactive_star": "css.*.inactive_star",
+    "rating_number": "css.*.rating_number"
+  },
+  "module": {
+    "title": "title.innerContent.*",
+    "title_tag": "title_tag.innerContent.*",
+    "description": "description.innerContent.*",
+    "rating_scale": "rating_scale.innerContent.*",
+    "rating": "rating.innerContent.*",
+    "display_type": "display_type.innerContent.*",
+    "show_rating_number": "show_rating_number.innerContent.*",
+    "alignment": "alignment.innerContent.*",
+    "star_rating_icon_size": "star_rating_icon_size.innerContent.*",
+    "star_rating_icon_spacing": "star_rating_icon_spacing.innerContent.*",
+    "active_rating_icon_color": "active_rating_icon_color.innerContent.*",
+    "inactive_rating_icon_color": "inactive_rating_icon_color.innerContent.*",
+    "star_rating_number_color": "star_rating_number_color.innerContent.*",
+    "star_rating_number_size": "star_rating_number_size.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

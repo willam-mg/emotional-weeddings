@@ -1,0 +1,56 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "image.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "image.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "image.decoration.spacing",
+    "fonts": {},
+    "borders": {
+      "default": "module.decoration.border",
+      "item": "image.decoration.border"
+    },
+    "background": "image.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "image.decoration.sizing",
+    "filters": {
+      "default": "image.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "item_label": "title.innerContent.*",
+    "use_icon": "use_icon.innerContent.*",
+    "icon": "icon.innerContent.*",
+    "icon_size": "icon_size.innerContent.*",
+    "icon_color": "icon_color.innerContent.*",
+    "img_src": "image.innerContent.*.src",
+    "img_alt": "image.innerContent.*.img_alt",
+    "use_img_link": "use_img_link.innerContent.*",
+    "img_link": "img_link.innerContent.*",
+    "img_link_target": "img_link_target.innerContent.*",
+    "horizontal_position": "horizontal_position.innerContent.*",
+    "vertical_position": "vertical_position.innerContent.*",
+    "fmi_effect": "fmi_effect.innerContent.*",
+    "fmi_delay": "fmi_delay.innerContent.*",
+    "fmi_speed": "fmi_speed.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {
+    "icon": "convertFontIcon"
+  }
+}

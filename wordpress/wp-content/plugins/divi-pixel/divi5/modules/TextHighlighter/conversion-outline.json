@@ -1,0 +1,73 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "all_text": "all_text.decoration.font",
+      "prefix_text": "prefix_text.decoration.font",
+      "highlighted_text": "highlighted_text.decoration.font",
+      "sufix_text": "suffix_text.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "prefix": "css.*.prefix",
+    "highlighted_text": "css.*.highlighted_text",
+    "highlighted_shape": "css.*.highlighted_shape",
+    "suffix": "css.*.suffix"
+  },
+  "module": {
+    "text_highlighter_prefix": "text_highlighter_prefix.innerContent.*",
+    "text_highlighter_text": "text_highlighter_text.innerContent.*",
+    "text_highlighter_suffix": "text_highlighter_suffix.innerContent.*",
+    "highlight_shape": "highlight_shape.innerContent.*",
+    "text_wrapper_tag": "text_wrapper_tag.innerContent.*",
+    "text_direction": "text_direction.innerContent.*",
+    "highlight_z_index": "highlight_z_index.innerContent.*",
+    "highlight_animation_start": "highlight_animation_start.innerContent.*",
+    "highlight_animation_start_viewport": "highlight_animation_start_viewport.innerContent.*",
+    "highlight_animation_delay": "highlight_animation_delay.innerContent.*",
+    "highlight_animation_duration": "highlight_animation_duration.innerContent.*",
+    "highlight_delay_after_animation": "highlight_delay_after_animation.innerContent.*",
+    "highlight_animation_repeat_mode": "highlight_animation_repeat_mode.innerContent.*",
+    "highlight_animation_count_mode": "highlight_animation_count_mode.innerContent.*",
+    "highlight_animation_repeat_counts": "highlight_animation_repeat_counts.innerContent.*",
+    "reverse_animation": "reverse_animation.innerContent.*",
+    "stroke_color": "stroke_color.innerContent.*",
+    "stroke_width": "stroke_width.innerContent.*",
+    "highlight_line_cap": "highlight_line_cap.innerContent.*",
+    "shape_v_offset": "shape_v_offset.innerContent.*",
+    "shape_h_offset": "shape_h_offset.innerContent.*",
+    "highlighted_text_margin": "highlighted_text_spacing.decoration.spacing.*.margin",
+    "highlighted_text_padding": "highlighted_text_spacing.decoration.spacing.*.padding"
+  },
+  "valueExpansionFunctionMap": {
+    "highlighted_text_margin": "convertSpacing",
+    "highlighted_text_padding": "convertSpacing"
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "image": "overlayImage.decoration.boxShadow",
+      "tilt_button": "button.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.decoration.module",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "fonts": {
+      "title": "title.decoration.font",
+      "desc": "overlayContent.decoration.font"
+    },
+    "margin_padding": "module.decoration.spacing",
+    "background": "module.decoration.background",
+    "borders": {
+      "default": "module.decoration.border",
+      "image": "overlayImage.decoration.border"
+    },
+    "button": {
+      "tilt_button": "button"
+    },
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "dipi_icon": "css.*.icon",
+    "dipi_title": "css.*.title",
+    "dipi_description": "css.*.description",
+    "dipi_button": "css.*.button"
+  },
+  "module": {
+    "image": "image.innerContent.*.src",
+    "image_alt": "image.innerContent.*.alt",
+    "titl_image_box_height": "imageWrapper.decoration.height.*",
+    "tilt_max": "tiltBox.advanced.tiltMax.*",
+    "tilt_speed": "tiltBox.advanced.tiltSpeed.*",
+    "tilt_perspective": "tiltBox.advanced.tiltPerspective.*",
+    "tilt_scale": "tiltBox.advanced.tiltScale.*",
+    "tilt_reverse": "tiltBox.advanced.tiltReverse.*",
+    "use_tilt_glare": "tiltBox.advanced.useTiltGlare.*",
+    "tilt_glare": "tiltBox.advanced.tiltGlare.*",
+    "tilt_parallax": "tiltBox.advanced.tiltParallax.*",
+    "tilt_parallax_value": "tiltBox.advanced.tiltParallaxValue.*",
+    "tilt_overlay_icon": "overlay.innerContent.*.useIcon",
+    "tilt_overlay_font_icon": "overlayIcon.innerContent.*",
+    "tilt_overlay_image": "overlayImage.innerContent.*.src",
+    "img_alt": "overlayImage.innerContent.*.alt",
+    "tilt_overlay_title": "overlay.innerContent.*.tiltOverlayTitle",
+    "tilt_overlay_title_text": "title.innerContent.*",
+    "tilt_overlay_desc": "overlay.innerContent.*.tiltOverlayDesc",
+    "tilt_overlay_desc_text": "overlayContent.innerContent.*",
+    "tilt_overlay_btn": "overlay.innerContent.*.tiltOverlayBtn",
+    "tilt_overlay_btn_text": "button.innerContent.*.text",
+    "tilt_overlay_btn_link": "button.innerContent.*.linkUrl",
+    "tilt_overlay_btn_link_target": "button.innerContent.*.linkTarget",
+    "tilt_overlay_icon_size": "overlayIcon.decoration.iconSize.*",
+    "tilt_overlay_image_width": "overlayImage.decoration.imageWidth.*",
+    "icon_image_padding": "overlayIcon.decoration.spacing.*.padding",
+    "icon_image_margin": "overlayIcon.decoration.spacing.*.margin",
+    "tilt_overlay_icon_color": "overlayIcon.decoration.color.*",
+    "tilt_overlay_circle_icon": "overlayIcon.advanced.circleIcon.*",
+    "tilt_overlay_circle_color": "overlayIcon.decoration.circleColor.*",
+    "tilt_overlay_circle_border": "overlayIcon.advanced.showCircleBorder.*",
+    "tilt_overlay_circle_border_color": "overlayIcon.decoration.circleBorderColor",
+    "tilt_overlay_color": "overlay.decoration.color.*",
+    "tilt_overlay_align_vertical": "overlay.decoration.alignVertical.*",
+    "tilt_overlay_align_horizontal": "overlay.decoration.alignHorizontal.*",
+    "tilt_center_mobile": "overlay.decoration.tiltCenterMobile.*"
+  },
+  "valueExpansionFunctionMap": {
+    "tilt_overlay_font_icon": "convertFontIcon",
+    "icon_image_padding": "convertSpacing",
+    "icon_image_margin": "convertSpacing"
+  }
+}

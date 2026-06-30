@@ -1,0 +1,550 @@
+{
+  "name": "dipi/breadcrumbs",
+  "d4Shortcode": "dipi_breadcrumbs",
+  "title": "Pixel Breadcrumbs",
+  "titles": "Pixel Breadcrumbses",
+  "moduleIcon": "dipi/breadcrumbs",
+  "category": "module",
+  "viewScript": "dipi_breadcrumbs_public",
+  "attributes": {
+    "module": {
+      "type": "object",
+      "selector": "{{selector}}",
+      "default": {
+        "meta": {
+          "adminLabel": {
+            "desktop": {
+              "value": "Pixel Breadcrumbs"
+            }
+          }
+        },
+        "advanced": {
+          "text": {
+            "text": {
+              "desktop": {
+                "value": {
+                  "color": "light"
+                }
+              }
+            }
+          }
+        }
+      },
+      "defaultPrintedStyle": {
+        "decoration": {
+          "background": {
+            "desktop": {
+              "value": {
+                "color": "#ecf4f7"
+              }
+            }
+          }
+        }
+      },
+      "styleProps": {
+        "border": {
+          "important": true
+        },
+        "spacing": {
+          "important": true
+        }
+      }
+    },
+    
+    "hide_home": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "bc_custom_home": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "bc_home_text": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "bc_home_url": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "bc_home_icon" :{
+      "type": "object",
+      "styleProps": {
+        "border": {
+        "important": true
+        }
+      },
+      "default": {
+        "innerContent": {
+        "desktop": {
+          "value": ""
+        }
+        }
+       }
+      },
+
+    "bc_home_size": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "16px"
+          }
+        }
+      }
+    },
+    "bc_home_color": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "bc_separator": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "icon"
+          }
+        }
+      }
+    },
+    "bc_separator_icon": {
+      "type": "object",
+      "selector": "{{selector}} .dipi_flip_box__image img",
+      "styleProps": {
+        "border": {
+        "important": true
+        }
+      },
+      "default": {
+        "innerContent": {
+        "desktop": {
+          "value": {
+          "unicode": "&#x39;",
+          "type": "divi",
+          "weight": "400"
+          }
+        }
+        }
+      }
+      },
+    "bc_separator_sysmbol": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": ""
+          }
+        }
+      }
+    },
+    "bc_items_alignment": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "dipi-bc-left"
+          }
+        }
+      }
+    },
+    "bc_post_type": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "post"
+          }
+        }
+      }
+    },
+    "bc_is_post_type_root": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "off"
+          }
+        }
+      }
+    },
+    "bc_post_type_root": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "on"
+          }
+        }
+      }
+    },
+    "bc_post_type_label": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "bc_schema": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "bc_separator_size": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "16px"
+          }
+        }
+      }
+    },
+    "bc_separator_color": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "#2c3d49"
+          }
+        }
+      }
+    },
+    "bc_separator_space": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": "0px"
+          }
+        }
+      }
+    },
+    "bc_item_bg_color": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "bc_item_padding": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "bc_active_item_color": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "bc_active_item_padding": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+            "value": {
+              "top": "0px",
+              "right": "0px",
+              "bottom": "0px",
+              "left": "0px"
+            }
+          }
+        }
+      }
+    },
+    "bc_hover_item_bg_color": {
+      "type": "object",
+      "inlineEditor": "plainText",
+      "childrenSanitizer": "et_core_esc_previously",
+      "default": {
+        "innerContent": {
+          "desktop": {
+          }
+        }
+      }
+    },
+    "advanced_items": {
+      "type": "object",
+			"selector": "{{selector}} .dipi-breadcrumb-item, {{selector}} .dipi-breadcrumb-item a",
+			"tagName": "span",
+			"inlineEditor": "plainText",
+			"attributes": {
+			},
+      "defaultPrintedStyle": {
+        "decoration": {
+          "font": {
+            "font": {
+            "desktop": {
+                "value": {
+                  "size": "12px",
+                  "lineHeight": "1em"
+                }
+              }
+            }
+          },
+          "boxShadow": {}
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                "color": true
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} .dipi-breadcrumb-item a",
+                "border-style": "{{selector}} .dipi-breadcrumb-item a"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "box-shadow":"{{selector}} .dipi-breadcrumb-item a"
+              }
+            }
+          }
+				}
+      },
+			"childrenSanitizer": "et_core_esc_previously"
+    },
+    "advanced_hover": {
+      "type": "object",
+			"selector": "{{selector}} .dipi-breadcrumb-item:hover a",
+			"inlineEditor": "plainText",
+			"attributes": {
+			},
+      "defaultPrintedStyle": {
+        "decoration": {
+          "font": {
+            "font": {
+            "desktop": {
+                "value": {
+                  "size": "12px",
+                  "lineHeight": "1em"
+                }
+              }
+            }
+          },
+          "boxShadow": {}
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                "color": true
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} .dipi-breadcrumb-item:hover a",
+                "border-style": "{{selector}} .dipi-breadcrumb-item:hover a"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "box-shadow": "{{selector}} .dipi-breadcrumb-item:hover a"
+              }
+            }
+          }
+				}
+      },
+			"childrenSanitizer": "et_core_esc_previously"
+    },
+    "advanced_active": {
+      "type": "object",
+			"selector": "{{selector}} .dipi-breadcrumb-current",
+			"inlineEditor": "plainText",
+			"attributes": {
+			},
+      "defaultPrintedStyle": {
+        "decoration": {
+          "font": {
+            "font": {
+            "desktop": {
+                "value": {
+                  "size": "12px",
+                  "lineHeight": "1em"
+                }
+              }
+            }
+          },
+          "boxShadow": {},
+          "borders": {}
+        }
+      },
+      "styleProps": {
+        "font": {
+          "important": {
+            "font": {
+              "desktop": {
+                "value": {
+                "color": true
+                }
+              }
+            }
+          }
+        },
+        "border": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "border-radius": "{{selector}} .dipi-breadcrumb-current",
+                "border-style": "{{selector}} .dipi-breadcrumb-current"
+              }
+            }
+          }
+        },
+        "boxShadow": {
+          "propertySelectors": {
+            "desktop": {
+              "value": {
+                "box-shadow": "{{selector}} .dipi-breadcrumb-current"
+              }
+            }
+          }
+				}
+      },
+			"childrenSanitizer": "et_core_esc_previously"
+    }
+  },
+  
+  "customCssFields": {
+    "bc_items":{
+      "subName": "bc_items",
+      "selectorSuffix": " .dipi-breadcrumb-item"
+    },
+    
+    "bc_items_link":{
+      "subName": "bc_items_link",
+      "selectorSuffix": " .dipi-breadcrumb-item a"
+    },
+    
+    "bc_home":{
+      "subName": "bc_home",
+      "selectorSuffix": " .dipi-breadcrumb-home"
+    },
+    
+    "bc_home_link":{
+      "subName": "bc_home_link",
+      "selectorSuffix": " .dipi-breadcrumb-home a"
+    },
+    
+    "bc_current_item":{
+      "subName": "bc_current_item",
+      "selectorSuffix": " .dipi-breadcrumb-current"
+    },
+    
+    "bc_separator":{
+      "subName": "bc_separator",
+      "selectorSuffix": " .dipi-breadcrumb-separator"
+    }
+  }
+}

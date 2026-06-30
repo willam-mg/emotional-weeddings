@@ -1,0 +1,761 @@
+{
+    "name": "dipi/timeline-item",
+    "d4Shortcode": "dipi_timeline_item",
+    "title": "Pixel Timeline Item",
+    "titles": "Pixel Timeline Items",
+    "moduleIcon": "dipi/timeline-item",
+    "category": "child-module",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": ".dipi_timeline {{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Timeline Item"
+                        }
+                    }
+                },
+                "advanced": {
+                    "text": {
+                        "text": {
+                            "desktop": {
+                                "value": {
+                                    "color": "light"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyle": {
+                "decoration": {
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "#F2F3F3"
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "border": {
+                    "selector": "{{selector}} .dipi_timeline_item_card",
+                    "important": true
+                },
+                "background": {
+                    "selector": "{{selector}} .dipi_timeline_item_card"
+                },
+                "boxShadow": {
+                    "selector": "{{selector}} .dipi_timeline_item_card"
+                },
+                "spacing": {
+                    "important": true,
+                    "propertySelectors": {
+                        "desktop": {
+                            "value": {
+                                "margin-top": "{{selector}} .dipi_timeline_item_card-wrap",
+                                "margin-bottom": "{{selector}} .dipi_timeline_item_card-wrap",
+                                "margin-left": "{{selector}} .dipi_timeline_item_card",
+                                "margin-right": "{{selector}} .dipi_timeline_item_card",
+                                "padding": "{{selector}} .dipi_timeline_item_card"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "ribbon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "title": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "content": {
+            "type": "object",
+            "inlineEditor": "richText",
+            "childrenSanitizer": "et_core_esc_previously",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "show_button": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "button": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_timeline_item_button",
+            "settings": {
+                "innerContent": {},
+                "decoration": {
+                    "background": {},
+                    "border": {},
+                    "boxShadow": {},
+                    "button": {},
+                    "font": {},
+                    "spacing": {}
+                }
+            },
+            "attributes": {
+                "class": "dipi_timeline_item_button"
+            },
+            "default": {
+                "decoration": {
+                    "button": {
+                        "desktop": {
+                            "value": {
+                                "enable": "off",
+                                "icon": {
+                                    "enable": "on",
+                                    "value": {}
+                                }
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "20px",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    }
+                },
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "text": "Click Here",
+                            "linkUrl": "#",
+                            "linkTarget": "off"
+                        }
+                    }
+                }
+            },
+            "elementType": "button",
+            "elementProps": {
+                "hasWrapper": false
+            }
+        },
+        "url": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "url_new_window": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "use_timeline_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "timeline_icon": {
+            "type": "object",
+            "selector": "{{selector}} .ribbon-icon",
+            "styleProps": {
+                "border": {
+                    "important": true
+                }
+            },
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "unicode": "L",
+                            "type": "divi",
+                            "weight": "400"
+                        }
+                    }
+                }
+            }
+        },
+        "timeline_image": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "timeline_icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#2C3D49"
+                    }
+                }
+            }
+        },
+        "ribbon_use_circle": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "on"
+                    }
+                }
+            }
+        },
+        "ribbon_circle_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "hover": "#2C3D49",
+                        "value": "#F2F3F3"
+                    }
+                }
+            }
+        },
+        "ribbon_use_circle_border": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "ribbon_circle_border_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#000"
+                    }
+                }
+            }
+        },
+        "ribbon_use_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "timeline_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "96px"
+                    }
+                }
+            }
+        },
+        "timeline_icon_spacing": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "padding": {
+                                "top": "15px",
+                                "right": "15px",
+                                "bottom": "15px",
+                                "left": "15px"
+                            },
+                            "margin": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "use_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "font_icon": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "icon_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#000"
+                    }
+                }
+            }
+        },
+        "use_circle": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "circle_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#eee"
+                    }
+                }
+            }
+        },
+        "use_circle_border": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "circle_border_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#000"
+                    }
+                }
+            }
+        },
+        "image": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_timeline_item_image .et_pb_image_wrap",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                },
+                "decoration": {
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    },
+                    "filters": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        },
+        "alt": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "icon_placement": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "top"
+                    }
+                }
+            }
+        },
+        "icon_alignment": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": ""
+                    }
+                }
+            }
+        },
+        "image_max_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "100%"
+                    }
+                }
+            }
+        },
+        "use_icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "icon_font_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "96px"
+                    }
+                }
+            }
+        },
+        "circle_icon_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "padding": {
+                                "top": "0px",
+                                "right": "0px",
+                                "bottom": "0px",
+                                "left": "0px"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "custom_card_arrow": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "off"
+                    }
+                }
+            }
+        },
+        "card_arrow_size": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "12px"
+                    }
+                }
+            }
+        },
+        "card_arrow_color": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "#eaebec"
+                    }
+                }
+            }
+        },
+        "card_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "100%"
+                    }
+                }
+            }
+        },
+        "card_max_width": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "550px"
+                    }
+                }
+            }
+        },
+        "card_spacing": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "padding": {
+                                "top": "30px",
+                                "right": "30px",
+                                "bottom": "30px",
+                                "left": "30px"
+                            },
+                            "margin": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "card_content_padding": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": {
+                            "padding": {
+                                "top": "",
+                                "right": "",
+                                "bottom": "",
+                                "left": ""
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "child_animation": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "fadeIn"
+                    }
+                }
+            }
+        },
+        "anim_start_viewport": {
+            "type": "object",
+            "default": {
+                "innerContent": {
+                    "desktop": {
+                        "value": "75%"
+                    }
+                }
+            }
+        },
+        "header_font": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_timeline_item_header",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "headingLevel": "h4",
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "body_font": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_timeline_item_description",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "ribbon_text": {
+            "type": "object",
+            "selector": "{{selector}} .dipi_timeline_ribbon_text",
+            "default": {
+                "decoration": {
+                    "font": {
+                        "font": {
+                            "desktop": {
+                                "value": {
+                                    "color": ""
+                                }
+                            }
+                        }
+                    },
+                    "spacing": {
+                        "desktop": {
+                            "value": {
+                                "margin": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                },
+                                "padding": {
+                                    "top": "",
+                                    "right": "",
+                                    "bottom": "",
+                                    "left": ""
+                                }
+                            }
+                        }
+                    },
+                    "background": {
+                        "desktop": {
+                            "value": {
+                                "color": "transparent"
+                            }
+                        }
+                    },
+                    "border": {
+                        "desktop": {
+                            "value": {
+                                "styles": {
+                                    "all": {
+                                        "color": ""
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "boxShadow": {
+                        "desktop": {
+                            "value": {}
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "customCssFields": {
+        "timeline_item_image": {
+            "subName": "timeline_item_image",
+            "selectorSuffix": " .dipi_timeline_item_image"
+        },
+        "timeline_item_title": {
+            "subName": "timeline_item_title",
+            "selectorSuffix": " .dipi_timeline_item_header"
+        },
+        "timeline_item_content": {
+            "subName": "timeline_item_content",
+            "selectorSuffix": " .dipi_timeline_item_content"
+        },
+        "timeline_item_button": {
+            "subName": "timeline_item_button",
+            "selectorSuffix": " .dipi_timeline_item_button_wrapper .et_pb_button.dipi_timeline_item_button"
+        },
+        "timeline_item_ribbon_text": {
+            "subName": "timeline_item_ribbon_text",
+            "selectorSuffix": " .dipi_timeline_ribbon .dipi_timeline_ribbon_text"
+        },
+        "timeline_item_icon": {
+            "subName": "timeline_item_icon",
+            "selectorSuffix": " .ribbon-icon"
+        }
+    }
+}

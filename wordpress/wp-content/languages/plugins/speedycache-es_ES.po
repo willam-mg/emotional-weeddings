@@ -1,0 +1,933 @@
+# Translation of Plugins - SpeedyCache &#8211; Cache, Optimization, Performance - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - SpeedyCache &#8211; Cache, Optimization, Performance - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-04 09:22:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - SpeedyCache &#8211; Cache, Optimization, Performance - Stable (latest release)\n"
+
+#: main/util.php:306
+msgid "Once Monthly"
+msgstr "Una vez al mes"
+
+#: main/util.php:300
+msgid "Once Every Fortnight"
+msgstr "Una vez cada quince días"
+
+#: main/settings.php:1904
+msgid "Upgrade to Pro"
+msgstr "Actualizar a Pro"
+
+#: main/settings.php:1890
+msgid "Unlock advanced performance features."
+msgstr "Desbloquea las características avanzadas de rendimiento."
+
+#. translators: %1$s is replaced with a "string" of name of plugins, and %2$s
+#. is replaced with "string" which can be "is" or "are" based on the count of
+#. the plugin
+#: main/promo.php:22
+msgid "New versions of %1$s %2$s available. Updating ensures better performance, security, and access to the latest features."
+msgstr "Hay nuevas versiones de %1$s %2$s disponibles. Actualizar garantiza un mejor rendimiento, seguridad y acceso a las últimas características."
+
+#: main/settings.php:1782
+msgid "Click the button below to download the current SpeedyCache settings as a JSON file"
+msgstr "Haz clic en el botón de abajo para descargar los ajustes actuales de SpeedyCache como archivo JSON"
+
+#: main/settings.php:1772
+msgid "Select a JSON file containing SpeedyCache Settings. This will overwrite your current SpeedyCache Settings"
+msgstr "Selecciona un archivo JSON que contenga los ajustes de SpeedyCache. Esto sobrescribirá tus ajustes actuales de SpeedyCache"
+
+#: main/settings.php:1759
+msgid "Imports SpeedyCache Settings from another site or Exports your current SpeedyCache Settings as a JSON file"
+msgstr "Importa los ajustes de SpeedyCache desde otro sitio o exporta tus ajustes actuales de SpeedyCache como archivo JSON"
+
+#: main/settings.php:1758
+msgid "Import / Export Settings"
+msgstr "Importar / Exportar ajustes"
+
+#: main/settings.php:1199
+msgid "Fetch Priority"
+msgstr "Prioridad de carga"
+
+#: main/settings.php:1198
+msgid "Device"
+msgstr "Dispositivo"
+
+#: main/settings.php:1060
+msgid "Conservative"
+msgstr "Conservador"
+
+#: main/settings.php:1059
+msgid "Moderate"
+msgstr "Moderado"
+
+#: main/settings.php:1058
+msgid "Eager"
+msgstr "Agresivo"
+
+#: main/settings.php:1055
+msgid "Select Eagerness"
+msgstr "Seleccionar agresividad"
+
+#: main/settings.php:1047
+msgid "Prefetch"
+msgstr "Precarga"
+
+#: main/settings.php:1046 main/settings.php:1057
+msgid "Auto"
+msgstr "Automático"
+
+#: main/settings.php:1044
+msgid "Select the Speculation Mode"
+msgstr "Seleccionar el modo de especulación"
+
+#: main/settings.php:1034
+msgid "Speculation Settings"
+msgstr "Ajustes de especulación"
+
+#: main/settings.php:1028
+msgid "Change how aggresive you want preloading/prefetching to happen."
+msgstr "Cambia la agresividad con la que deseas que ocurra la precarga."
+
+#: main/settings.php:1027
+msgid "Edit Speculative Loading"
+msgstr "Editar la carga especulativa"
+
+#: main/settings.php:17
+msgid "SpeedyCache was not able to create the cache directory, there might be a permission issue with the "
+msgstr "SpeedyCache no ha podido crear el directorio de caché, puede haber un problema de permisos con el "
+
+#: main/ajax.php:617
+msgid "Invalid JSON file."
+msgstr "Archivo JSON no válido."
+
+#: main/ajax.php:610
+msgid "Uploaded file is not readable."
+msgstr "El archivo subido no es legible."
+
+#: main/ajax.php:604
+msgid "File name is not of expected format."
+msgstr "El nombre del archivo no tiene el formato esperado."
+
+#: main/ajax.php:600
+msgid "The file you uploaded is not a JSON file."
+msgstr "El archivo que has subido no es un archivo JSON."
+
+#: main/ajax.php:594
+msgid "Failed to receive uploaded file."
+msgstr "Error al recibir el archivo subido."
+
+#: main/ajax.php:590 main/ajax.php:660
+msgid "You do not have required permissions."
+msgstr "No tienes los permisos necesarios."
+
+#: main/settings.php:1727
+msgid "Allows roles to delete cache using Admin bar and post links, Admin is included by default"
+msgstr "Permite a los perfiles borrar la caché mediante la barra de administración y los enlaces de las entradas. El administrador se incluye por defecto"
+
+#: main/settings.php:1726
+msgid "Can Delete Cache"
+msgstr "Puede borrar la caché"
+
+#: main/settings.php:1718
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: main/settings.php:495
+msgid "Deletion of these options only takes effect if the lifespan is more than 10 hours."
+msgstr "La eliminación de estas opciones solo tiene efecto si la vida útil es superior a 10 horas."
+
+#: main/settings.php:493
+msgid "Delete Gravatar"
+msgstr "Borrar Gravatar"
+
+#: main/settings.php:421
+msgid "Serve cached version to logged in user."
+msgstr "Servir la versión en caché al usuario conectado."
+
+#: main/settings.php:489
+msgid "This is dependent on WP Cron, which does not guarantee execution at an exact time. For more details, "
+msgstr "Esto depende de WP Cron, que no garantiza la ejecución a una hora exacta. Para más detalles, "
+
+#: main/settings.php:487
+msgid "Select exact time"
+msgstr "Selecciona la hora exacta"
+
+#: main/settings.php:484
+msgid "Run at exact time"
+msgstr "Ejecutar a la hora exacta"
+
+#: main/settings.php:477
+msgid "This defines the time after which the cache will be automatically deleted. Set to 0 to disable automatic cache deletion."
+msgstr "Define el tiempo tras el cual la caché se borrará automáticamente. Establecer en 0 para desactivar el borrado automático de la caché."
+
+#: main/admin.php:215
+msgid "Clear this page's cache"
+msgstr "Vaciar la caché de esta página"
+
+#: main/admin.php:205
+msgid "Delete Cache and Minified"
+msgstr "Borrar la caché y los minimizados"
+
+#: main/util.php:289
+msgid "SpeedyCache Cache Preload cron"
+msgstr "Cron de precarga de caché de SpeedyCache"
+
+#: main/util.php:269
+msgid "SpeedyCache Cache Lifespan cron"
+msgstr "Cron de vida útil de caché de SpeedyCache"
+
+#: main/settings.php:1865
+msgid "This is a part of SpeedyCache Pro, so update/upgrade to pro to utilize this feature"
+msgstr "Esta es una función de SpeedyCache Pro. Actualiza a la versión Pro para utilizarla."
+
+#: main/settings.php:1603
+msgid "one keyword per line"
+msgstr "una palabra clave por línea"
+
+#: main/settings.php:1497
+msgid "Save Rule"
+msgstr "Guardar la regla"
+
+#: main/settings.php:1451
+msgid "Add Exclude Rule"
+msgstr "Añadir regla de exclusión"
+
+#: main/settings.php:1403
+msgid "No exclude rule added yet"
+msgstr "Aún no se ha añadido ninguna regla de exclusión"
+
+#: main/settings.php:1360
+msgid "Specific files which you want to be rewritten using CDN URL(one file per line)."
+msgstr "Archivos específicos que quieres que se reescriban utilizando la URL de la CDN (un archivo por línea)."
+
+#: main/settings.php:1350
+msgid "Files you do not want to be rewritten to a CDN url(one file per line)."
+msgstr "Archivos que no quieres que se reescriban en una URL de CDN (un archivo por línea)."
+
+#: main/settings.php:1340
+msgid "Types of files you want to be served through the CDN(one file per line)"
+msgstr "Tipos de archivos que deseas servir a través de la CDN (uno por línea)"
+
+#: main/settings.php:1330
+msgid "API keys/ tokens are not required but used to purge cache on CDN when cache from SpeedyCache gets purged."
+msgstr "Las claves de API / tokens no son obligatorios, pero se usan para vaciar la caché de la CDN cuando se vacía la caché de SpeedyCache."
+
+#: main/settings.php:1329
+msgid "API Key"
+msgstr "Clave de la API"
+
+#: main/settings.php:1320
+msgid "It is the URL that CDN Provider provides you."
+msgstr "Es la URL que te proporciona el proveedor de CDN."
+
+#: main/settings.php:1319
+msgid "CDN URL"
+msgstr "URL de la CDN"
+
+#: main/settings.php:1307
+msgid "Select CDN Provider"
+msgstr "Seleccionar proveedor de CDN"
+
+#: main/settings.php:1301
+msgid "This will start rewriting asset URL's to the CDN URL"
+msgstr "Esto empezará a reescribir las URL de los recursos a la URL de la CDN"
+
+#: main/settings.php:1300
+msgid "Enable CDN"
+msgstr "Activar CDN"
+
+#: main/settings.php:1266
+msgid "No PreConnect added yet"
+msgstr "Aún no se ha añadido ningún PreConnect"
+
+#: main/settings.php:829
+msgid "Add one script per line ,Enter the script URL or script ID"
+msgstr "Añade un script por línea, introduce la URL del script o el ID del script"
+
+#: main/settings.php:810 main/settings.php:819 main/settings.php:850
+msgid "Defer JS"
+msgstr "Aplazar JS"
+
+#: main/settings.php:713
+msgid "Reduce HTTP requests by Combining JS files"
+msgstr "Reducir las solicitudes HTTP combinando archivos JS"
+
+#: main/settings.php:554
+msgid "Combines CSS files to reduce HTTP requests"
+msgstr "Combina archivos CSS para reducir las solicitudes HTTP"
+
+#: main/settings.php:520 main/settings.php:531
+msgid "Removes comments, extra spaces"
+msgstr "Elimina comentarios y espacios extra"
+
+#: main/settings.php:481
+msgid "Days"
+msgstr "Días"
+
+#: main/settings.php:480
+msgid "Hours"
+msgstr "Horas"
+
+#: main/settings.php:432
+msgid "Compresses the text files to reduce the size to be sent on the network."
+msgstr "Comprime los archivos de texto para reducir el tamaño a enviar por la red."
+
+#: main/settings.php:410
+msgid "Stores web data locally for faster loading."
+msgstr "Almacena los datos de la web localmente para una carga más rápida."
+
+#: main/settings.php:391
+msgid "Once a week"
+msgstr "Una vez a la semana"
+
+#: main/settings.php:389
+msgid "Every 12 hours"
+msgstr "Cada 12 horas"
+
+#: main/settings.php:388
+msgid "Every 6 hours"
+msgstr "Cada 6 horas"
+
+#: main/settings.php:387
+msgid "Every 2 hours"
+msgstr "Cada 2 horas"
+
+#: main/settings.php:385
+msgid "Select Preload interval"
+msgstr "Selecciona el intervalo de precarga"
+
+#: main/settings.php:381
+msgid "Select the interval after which you want the preload to run"
+msgstr "Selecciona el intervalo tras el cual quieres que se ejecute la precarga"
+
+#: main/settings.php:375
+msgid "Preload Settings"
+msgstr "Ajustes de precarga"
+
+#: main/settings.php:343 main/settings.php:355
+msgid "Separate cache for Mobile version of your website, modern themes don't require this"
+msgstr "Caché separada para la versión móvil de tu sitio web, los temas modernos no requieren esto"
+
+#: main/settings.php:331
+msgid "Disable desktop cache display on mobile devices."
+msgstr "Desactiva la visualización de la caché del escritorio en los dispositivos móviles."
+
+#: main/settings.php:330
+msgid "Mobile Override"
+msgstr "Anulación móvil"
+
+#: main/settings.php:291
+msgid "After cache gets deleted, it restarts auto cache generation."
+msgstr "Después de borrar la caché, se reinicia la generación automática de caché."
+
+#: main/settings.php:290
+msgid "Preload Cache"
+msgstr "Precargar la caché"
+
+#: main/cdn.php:301
+msgid "Cloudflare cache purged successfully."
+msgstr "La caché de Cloudflare ha sido purgada correctamente."
+
+#: main/ajax.php:759
+msgid "Object Cache need to be enabled for it to be flushed"
+msgstr "La caché de objetos debe estar activada para poder vaciarse"
+
+#: main/ajax.php:743
+msgid "This is a Pro feature you can not use this with a Free version"
+msgstr "Esta es una característica Pro, no puedes utilizarla con una versión gratuita"
+
+#: main/ajax.php:737
+msgid "No Database optimization action present"
+msgstr "No existe ninguna acción de optimización de la base de datos"
+
+#: main/ajax.php:718
+msgid "There is not rule with the given rule id"
+msgstr "No hay ninguna regla con el ID de regla proporcionado"
+
+#: main/ajax.php:712
+msgid "Exclude rule list is already empty"
+msgstr "La lista de reglas de exclusión ya está vacía"
+
+#: main/ajax.php:706
+msgid "No rule ID provided to delete"
+msgstr "No se ha proporcionado ningún ID de regla para borrar"
+
+#: main/ajax.php:544
+msgid "You need to fill the content field"
+msgstr "Tienes que rellenar el campo de contenido"
+
+#: main/ajax.php:535
+msgid "You have not selected, the exclude option"
+msgstr "No has seleccionado la opción de exclusión"
+
+#: main/ajax.php:531
+msgid "You need to select a Exclude type"
+msgstr "Debes seleccionar un tipo de exclusión"
+
+#: main/ajax.php:426
+msgid "This resource has already been added before"
+msgstr "Este recurso ya se ha añadido antes"
+
+#: main/ajax.php:402
+msgid "No resource provided!"
+msgstr "¡No se ha proporcionado ningún recurso!"
+
+#: main/ajax.php:393
+msgid "No settings provided to save"
+msgstr "No se han proporcionado ajustes que guardar"
+
+#: main/ajax.php:389
+msgid "Could not figure out type of the setting being saved!"
+msgstr "¡No se ha podido determinar el tipo del ajuste que se está guardando!"
+
+#: main/ajax.php:62 main/ajax.php:103 main/ajax.php:149 main/ajax.php:181
+#: main/ajax.php:220 main/ajax.php:288 main/ajax.php:343 main/ajax.php:475
+#: main/ajax.php:527 main/ajax.php:685 main/ajax.php:702 main/ajax.php:733
+#: main/ajax.php:753
+msgid "You do not have required permission."
+msgstr "No tienes el permiso necesario."
+
+#: main/ajax.php:53
+msgid "Can not delete cache of this page as the page ID is empty"
+msgstr "No se puede borrar la caché de esta página porque el ID de la página está vacío"
+
+#: main/admin.php:197
+msgid "Delete all Cache"
+msgstr "Borrar toda la caché"
+
+#: main/admin.php:159
+msgid "You have activated plugins that conflict with SpeedyCache. We recommend deactivating these plugins to ensure SpeedyCache functions properly."
+msgstr "Tienes activados plugins que entran en conflicto con SpeedyCache. Te recomendamos desactivar estos plugins para asegurar que SpeedyCache funciona correctamente."
+
+#: main/admin.php:82 main/admin.php:102 main/admin.php:120
+msgid "You do not have a required privilege"
+msgstr "No tienes un privilegio obligatorio"
+
+#: main/settings.php:1259
+msgid "Crossorigin"
+msgstr "Crossorigin"
+
+#: main/settings.php:1197
+msgid "CS"
+msgstr "CS"
+
+#: main/settings.php:1196
+msgid "Type"
+msgstr "Tipo"
+
+#: main/settings.php:1195 main/settings.php:1258
+msgid "Resource"
+msgstr "Recurso"
+
+#: main/settings.php:1170
+msgid "Preload Resource"
+msgstr "Precargar recurso"
+
+#: main/settings.php:1581
+msgid "Number of images you want to exclude from getting lazyloaded from top of the screen"
+msgstr "Número de imágenes que deseas excluir de la carga diferida desde la zona superior de la pantalla"
+
+#: main/settings.php:1580
+msgid "Exclude above fold images"
+msgstr "Excluir imágenes antes de desplazarse"
+
+#: main/settings.php:1155 main/settings.php:1232
+msgid "Preconnect"
+msgstr "Preconectar"
+
+#: main/settings.php:1145 main/settings.php:1156
+msgid "Establish early connections to speed up page load."
+msgstr "Establece conexiones anticipadas para acelerar la carga de la página."
+
+#: main/settings.php:1144
+msgid "PreConnect"
+msgstr "PreConnect"
+
+#: main/settings.php:1119 main/settings.php:1130
+msgid "Hints browser to load resources early."
+msgstr "Indica al navegador que cargue los recursos con antelación."
+
+#: main/settings.php:1118 main/settings.php:1129
+msgid "Preload Resources"
+msgstr "Precargar recursos"
+
+#: main/settings.php:1098
+msgid "Specify external hosts to be prefetched (no http:, one per line)"
+msgstr "Especifica los servidores externos para la precarga (sin http:, uno por línea)"
+
+#: main/settings.php:1097
+msgid "URLs to prefetch"
+msgstr "URLs para precargar"
+
+#: main/settings.php:1095
+msgid "DNS prefetch can improve page load performance by resolving domain names in advance, so that the browser can start loading resources from those domains as soon as possible."
+msgstr "La precarga de DNS puede mejorar el rendimiento de carga de la página resolviendo los nombres de dominio con antelación, para que el navegador pueda empezar a cargar recursos de esos dominios lo antes posible."
+
+#: main/settings.php:1094
+msgid "How DNS Prefetch can help?"
+msgstr "¿Cómo puede ayudar la precarga de DNS?"
+
+#: main/settings.php:1088
+msgid "Prefetch DNS Requests"
+msgstr "Precargar solicitudes de DNS"
+
+#: main/settings.php:1082
+msgid "DNS prefetching can make external files load faster."
+msgstr "La precarga de DNS puede hacer que los archivos externos se carguen más rápido."
+
+#: main/settings.php:1081
+msgid "DNS Prefetch"
+msgstr "Precarga de DNS"
+
+#: main/settings.php:673
+msgid "It removes the unused CSS from the page."
+msgstr "Elimina el CSS no utilizado de la página."
+
+#: main/settings.php:653
+msgid "Enter Selectors you want to be included in used CSS"
+msgstr "Introduce los selectores que quieras incluir en el CSS utilizado"
+
+#: main/settings.php:652
+msgid "Include Selectors"
+msgstr "Incluir selectores"
+
+#: main/settings.php:647
+msgid "Enter the URL, name or the stylesheet to be excluded from removing unused CSS."
+msgstr "Introduce la URL, el nombre o la hoja de estilos que quieras excluir de la eliminación de CSS no utilizados."
+
+#: main/settings.php:646
+msgid "Exclude Stylesheets"
+msgstr "Excluir las hojas de estilo"
+
+#: main/settings.php:641
+msgid "Remove"
+msgstr "Eliminar"
+
+#: main/settings.php:640
+msgid "On User Interaction"
+msgstr "Al interactuar el usuario"
+
+#: main/settings.php:639
+msgid "Asynchronously"
+msgstr "De forma asíncrona"
+
+#: main/settings.php:633
+msgid "Select the way you want the Unused CSS to load."
+msgstr "Selecciona la forma en que quieres que se cargue el CSS no utilizado."
+
+#: main/settings.php:632
+msgid "Load Unused CSS"
+msgstr "Cargar el CSS no utilizado"
+
+#: main/settings.php:629
+msgid "Extracts the CSS being used on the page."
+msgstr "Extrae el CSS que se está utilizando en la página."
+
+#: main/settings.php:623
+msgid "Unused CSS Settings"
+msgstr "Ajustes de CSS no utilizados"
+
+#: main/settings.php:616
+msgid "It removes the unused CSS."
+msgstr "Elimina el CSS no utilizado."
+
+#: main/settings.php:614 main/settings.php:672
+msgid "Unused CSS"
+msgstr "CSS no utilizado"
+
+#: main/settings.php:281
+msgid "Delete locally hosted Gravatars."
+msgstr "Borrar los Gravatars alojados localmente."
+
+#: main/settings.php:280
+msgid "Delete Gravatars"
+msgstr "Elimina los Gravatars"
+
+#: main/settings.php:1527
+msgid "Locally host Gravatar"
+msgstr "Alojar el Gravatar localmente"
+
+#: main/settings.php:1526
+msgid "Gravatar Cache"
+msgstr "Caché de Gravatar"
+
+#: main/settings.php:958
+msgid "Critical Image Count"
+msgstr "Número de imágenes críticas"
+
+#: main/settings.php:955
+msgid "Select the number of images you want to be preloaded."
+msgstr "Selecciona el número de imágenes que quieres precargar."
+
+#: main/settings.php:940 main/settings.php:991
+msgid "Preloads critical Images to improve LCP"
+msgstr "Precarga imágenes críticas para mejorar el LCP"
+
+#: main/settings.php:938 main/settings.php:948 main/settings.php:990
+msgid "Preload Critical Images"
+msgstr "Precargar imágenes críticas"
+
+#: main/settings.php:893
+msgid "Add one element per line, use # as prefix for ID and . as prefix for class."
+msgstr "Añade un elemento por línea, utiliza «#» como prefijo para «ID» y «.» como prefijo para «clase»."
+
+#: main/settings.php:892
+msgid "Elements to Lazy Render"
+msgstr "Elementos a cargar en diferido"
+
+#: main/settings.php:889
+msgid "Lazy Rendering HTML is usually good for Comments."
+msgstr "El HTML de carga diferida es normalmente bueno para los comentarios."
+
+#: main/settings.php:883
+msgid "Lazy Render HTML Elements"
+msgstr "Procesar los elementos HTML de forma diferida"
+
+#: main/settings.php:875 main/settings.php:912
+msgid "Lazy Render HTML Element"
+msgstr "Procesar el elemento HTML de forma diferida"
+
+#: main/gravatar.php:130
+msgid "Gravatar files deleted"
+msgstr "Archivos de Gravatar borrados"
+
+#: main/gravatar.php:120
+msgid "No file present to delete"
+msgstr "Sin archivos presentes que borrar"
+
+#: main/settings.php:431
+msgid "GZIP Compressions"
+msgstr "Compresiones GZIP"
+
+#: main/settings.php:230 main/settings.php:232 main/settings.php:1049
+msgid "Disabled"
+msgstr "Desactivado"
+
+#: main/settings.php:1637 main/settings.php:1648
+msgid "Adds dimensions to the image, to reduce CLS"
+msgstr "Añade dimensiones a la imagen, para reducir el CLS"
+
+#: main/settings.php:1636 main/settings.php:1647
+msgid "Image Dimensions"
+msgstr "Dimensiones de la imagen"
+
+#: main/settings.php:746
+msgid "Delay All"
+msgstr "Retrasar todo"
+
+#: main/settings.php:745
+msgid "Delay Selected"
+msgstr "Retrasar lo seleccionado"
+
+#: main/settings.php:740
+msgid "Delay All is a more aggressive option which can increase the chances of breaking the site too."
+msgstr "Retrasar todo es una opción más agresiva que también puede incrementar las posibilidades de romper el sitio."
+
+#: main/settings.php:727 main/settings.php:798
+msgid "Delays JS until user interaction(like scroll, click etc) to improve performance"
+msgstr "Retrasar el JS hasta la interacción del usuario (como el desplazamiento, clic, etc.) para mejorar el rendimiento"
+
+#: main/settings.php:725 main/settings.php:734 main/settings.php:797
+msgid "Delay JS"
+msgstr "Retrasar JS"
+
+#: main/ajax.php:272
+msgid "Unable to modify Object Cache Conf file, the issue might be related to permission on your server."
+msgstr "No se ha podido modificar el archivo de configuración de la caché de objetos. El problema podría estar relacionado con los permisos de tu servidor."
+
+#: main/ajax.php:226
+msgid "phpRedis Library not found"
+msgstr "La biblioteca «phpRedis» no se ha encontrado"
+
+#: main/settings.php:230 main/settings.php:232
+msgid "Enabled"
+msgstr "Activado"
+
+#: main/settings.php:575 main/settings.php:599
+msgid "It extracts the necessary CSS of the viewport on load to improve load speed."
+msgstr "Extrae el CSS necesario del área visible al cargar para mejorar la velocidad de carga."
+
+#: main/settings.php:573
+msgid "Logs"
+msgstr "Registros"
+
+#: main/settings.php:571
+msgid "Create Now"
+msgstr "Crear ahora"
+
+#: main/settings.php:567 main/settings.php:598
+msgid "Critical CSS"
+msgstr "CSS crítico"
+
+#: main/settings.php:463
+msgid "Set your Varnish IP"
+msgstr "Establece tu IP de Varnish"
+
+#: main/settings.php:459
+msgid "If you use any different IP for Varnish than the default then set it here."
+msgstr "Si utilizas una IP diferente para Varnish que la que viene por defecto, establécela aquí."
+
+#: main/settings.php:453
+msgid "Varnish Settings"
+msgstr "Ajustes de Varnish"
+
+#: main/settings.php:445
+msgid "Deletes cache created by Varnish on Deletion of cache from SpeedyCache"
+msgstr "Borra la caché creada por Varnish al borrar la caché de SpeedyCache"
+
+#: main/settings.php:442
+msgid "Purge Varnish"
+msgstr "Vaciar caché de Varnish"
+
+#: main/delete.php:294
+msgid "Purged Varnish Cache Succesfully"
+msgstr "Caché de Varnish vaciada correctamente"
+
+#: main/delete.php:283
+msgid "Please contact your hosting provider if, Varnish is enabled and still getting this error"
+msgstr "Si Varnish está activo y aún obtienes este error, por favor, contacta con tu proveedor de alojamiento."
+
+#. Author of the plugin
+#: speedycache.php
+msgid "Softaculous Team"
+msgstr "Softaculous Team"
+
+#: main/settings.php:1359
+msgid "Specific Sources"
+msgstr "Especificar las fuentes"
+
+#: main/settings.php:1339
+msgid "File Types"
+msgstr "Tipos de archivo"
+
+#: main/settings.php:1870
+msgid "Save Settings"
+msgstr "Guardar los ajustes"
+
+#: main/settings.php:1388
+msgid "Add New Rule"
+msgstr "Añadir una nueva regla"
+
+#: main/settings.php:476
+msgid "Cache Lifespan"
+msgstr "Vida útil de la caché"
+
+#: main/settings.php:296
+msgid "Clear all cache and the selections"
+msgstr "Vaciar toda la caché y las selecciones"
+
+#: main/settings.php:269
+msgid "Deletes Local Google Fonts"
+msgstr "Borra las fuentes de Google locales"
+
+#: main/settings.php:268 main/settings.php:492
+msgid "Delete Fonts"
+msgstr "Borrar fuentes"
+
+#: main/settings.php:257
+msgid "Deletes Minfied/ Combined CSS/JS files"
+msgstr "Borra los archivos CSS/JS minimizados/combinados"
+
+#: main/settings.php:256
+msgid "Delete Minified"
+msgstr "Borrar los minimizados"
+
+#: main/settings.php:342 main/settings.php:354
+msgid "Mobile Cache"
+msgstr "Caché móvil"
+
+#: main/settings.php:1661 main/settings.php:1673
+msgid "Loads google fonts from your local server"
+msgstr "Carga las fuentes de Google desde tu servidor local"
+
+#: main/settings.php:1660 main/settings.php:1672
+msgid "Local Google Fonts"
+msgstr "Local Google Fonts"
+
+#: main/settings.php:1004 main/settings.php:1015
+msgid "Improves page load speed"
+msgstr "Mejora la velocidad de carga de la página"
+
+#: main/settings.php:1003 main/settings.php:1014
+msgid "Instant Page"
+msgstr "Página instantánea"
+
+#: main/settings.php:1602
+msgid "Add Keyword"
+msgstr "Añadir palabra clave"
+
+#: main/settings.php:1599
+msgid "It is enough to write a keyword such as"
+msgstr "Basta con escribir una palabra clave como"
+
+#: main/settings.php:1349 main/settings.php:1598
+msgid "Exclude Sources"
+msgstr "Excluir fuentes"
+
+#: main/settings.php:1567
+msgid "Custom Placeholder"
+msgstr "Marcador de posición personalizado"
+
+#: main/settings.php:1559
+msgid "Specify an image to be used as a placeholder while other images finish loading."
+msgstr "Especifica una imagen para utilizarla como marcador de posición mientras otras imágenes terminan de cargarse."
+
+#: main/settings.php:1558
+msgid "Image Placeholder"
+msgstr "Marcador de posición de imagen"
+
+#: main/settings.php:1551
+msgid "Lazy Load Settings"
+msgstr "Ajustes de la carga diferida"
+
+#: main/settings.php:1543 main/settings.php:1624
+msgid "Load images and iframes when they enter the browsers viewport"
+msgstr "Cargar las imágenes y los iframes cuando entren en el área visible de los navegadores"
+
+#: main/settings.php:1542 main/settings.php:1623
+msgid "Lazy Load"
+msgstr "Carga diferida"
+
+#: main/settings.php:1686 main/settings.php:1697
+msgid "Load Google Fonts asynchronously"
+msgstr "Cargar las fuentes de Google de forma asíncrona"
+
+#: main/settings.php:1685 main/settings.php:1696
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: main/settings.php:863
+msgid "You can remove the emoji inline css and wp-emoji-release.min.js"
+msgstr "Puedes eliminar el CSS integrado de los emojis y wp-emoji-release.min.js"
+
+#: main/settings.php:862
+msgid "Disable Emojis"
+msgstr "Desactivar los emojis"
+
+#: main/settings.php:712
+msgid "Combine JS"
+msgstr "Combinar JS"
+
+#: main/settings.php:687 main/settings.php:700
+msgid "You can decrease the size of JS files"
+msgstr "Puedes reducir el tamaño de los archivos JS"
+
+#: main/settings.php:686 main/settings.php:699
+msgid "Minify JS"
+msgstr "Minimizar JS"
+
+#: main/settings.php:553
+msgid "Combine CSS"
+msgstr "Combinar el CSS"
+
+#: main/settings.php:543
+msgid "You can decrease the size of CSS files"
+msgstr "Puedes reducir el tamaño de los archivos CSS"
+
+#: main/settings.php:542
+msgid "Minify CSS"
+msgstr "Minimizar CSS"
+
+#: main/settings.php:519 main/settings.php:530
+msgid "Minify HTML"
+msgstr "Minimizar HTML"
+
+#: main/settings.php:354 main/settings.php:530 main/settings.php:850
+#: main/settings.php:912 main/settings.php:990 main/settings.php:1014
+#: main/settings.php:1129 main/settings.php:1155 main/settings.php:1623
+#: main/settings.php:1647 main/settings.php:1672 main/settings.php:1696
+msgid "Premium"
+msgstr "Premium"
+
+#: main/settings.php:420
+msgid "Logged-in Users"
+msgstr "Usuarios conectados"
+
+#: main/settings.php:409
+msgid "Browser Caching"
+msgstr "Caché del navegador"
+
+#: main/settings.php:368
+msgid "Create the cache of all the site automatically"
+msgstr "Crear automáticamente la caché de todo el sitio"
+
+#: main/settings.php:366
+msgid "Preload"
+msgstr "Precargar"
+
+#: main/settings.php:398 main/settings.php:470 main/settings.php:659
+#: main/settings.php:784 main/settings.php:835 main/settings.php:899
+#: main/settings.php:977 main/settings.php:1067 main/settings.php:1104
+#: main/settings.php:1611
+msgid "Submit"
+msgstr "Enviar"
+
+#: main/settings.php:320
+msgid "Enables caching"
+msgstr "Activa el almacenamiento en caché"
+
+#: main/settings.php:319
+msgid "Enable Cache"
+msgstr "Activar la caché"
+
+#: main/cdn.php:234
+msgid "Success: Bunny CDN purged successfully"
+msgstr "Correcto: la CDN de Bunny se ha vaciado correctamente"
+
+#: main/cdn.php:231
+msgid "Something Went Wrong: Purge was unsuccessful with response code of "
+msgstr "Algo ha ido mal: La purga fue incorrecta, con un código de respuesta de "
+
+#: main/cdn.php:194
+msgid "Bunny Pull Zone not found"
+msgstr "No se ha encontrado la zona pull de Bunny"
+
+#: main/cdn.php:183
+msgid "Bunny CDN pull ID response body is empty"
+msgstr "El cuerpo de la respuesta del ID pull de la CDN de Bunny está vacío"
+
+#: main/cdn.php:177
+msgid "Something Went Wrong: Getting Pull ID was unsuccessful "
+msgstr "Algo ha ido mal: no se ha podido obtener el ID pull "
+
+#: main/cdn.php:168 main/cdn.php:222
+msgid "Bunny CDN retuned an empty response"
+msgstr "La CDN de Bunny ha devuelto una respuesta vacía"
+
+#: main/cdn.php:154
+msgid "Bunny CDN Access Key not found"
+msgstr "No se ha encontrado la clave de acceso de la CDN de Bunny"
+
+#: main/admin.php:176
+msgid "Delete Cache"
+msgstr "Borrar la caché"
+
+#: main/settings.php:390
+msgid "Once a day"
+msgstr "Una vez al día"
+
+#. Author URI of the plugin
+#: speedycache.php
+msgid "https://speedycache.com/"
+msgstr "https://speedycache.com/"
+
+#. Description of the plugin
+#: speedycache.php
+msgid "SpeedyCache is a plugin that helps you reduce the load time of your website by means of caching, minification, and compression of your website."
+msgstr "SpeedyCache es un plugin que te ayuda a reducir el tiempo de carga de tu web haciendo uso de la caché, la minimización y compresión de tu web."
+
+#. Plugin URI of the plugin
+#: speedycache.php
+msgid "https://speedycache.com"
+msgstr "https://speedycache.com"
+
+#. Plugin Name of the plugin
+#: speedycache.php main/admin.php:192
+msgid "SpeedyCache"
+msgstr "SpeedyCache"

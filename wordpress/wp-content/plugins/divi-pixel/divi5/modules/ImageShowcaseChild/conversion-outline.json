@@ -1,0 +1,34 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "borders": {
+      "default": "image.decoration.border"
+    },
+    "height": "image.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "title": "title.innerContent.*",
+    "bg_img": "bg_img.innerContent.*.src",
+    "img_alt": "img_alt.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {}
+}

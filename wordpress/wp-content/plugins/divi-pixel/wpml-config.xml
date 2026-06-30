@@ -1,0 +1,3121 @@
+<wpml-config>
+  <custom-types>
+		<custom-type translate="1">dipi_popup_maker</custom-type>
+    <custom-type translate="1">dipi_testimonial</custom-type>
+	</custom-types>
+  <custom-fields>
+      <custom-field action="translate" style="line" label="Testimonial Name">testimonial_name</custom-field>
+      <custom-field action="translate" style="line" label="Testimonial Compnay Name">company_name</custom-field>
+      <custom-field action="translate" style="line" label="Testimonial Compnay Link">company_link</custom-field>
+      <custom-field action="translate" style="line" label="Testimonial Star">testimonial_star</custom-field>
+      <custom-field action="copy">dipi_popup-active</custom-field>
+  </custom-fields>
+  <taxonomies>
+    <taxonomy translate="1">dipi_cpt_category</taxonomy>
+    <taxonomy translate="1">dipi_media_category</taxonomy>
+  </taxonomies>
+  <admin-texts>
+   <key name="dipi_login_page_link" />
+   <key name="dipi_btt_link" />
+   <key name="dipi_rename_projects_singular" />
+   <key name="dipi_rename_projects_plural" />
+   <key name="dipi_rename_projects_slug" />
+   <key name="dipi_rename_projects_icon" />
+   <key name="dipi_rename_projects_cat_slug" />
+   <key name="dipi_read_more_button_text" />
+   <key name="dipi_menu_button_text" />
+   <key name="dipi_menu_button_url" />
+   <key name="dipi_blog_nav_prev" />
+   <key name="dipi_blog_nav_next" />
+   <key name="dipi_related_articles_heading" />
+  </admin-texts>
+  <shortcodes>
+    <shortcode>
+      <tag>dipi_reveal</tag>
+      <attributes>
+        <attribute>container_selector</attribute>
+        <attribute>more_button_text</attribute>
+        <attribute>less_button_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_blog_slider</tag>
+      <attributes>
+        <attribute>show_more_text</attribute>
+        <attribute>author_prefix</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_advanced_tabs_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>subtitle</attribute>
+        <attribute encoding="allow_html_tags">content</attribute>
+        <attribute>at_button_text</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute type="link">at_button_url</attribute>
+        <attribute>alt</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_balloon</tag>
+      <attributes>
+        <attribute>balloon_title</attribute>
+        <attribute encoding="allow_html_tags">balloon_description</attribute>
+        <attribute type="media-url">balloon_img</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">button_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_before_after_slider</tag>
+      <attributes>
+        <attribute type="media-url">before_image</attribute>
+        <attribute type="media-url">after_image</attribute>
+        <attribute>before_image_alt</attribute>
+        <attribute>after_image_alt</attribute>
+        <attribute>before_label</attribute>
+        <attribute>after_label</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_breadcrumbs</tag>
+      <attributes>
+        <attribute>bc_home_text</attribute>
+        <attribute type="link">bc_home_url</attribute>
+        <attribute>bc_separator_sysmbol</attribute>
+        <attribute type="link">bc_post_type_root</attribute>
+        <attribute>bc_post_type_label</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_button_grid</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_button_grid_child</tag>
+      <attributes>
+        <attribute>text_info</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">button_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_carousel</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_carousel_child</tag>
+      <attributes>
+        <attribute type="media-url">img_src</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>title_text</attribute>
+        <attribute encoding="allow_html_tags">desc_text</attribute>
+        <attribute>carousel_button_text</attribute>
+        <attribute type="link">button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_content_toggle</tag>
+      <attributes>
+        <attribute>first_text</attribute>
+        <attribute>second_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_countdown</tag>
+      <attributes>
+        <attribute type="link">forwarding_url</attribute>
+        <attribute>html</attribute>
+        <attribute>label_weeks</attribute>
+        <attribute>label_days</attribute>
+        <attribute>label_hours</attribute>
+        <attribute>label_minutes</attribute>
+        <attribute>label_seconds</attribute>
+        <attribute type="link">countdown_button_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_counter</tag>
+      <attributes>
+        <attribute>prefix</attribute>
+        <attribute>suffix</attribute>
+        <attribute>count_number_thousands_separator</attribute>
+        <attribute>count_number_decimal_separator</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_dual_heading</tag>
+      <attributes>
+        <attribute>first_heading</attribute>
+        <attribute>second_heading</attribute>
+        <attribute>background_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_expanding_cta</tag>
+      <attributes>
+        <attribute>content_title</attribute>
+        <attribute encoding="allow_html_tags">content_description</attribute>
+        <attribute>content_button_text</attribute>
+        <attribute>second_button_text</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute type="link">content_button_link</attribute>
+        <attribute type="link">second_button_link</attribute>
+        <attribute type="link">url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_fancy_text</tag>
+      <attributes>
+        <attribute>prefix</attribute>
+        <attribute>suffix</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_fancy_text_child</tag>
+      <attributes>
+        <attribute>text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_faq</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_filterable_gallery</tag>
+      <attributes>
+        <attribute>prev_btn_text</attribute>
+        <attribute>next_btn_text</attribute>
+        <attribute>load_more_text</attribute>
+        <attribute>all_filter_label</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_filterable_grid</tag>
+      <attributes>
+        <attribute>prev_btn_text</attribute>
+        <attribute>next_btn_text</attribute>
+        <attribute>load_more_text</attribute>
+        <attribute>all_filter_label</attribute>
+        <attribute>author_prefix</attribute>
+        <attribute>read_more_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>    
+      <tag>dipi_flip_box</tag>
+      <attributes>
+        <attribute>front_title</attribute>
+        <attribute encoding="allow_html_tags">front_content</attribute>
+        <attribute>front_image_alt</attribute>
+        <attribute>front_button_text</attribute>
+        <attribute type="link">front_button_link</attribute>
+        <attribute type="media-url">front_image</attribute>
+        <attribute type="media-url">back_image</attribute>
+        <attribute>back_title</attribute>
+        <attribute encoding="allow_html_tags">back_content</attribute>
+        <attribute>back_image_alt</attribute>
+        <attribute>back_button_text</attribute>
+        <attribute type="link">back_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>    
+      <tag>dipi_floating_multi_images_child</tag>
+      <attributes>
+        <attribute type="media-url">img_src</attribute>
+        <attribute>img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>    
+      <tag>dipi_horizontal_timeline</tag>
+      <attributes>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">image_tablet</attribute>
+        <attribute type="media-url">image_phone</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>    
+      <tag>dipi_horizontal_timeline_item</tag>
+      <attributes>
+        <attribute>ribbon</attribute>
+        <attribute>title</attribute>
+        <attribute encoding="allow_html_tags">content</attribute>
+        <attribute>button_text</attribute>
+        <attribute>alt</attribute>
+        <attribute type="link">url</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_hover_box</tag>
+      <attributes>
+        <attribute>content_title</attribute>
+        <attribute>content_image_alt</attribute>
+        <attribute>content_hover_title</attribute>
+        <attribute>content_hover_image_alt</attribute>
+        <attribute>content_hover_button_text</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute>content_hover_button_link</attribute>
+        <attribute encoding="allow_html_tags">body_text</attribute>
+        <attribute encoding="allow_html_tags">content_hover_content</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_hover_gallery</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_hover_gallery_item</tag>
+      <attributes>
+        <attribute>image_alt</attribute>
+        <attribute>title</attribute>
+        <attribute>content_image_alt</attribute>
+        <attribute>button_text</attribute>
+        <attribute encoding="allow_html_tags">content_text</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_accordion</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_accordion_child</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute encoding="allow_html_tags">accordion_description</attribute>
+        <attribute type="media-url">bg_img</attribute>
+        <attribute type="media-url">accordion_image</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>accordion_title</attribute>
+        <attribute>accordion_button_text</attribute>
+        <attribute type="link">accordion_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_gallery</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_gallery_child</tag>
+      <attributes>
+        <attribute>img_alt</attribute>
+        <attribute type="media-url">item_image</attribute>
+        <attribute type="media-url">item_thumb_image</attribute>
+        <attribute>thumb_img_alt</attribute>
+        <attribute>image_title</attribute>
+        <attribute encoding="allow_html_tags">image_description</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_hotspot</tag>
+      <attributes>
+        <attribute>img_alt</attribute>
+        <attribute type="media-url">img_src</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_hotspot_child</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>tooltip_desc</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>tooltip_img_alt</attribute>
+        <attribute>tooltip_title</attribute>
+        <attribute encoding="allow_html_tags">tooltip_desc</attribute>
+        <attribute type="media-url">hotspot_image</attribute>
+        <attribute type="media-url">tooltip_img_src</attribute>
+        <attribute>tooltip_button_text</attribute>
+        <attribute type="link">tooltip_button_link</attribute>
+        <attribute type="link">hotspot_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_magnifier</tag>
+      <attributes>
+        <attribute type="media-url">main_image</attribute>
+        <attribute>img_alt</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_mask</tag>
+      <attributes>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">custom_mask</attribute>
+        <attribute>img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_showcase</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_showcase_child</tag>
+      <attributes>
+        <attribute type="media-url">bg_img</attribute>
+        <attribute>title</attribute>
+        <attribute>img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_info_circle</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_info_circle_item</tag>
+      <attributes>
+        <attribute type="media-url">info_image</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute>content_title</attribute>
+        <attribute encoding="allow_html_tags">content_description</attribute>
+        <attribute>content_button_text</attribute>
+        <attribute type="link">url</attribute>
+        <attribute type="link">content_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_lottie_icon</tag>
+      <attributes>
+        <attribute>lottie_title</attribute>
+        <attribute encoding="allow_html_tags">lottie_content</attribute>
+        <attribute>lottie_button_text</attribute>
+        <attribute type="link">lottie_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_panorama</tag>
+      <attributes>
+        <attribute type="media-url">image2d</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">image0</attribute>
+        <attribute type="media-url">image1</attribute>
+        <attribute type="media-url">image2</attribute>
+        <attribute type="media-url">image3</attribute>
+        <attribute type="media-url">image4</attribute>
+        <attribute type="media-url">image5</attribute>
+        <attribute type="media-url">poster</attribute>
+        <attribute>videomp4</attribute>
+        <attribute>videowebm</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_masonry_gallery</tag>
+      <attributes>
+        <attribute>load_more_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_parallax_images</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_parallax_images_item</tag>
+      <attributes>
+        <attribute type="media-url">image</attribute>
+        <attribute>alt</attribute>
+        <attribute encoding="allow_html_tags">text_content</attribute>
+        <attribute>button_text</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_price_list</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_price_list_item</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute>price</attribute>
+        <attribute>price_prefix</attribute>
+        <attribute>price_suffix</attribute>
+        <attribute>content</attribute>
+        <attribute type="media-url">image</attribute>
+        <attribute>img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_pricing_table</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_pricing_table_item</tag>
+      <attributes>
+        <attribute encoding="allow_html_tags">text_content</attribute>
+        <attribute type="media-url">item_image</attribute>
+        <attribute type="media-url">ribbon_image</attribute>
+        <attribute>item_image_alt</attribute>
+        <attribute>price</attribute>
+        <attribute>price_prefix</attribute>
+        <attribute>feature_text</attribute>
+        <attribute>button_text</attribute>
+        <attribute>ribbon_text</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_scroll_image</tag>
+      <attributes>
+        <attribute>img_alt</attribute>
+        <attribute type="media-url">scroll_image</attribute>
+        <attribute type="media-url">direction_image</attribute>
+        <attribute>direction_img_alt</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_star_rating</tag>
+      <attributes>
+        <attribute>title</attribute>
+        <attribute encoding="allow_html_tags">description</attribute>
+        <attribute>rating_scale</attribute>
+        <attribute>rating</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_svg_animator</tag>
+      <attributes>
+        <attribute type="media-url">src</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_testimonial</tag>
+      <attributes>
+        <attribute>readmore_text</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_text_highlighter</tag>
+      <attributes>
+        <attribute>text_highlighter_prefix</attribute>
+        <attribute>text_highlighter_text</attribute>
+        <attribute>text_highlighter_suffix</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_tile_scroll</tag>
+      <attributes>
+        <attribute>content_img_alt</attribute>
+        <attribute>content_title</attribute>
+        <attribute encoding="allow_html_tags">content_description</attribute>
+        <attribute>content_button_text</attribute>
+        <attribute type="media-url">content_image</attribute>
+        <attribute type="link">content_button_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_tile_scroll_item</tag>
+      <attributes>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_tilt_image</tag>
+      <attributes>
+        <attribute type="media-url">image</attribute>
+        <attribute type="media-url">tilt_overlay_image</attribute>
+        <attribute>image_alt</attribute>
+        <attribute>img_alt</attribute>
+        <attribute>tilt_overlay_title_text</attribute>
+        <attribute encoding="allow_html_tags">tilt_overlay_desc_text</attribute>
+        <attribute>tilt_overlay_btn_text</attribute>
+        <attribute type="link">tilt_overlay_btn_link</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_timeline</tag>
+      <attributes>
+        <attribute type="media-url">timeline_image</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_timeline_item</tag>
+      <attributes>
+        <attribute>ribbon</attribute>
+        <attribute>title</attribute>
+        <attribute encoding="allow_html_tags">content</attribute>
+        <attribute>button_text</attribute>
+        <attribute>alt</attribute>
+        <attribute type="link">url</attribute>
+        <attribute type="link">button_url</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_typing_text</tag>
+      <attributes>
+        <attribute>typing_prefix</attribute>
+        <attribute>typing_text</attribute>
+        <attribute>typing_suffix</attribute>
+        <attribute>text_wrapper_tag</attribute>
+        <attribute>cursor_char</attribute>
+        <attribute type="link">link_option_url</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_content_slider_child</tag>
+      <attributes>
+        <attribute>desc_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_divider</tag>
+      <attributes>
+        <attribute>content_text</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_table_maker</tag>
+      <attributes>
+        <attribute>table_title</attribute>
+        <attribute>table_description</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_table_maker_child</tag>
+      <attributes>
+        <attribute>content_title</attribute>
+        <attribute>table_description</attribute>
+        <attribute encoding="allow_html_tags">content</attribute>
+        <attribute>content_button_text</attribute>
+        <attribute>content_button_link</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_table_of_content</tag>
+      <attributes>
+        <attribute>table_title</attribute>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_advanced_tabs</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_content_slider</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_floating_multi_images</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_gravity_forms_styler</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_image_rotator</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_instagram_grid</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_instagram_profile</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_instagram_slider</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+    <shortcode>
+      <tag>dipi_reading_progress_bar</tag>
+      <attributes>
+      </attributes>
+    </shortcode>
+  </shortcodes>
+
+<gutenberg-blocks>
+    <gutenberg-block type="dipi/hover-box" translate="1">
+    <key name="content_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="content_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="body_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_hover_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="content_hover_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_hover_content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_hover_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/flip-box" translate="1">
+    <key name="front_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="front_image_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="front_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="front_content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="front_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="back_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="back_image_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="back_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="back_content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="back_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/tilt-image" translate="1">
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="overlayImage">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="overlay">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="imgAlt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="overlayContent">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/before-after-slider" translate="1">
+    <key name="before_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="before_image_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="after_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="after_image_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="before_label">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="after_label">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/reveal" translate="1">
+    <key name="container_selector">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="show_more_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="show_less_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/blog-slider" translate="1">
+    <key name="show_more_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="author_prefix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/advanced-tabs-item" translate="1">
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="subtitle">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/advanced-tabs" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/balloon" translate="1">
+    <key name="balloon_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="balloon_description">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="balloon_img">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="img_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/breadcrumbs" translate="1">
+    <key name="bc_home_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="bc_home_url">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="bc_separator_sysmbol">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="bc_post_type_root">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="bc_post_type_label">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/button-grid-child" translate="1">
+    <key name="text_info">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/carousel" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/carousel-child" translate="1">
+    <key name="img_src">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="desc_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="carousel_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/counter" translate="1">
+    <key name="prefix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="suffix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="counter">
+        <key name="advanced">
+            <key name="count_number_thousands_separator">
+                <key name="*">
+                    <key name="value"/>
+                </key>
+            </key>
+            <key name="count_number_decimal_separator">
+                <key name="*">
+                    <key name="value"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/dual-heading" translate="1">
+    <key name="first_heading">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="second_heading">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="background_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/countdown" translate="1">
+    <key name="forwarding_url">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="html">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="label_weeks">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="label_days">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="label_hours">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="label_minutes">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="label_seconds">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/expanding-cta" translate="1">
+    <key name="content_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_desc">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="content_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="second_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="url">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/fancy-text" translate="1">
+    <key name="prefix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="suffix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/fancy-text-child" translate="1">
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/faq" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/filterable-gallery" translate="1">
+    <key name="prev_btn_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="next_btn_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="load_more">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="all_filter_label">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/filterable-grid" translate="1">
+    <key name="prev_btn_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="next_btn_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="load_more">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="all_filter_label">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="author_prefix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="read_more_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/floating-multi-images" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/floating-multi-images-child" translate="1">
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="img_alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/hover-gallery" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/hover-gallery-item" translate="1">
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="imageIcon">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-accordion" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-accordion-child" translate="1">
+    <key name="bg_img">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="accordion_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="accordion_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="accordion_description">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="accordion_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/horizontal-timeline" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/horizontal-timeline-item" translate="1">
+    <key name="ribbon">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="desc_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="url">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-hotspot" translate="1">
+    <key name="img_src">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="img_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-hotspot-child" translate="1">
+    <key name="hotspot_img">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="tooltip_img_src">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="tooltip_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="tooltip_desc">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="tooltip_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="hotspot_link">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-magnifier" translate="1">
+    <key name="main_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-mask" translate="1">
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="custom_mask">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-showcase" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-showcase-child" translate="1">
+    <key name="bg_img">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/info-circle" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/info-circle-item" translate="1">
+    <key name="info_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="content_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="content_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_desc">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/lottie-icon" translate="1">
+    <key name="lottie_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="lottie_content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/panorama" translate="1">
+    <key name="image2d">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image0">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image1">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image2">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image3">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image4">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image5">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="poster">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="videomp4">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="videowebm">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/masonry-gallery" translate="1">
+    <key name="load_more">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/parallax-images" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/parallax-images-item" translate="1">
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="text_content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/price-list" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/price-list-item" translate="1">
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="price">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="content"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="pricePrefix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="priceSuffix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/pricing-table" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/pricing-table-item" translate="1">
+    <key name="content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="price">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="pricePrefix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="priceSuffix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="featureText">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="tag"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="ribbonText">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="ribbonImage">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/scroll-image" translate="1">
+    <key name="scroll_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="img_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="direction_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="direction_img_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/star-rating" translate="1">
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="description">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="rating_scale">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="rating">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/svg-animator" translate="1">
+    <key name="src">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/testimonial" translate="1">
+    <key name="readmore_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/text-highlighter" translate="1">
+    <key name="text_highlighter_prefix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="text_highlighter_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="text_highlighter_suffix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/tile-scroll" translate="1">
+    <key name="content_icon">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                    <key name="alt"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="content_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_description">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content_button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/tile-scroll-item" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/timeline" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/timeline-item" translate="1">
+    <key name="ribbon">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="url">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="timeline_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/typing-text" translate="1">
+    <key name="typing_prefix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="typing_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="typing_suffix">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="text_wrapper_tag">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="cursor_char">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/content-slider" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/content-slider-child" translate="1">
+    <key name="desc">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/gravity-forms-styler" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-rotator" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/instagram-grid" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/instagram-profile" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/instagram-slider" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/reading-progress-bar" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/button-grid" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/content-toggle" translate="1">
+    <key name="first_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="second_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/horizontal-timeline" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/horizontal-timeline-item" translate="1">
+    <key name="ribbon">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="url">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value" type="link"/>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-gallery" translate="1">
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/image-gallery-child" translate="1">
+    <key name="item_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="item_thumb_image">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="src" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="img_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="thumb_img_alt">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="image_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="image_description">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    <key name="module">
+        <key name="advanced">
+            <key name="link">
+                <key name="*">
+                    <key name="value">
+                        <key name="url" type="link"/>
+                    </key>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/table-maker" translate="1">
+    <key name="table_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="table_description">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/table-maker-child" translate="1">
+    <key name="content_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="table_description">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="content">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    <key name="button">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value">
+                    <key name="text"/>
+                    <key name="linkUrl" type="link"/>
+                </key>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/divider" translate="1">
+    <key name="content_text">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+    <gutenberg-block type="dipi/table-of-content" translate="1">
+    <key name="table_title">
+        <key name="innerContent">
+            <key name="*">
+                <key name="value"/>
+            </key>
+        </key>
+    </key>
+    </gutenberg-block>
+</gutenberg-blocks>
+</wpml-config>

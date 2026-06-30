@@ -1,0 +1,82 @@
+{
+    "name": "dipi/pricing-table",
+    "moduleIcon": "dipi/pricing-table",
+    "d4Shortcode": "dipi_pricing_table",
+    "title": "Pixel Pricing Table",
+    "titles": "Pixel Pricing Tables",
+    "childModuleName": "dipi/pricing-table-item",
+    "childModuleTitle": "Pixel Pricing Table Item",
+    "childrenName": [
+        "dipi/pricing-table-item"
+    ],
+    "category": "module",
+    "style": "magnific-popup",
+    "attributes": {
+        "module": {
+            "type": "object",
+            "selector": "{{selector}}",
+            "default": {
+                "meta": {
+                    "adminLabel": {
+                        "desktop": {
+                            "value": "Pixel Pricing Table"
+                        }
+                    }
+                },
+                "decoration": {
+                    "itemSpacing": {
+                        "desktop": {
+                            "value": {
+                                "desktop": "0px"
+                            }
+                        }
+                    },
+                    "bodyFont": {
+                        "body": {
+                            "font": {
+                                "desktop": {
+                                    "value": {
+                                        "size": "16px"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "advanced": {
+                    "itemsAnimation": {
+                        "desktop": {
+                            "value": {
+                                "useAnimation": "off",
+                                "animation": "fadeInUpShort",
+                                "animationDuration": "1000ms",
+                                "animationDelay": "200ms"
+                            }
+                        }
+                    }
+                }
+            },
+            "defaultPrintedStyles": {
+                "decoration": {
+                    "bodyFont": {
+                        "body": {
+                            "font": {
+                                "desktop": {
+                                    "value": {
+                                        "textAlign": "center"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "styleProps": {
+                "spacing": {
+                    "important": true
+                }
+            }
+        }
+    },
+    "customCssFields": {}
+}

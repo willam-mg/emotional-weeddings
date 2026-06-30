@@ -1,0 +1,78 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "img": "image.decoration.boxShadow",
+      "carousel_button": "carousel_button.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "margin_padding": "module.decoration.spacing",
+    "fonts": {
+      "title": "title_font.decoration.font",
+      "desc": "desc_font.decoration.font"
+    },
+    "borders": {
+      "default": "module.decoration.border",
+      "img": "image.decoration.border",
+      "carousel_button": "carousel_button.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "image.decoration.sizing",
+    "height": "image.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link",
+    "button": {
+      "carousel_button": "carousel_button"
+    },
+    "text": "module.advanced.text"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm"
+  },
+  "module": {
+    "type": "type.innerContent.*",
+    "divi_library_id": "divi_library_id.innerContent.*",
+    "use_icon": "use_icon.innerContent.*",
+    "carousel_icon": "carousel_icon.innerContent.*",
+    "carousel_icon_align": "carousel_icon_align.innerContent.*",
+    "icon_color": "icon_color.innerContent.*",
+    "use_icon_circle": "use_icon_circle.innerContent.*",
+    "icon_circle_color": "icon_circle_color.innerContent.*",
+    "use_icon_circle_border": "use_icon_circle_border.innerContent.*",
+    "icon_circle_border_color": "icon_circle_border_color.innerContent.*",
+    "use_icon_font_size": "use_icon_font_size.innerContent.*",
+    "icon_font_size": "icon_font_size.innerContent.*",
+    "img_src": "img_src.innerContent.*.src",
+    "img_alt": "img_src.innerContent.*.alt",
+    "title_text": "title.innerContent.*",
+    "desc_text": "desc_text.innerContent.*",
+    "show_button": "show_button.innerContent.*",
+    "carousel_button_text": "carousel_button.innerContent.*.text",
+    "button_link": "carousel_button.innerContent.*.linkUrl",
+    "button_link_target": "carousel_button.innerContent.*.linkTarget",
+    "carousel_image_align": "carousel_image_align.innerContent.*",
+    "image_animation": "image_animation.innerContent.*",
+    "img_width": "img_width.innerContent.*",
+    "image_icon_margin": "item_icon_spacing.innerContent.*.margin",
+    "image_icon_padding": "item_icon_spacing.innerContent.*.padding"
+  },
+  "valueExpansionFunctionMap": {
+    "carousel_icon": "convertFontIcon",
+    "image_icon_margin": "convertSpacing",
+    "image_icon_padding": "convertSpacing"
+  }
+}

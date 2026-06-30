@@ -1,0 +1,88 @@
+{
+  "advanced": {
+    "animation": "module.decoration.animation",
+    "box_shadow": {
+      "default": "module.decoration.boxShadow",
+      "items": "advanced_items.decoration.boxShadow",
+      "hover": "advanced_hover.decoration.boxShadow",
+      "active": "advanced_active.decoration.boxShadow"
+    },
+    "disabled_on": "module.decoration.disabledOn",
+    "module": "module.advanced.htmlAttributes",
+    "overflow": "module.decoration.overflow",
+    "position_fields": "module.decoration.position",
+    "scroll": "module.decoration.scroll",
+    "sticky": "module.decoration.sticky",
+    "transform": "module.decoration.transform",
+    "transition": "module.decoration.transition",
+    "z_index": "module.decoration.zIndex",
+    "fonts": {
+      "items": "advanced_items.decoration.font",
+      "hover": "advanced_hover.decoration.font",
+      "active": "advanced_active.decoration.font"
+    },
+    "margin_padding": "module.decoration.spacing",
+    "borders": {
+      "items": "advanced_items.decoration.border",
+      "hover": "advanced_hover.decoration.border",
+      "active": "advanced_active.decoration.border"
+    },
+    "background": "module.decoration.background",
+    "max_width": "module.decoration.sizing",
+    "height": "module.decoration.sizing",
+    "filters": {
+      "default": "module.decoration.filters"
+    },
+    "link_options": "module.advanced.link"
+  },
+  "css": {
+    "before": "css.*.before",
+    "main_element": "css.*.mainElement",
+    "after": "css.*.after",
+    "free_form": "css.*.freeForm",
+    "bc_items": "css.*.bcItems",
+    "bc_items_link": "css.*.bcItemsLink",
+    "bc_home": "css.*.bcHome",
+    "bc_home_link": "css.*.bcHomeLink",
+    "bc_current_item": "css.*.bcCurrentItem",
+    "bc_separator": "css.*.bcSeparator"
+  },
+  "module": {
+    "hide_home": "hide_home.innerContent.*",
+    "bc_custom_home": "bc_custom_home.innerContent.*",
+    "bc_home_text": "bc_home_text.innerContent.*",
+    "bc_home_url": "bc_home_url.innerContent.*",
+    "bc_home_icon": "bc_home_icon.innerContent.*",
+    "bc_home_size": "bc_home_size.innerContent.*",
+    "bc_home_color": "bc_home_color.innerContent.*",
+    "bc_separator": "bc_separator.innerContent.*",
+    "bc_separator_icon": "bc_separator_icon.innerContent.*",
+    "bc_separator_sysmbol": "bc_separator_sysmbol.innerContent.*",
+    "bc_items_alignment": "bc_items_alignment.innerContent.*",
+    "bc_post_type": "bc_post_type.innerContent.*",
+    "bc_is_post_type_root": "bc_is_post_type_root.innerContent.*",
+    "bc_post_type_root": "bc_post_type_root.innerContent.*",
+    "bc_post_type_label": "bc_post_type_label.innerContent.*",
+    "bc_post_taxonomy": "bc_post_taxonomy.innerContent.*",
+    "bc_page_taxonomy": "bc_page_taxonomy.innerContent.*",
+    "bc_attachment_taxonomy": "bc_attachment_taxonomy.innerContent.*",
+    "bc_project_taxonomy": "bc_project_taxonomy.innerContent.*",
+    "bc_dipi_testimonial_taxonomy": "bc_dipi_testimonial_taxonomy.innerContent.*",
+    "bc_dipi_faq_taxonomy": "bc_dipi_faq_taxonomy.innerContent.*",
+    "bc_schema": "bc_schema.innerContent.*",
+    "bc_separator_size": "bc_separator_size.innerContent.*",
+    "bc_separator_color": "bc_separator_color.innerContent.*",
+    "bc_separator_space": "bc_separator_space.innerContent.*",
+    "bc_item_bg_color": "bc_item_bg_color.innerContent.*",
+    "bc_item_padding": "bc_item_padding.innerContent.*.padding",
+    "bc_active_item_color": "bc_active_item_color.innerContent.*",
+    "bc_active_item_padding": "bc_active_item_padding.innerContent.*.padding",
+    "bc_hover_item_bg_color": "bc_hover_item_bg_color.innerContent.*"
+  },
+  "valueExpansionFunctionMap": {
+    "bc_separator_icon": "convertFontIcon",
+    "content_hover_image_icon": "convertFontIcon",
+    "bc_item_padding": "convertSpacing",
+    "bc_active_item_padding": "convertSpacing"
+  }
+}

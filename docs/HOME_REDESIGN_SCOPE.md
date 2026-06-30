@@ -14,7 +14,19 @@ Static prototype:
 
 `exports/templates/home-redesign-v1.html`
 
-This prototype is not a production implementation. It is a visual and structural blueprint for Divi implementation.
+WordPress content template:
+
+`exports/templates/home-redesign-v1.wp.html`
+
+Local WordPress stylesheet:
+
+`wordpress/wp-content/mu-plugins/emotional-weddings-redesign/home-v1.css`
+
+Apply script:
+
+`tools/apply-home-redesign.php`
+
+The first version has been applied to the local WordPress Home page after creating a database backup.
 
 ## Why Home First
 
@@ -45,7 +57,8 @@ This prototype is not a production implementation. It is a visual and structural
 
 ## Divi Implementation Notes
 
-- Implement as reusable Divi sections after visual approval.
+- Current implementation uses HTML content plus a local mu-plugin stylesheet so WordPress/Divi reliably applies the layout.
+- Convert into reusable Divi sections after visual approval if the client wants fully editable Divi modules.
 - Use the existing global palette: ivory, black, muted gold, warm gray.
 - Keep body text narrow.
 - Use fixed image aspect ratios to avoid layout shift.
@@ -62,4 +75,3 @@ This prototype is not a production implementation. It is a visual and structural
 - Services are introduced through value, not only price.
 - Inquiry CTA appears before footer.
 - Desktop and mobile layouts are both intentional.
-

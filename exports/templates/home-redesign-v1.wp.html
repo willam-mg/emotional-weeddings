@@ -1,0 +1,421 @@
+<style>
+  :root {
+    --ew-ink: #171411;
+    --ew-paper: #f7f3ee;
+    --ew-soft: #e7dfd8;
+    --ew-gold: #b58a47;
+    --ew-muted: #6f6960;
+    --ew-black: #050505;
+    --ew-white: #fffaf4;
+  }
+
+  .ew-home-v1 {
+    color: var(--ew-ink);
+    background: var(--ew-paper);
+    font-family: "Montserrat", Arial, sans-serif;
+    line-height: 1.55;
+    overflow: hidden;
+  }
+
+  .ew-home-v1 * {
+    box-sizing: border-box;
+  }
+
+  .ew-home-v1 img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ew-home-v1 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .ew-hero {
+    min-height: calc(100vh - 80px);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(320px, 44vw);
+    background: var(--ew-black);
+    color: var(--ew-white);
+  }
+
+  .ew-hero__image {
+    min-height: calc(100vh - 80px);
+  }
+
+  .ew-hero__copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 92px clamp(28px, 6vw, 96px);
+  }
+
+  .ew-eyebrow {
+    color: var(--ew-gold);
+    font-size: 11px;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    margin: 0 0 18px;
+  }
+
+.ew-home-v1 h1,
+.ew-home-v1 h2,
+.ew-display {
+  margin: 0;
+  color: inherit;
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight: 400;
+    line-height: .98;
+    letter-spacing: 0;
+  }
+
+  .ew-home-v1 h1 {
+    font-size: clamp(54px, 7.4vw, 118px);
+    max-width: 720px;
+  }
+
+  .ew-home-v1 h2,
+  .ew-display {
+    font-size: clamp(40px, 5vw, 82px);
+  }
+
+  .ew-lead {
+    max-width: 520px;
+    margin: 28px 0 0;
+    color: rgba(255, 250, 244, .76);
+    font-size: 17px;
+  }
+
+  .ew-button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 36px;
+  }
+
+  .ew-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding: 12px 20px;
+    border: 1px solid currentColor;
+    color: var(--ew-white);
+    font-size: 11px;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+  }
+
+  .ew-button--gold {
+    background: var(--ew-gold);
+    border-color: var(--ew-gold);
+    color: var(--ew-black);
+  }
+
+  .ew-section {
+    padding: clamp(76px, 10vw, 150px) clamp(20px, 4vw, 56px);
+  }
+
+  .ew-section__inner {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  .ew-split {
+    display: grid;
+    grid-template-columns: .92fr 1.08fr;
+    gap: clamp(36px, 6vw, 90px);
+    align-items: center;
+  }
+
+  .ew-portrait {
+    aspect-ratio: 4 / 5;
+    background: var(--ew-soft);
+  }
+
+  .ew-story p,
+  .ew-copy-muted {
+    max-width: 560px;
+    color: var(--ew-muted);
+    font-size: 17px;
+  }
+
+  .ew-story .ew-button {
+    color: var(--ew-ink);
+    margin-top: 24px;
+  }
+
+  .ew-dark {
+    background: var(--ew-black);
+    color: var(--ew-white);
+  }
+
+  .ew-gallery-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 28px;
+    margin-bottom: 40px;
+  }
+
+  .ew-gallery-head p {
+    max-width: 420px;
+    color: rgba(255, 250, 244, .68);
+  }
+
+  .ew-mosaic {
+    display: grid;
+    grid-template-columns: 1fr 1.25fr 1fr;
+    gap: 12px;
+    min-height: 720px;
+  }
+
+  .ew-mosaic__stack {
+    display: grid;
+    gap: 12px;
+  }
+
+.ew-mosaic__large {
+  min-height: 720px;
+}
+
+.ew-shot {
+  min-height: 354px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.ew-mosaic__large.ew-shot {
+  min-height: 720px;
+}
+
+  .ew-principles {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 28px;
+    margin-top: 46px;
+  }
+
+  .ew-principle {
+    border-top: 1px solid var(--ew-soft);
+    padding-top: 22px;
+  }
+
+  .ew-principle h3 {
+    margin: 0 0 12px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .ew-principle p {
+    margin: 0;
+    color: var(--ew-muted);
+    font-size: 14px;
+  }
+
+  .ew-collections {
+    display: grid;
+    grid-template-columns: .9fr 1.1fr;
+    gap: clamp(36px, 6vw, 92px);
+    align-items: start;
+  }
+
+  .ew-collection-list {
+    display: grid;
+    gap: 16px;
+  }
+
+  .ew-collection {
+    padding: 28px;
+    border: 1px solid #d5c9ba;
+    background: rgba(255, 255, 255, .26);
+  }
+
+  .ew-collection strong {
+    display: block;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  .ew-collection span {
+    color: var(--ew-gold);
+    font-size: 12px;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+  }
+
+  .ew-cta {
+    min-height: 72vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background: var(--ew-black);
+    color: var(--ew-white);
+    padding: clamp(80px, 12vw, 150px) 24px;
+  }
+
+  .ew-cta p {
+    max-width: 560px;
+    color: rgba(255, 250, 244, .7);
+    margin: 28px auto 0;
+  }
+
+  @media (max-width: 860px) {
+    .ew-hero,
+    .ew-split,
+    .ew-collections {
+      grid-template-columns: 1fr;
+    }
+
+    .ew-hero__image {
+      min-height: 58vh;
+      order: -1;
+    }
+
+    .ew-hero__copy {
+      padding-top: 54px;
+    }
+
+    .ew-mosaic,
+    .ew-principles {
+      grid-template-columns: 1fr;
+    }
+
+    .ew-mosaic,
+    .ew-mosaic__large {
+      min-height: auto;
+    }
+
+    .ew-shot,
+    .ew-mosaic__large {
+      aspect-ratio: 4 / 5;
+      min-height: auto;
+    }
+
+    .ew-gallery-head {
+      display: block;
+    }
+  }
+</style>
+
+<main class="ew-home-v1">
+  <section class="ew-hero">
+    <div class="ew-hero__copy">
+      <p class="ew-eyebrow">London, UK and destination weddings</p>
+      <h1>A quiet eye for unrepeatable moments.</h1>
+      <p class="ew-lead">Editorial and documentary wedding photography for couples who want their day remembered with honesty, elegance, and feeling.</p>
+      <div class="ew-button-row">
+        <a class="ew-button ew-button--gold" href="/contact/">Check availability</a>
+        <a class="ew-button" href="/gallery/">View the work</a>
+      </div>
+    </div>
+    <div class="ew-hero__image">
+      <img src="/wp-content/uploads/2026/04/Surrey-Wedding-Photographers-9.jpg" alt="Wedding couple in an editorial outdoor moment" loading="eager">
+    </div>
+  </section>
+
+  <section class="ew-section" id="experience">
+    <div class="ew-section__inner ew-split">
+      <div class="ew-portrait">
+        <img src="/wp-content/uploads/2026/06/82d756f0-de67-48f3-8031-a07446485a67.png" alt="Greg holding a camera" loading="eager">
+      </div>
+      <div class="ew-story">
+        <p class="ew-eyebrow">Behind the lens</p>
+        <h2>Calm presence. Editorial instinct. Real emotion.</h2>
+        <p>Greg blends documentary observation with an editorial sense of composition, giving each wedding space to feel natural while still looking considered, elegant, and timeless.</p>
+        <p>The experience should feel personal and grounded: someone who notices the quiet exchanges, the atmosphere, and the people you love most.</p>
+        <a class="ew-button" href="/services/">Explore the experience</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="ew-section ew-dark" id="portfolio">
+    <div class="ew-section__inner">
+      <div class="ew-gallery-head">
+        <div>
+          <p class="ew-eyebrow">Selected work</p>
+          <h2>Stories told in light and silence.</h2>
+        </div>
+        <p>A curated first impression: fewer images, stronger rhythm, clearer categories.</p>
+      </div>
+      <div class="ew-mosaic">
+        <div class="ew-mosaic__stack">
+          <div class="ew-shot" role="img" aria-label="Editorial wedding detail" style="background-image:url('/wp-content/uploads/2026/04/DSCF0785.webp')"></div>
+          <div class="ew-shot" role="img" aria-label="Emotional wedding portrait" style="background-image:url('/wp-content/uploads/2026/06/Emotional-Wedding-Photography-108.webp')"></div>
+        </div>
+        <div class="ew-mosaic__large ew-shot" role="img" aria-label="Wedding couple portrait" style="background-image:url('/wp-content/uploads/2026/04/NatalieShane-Wedding_OG-290.webp')"></div>
+        <div class="ew-mosaic__stack">
+          <div class="ew-shot" role="img" aria-label="Documentary wedding moment" style="background-image:url('/wp-content/uploads/2026/06/Emotional-Wedding-Photography-109.webp')"></div>
+          <div class="ew-shot" role="img" aria-label="Editorial wedding scene" style="background-image:url('/wp-content/uploads/2026/06/DSCF9414-Edit-Edit-1536x1024.webp')"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ew-section">
+    <div class="ew-section__inner">
+      <p class="ew-eyebrow">Why work with me</p>
+      <h2>An approach as singular as your story.</h2>
+      <div class="ew-principles">
+        <div class="ew-principle">
+          <h3>Quietly present</h3>
+          <p>Unobtrusive coverage that lets real moments unfold without turning the day into a performance.</p>
+        </div>
+        <div class="ew-principle">
+          <h3>Editorially composed</h3>
+          <p>Portraits and details are shaped with taste, light, and intention.</p>
+        </div>
+        <div class="ew-principle">
+          <h3>Emotion first</h3>
+          <p>The priority is always the feeling of the day, not a forced shot list.</p>
+        </div>
+        <div class="ew-principle">
+          <h3>London and beyond</h3>
+          <p>Based in London, available for UK and destination wedding stories.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ew-section" id="collections">
+    <div class="ew-section__inner ew-collections">
+      <div>
+        <p class="ew-eyebrow">Collections</p>
+        <h2>Coverage shaped around the way your day unfolds.</h2>
+        <p class="ew-copy-muted">Three thoughtful collections, introduced with guidance first and details second, so couples can choose from confidence rather than comparison fatigue.</p>
+      </div>
+      <div class="ew-collection-list">
+        <div class="ew-collection">
+          <span>From 700</span>
+          <strong>Minimalist Wanderlust</strong>
+          <p>For intimate weddings, elopements, and smaller celebrations with a focused story.</p>
+        </div>
+        <div class="ew-collection">
+          <span>From 1,200</span>
+          <strong>Classic</strong>
+          <p>For wedding days that need complete documentary coverage and refined portraits.</p>
+        </div>
+        <div class="ew-collection">
+          <span>From 2,000</span>
+          <strong>Masterpiece</strong>
+          <p>For couples who want the full editorial experience, albums, and extended storytelling.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ew-cta" id="inquire">
+    <div>
+      <p class="ew-eyebrow">Get in touch</p>
+      <div class="ew-display">Tell me about the feeling you want to remember.</div>
+      <p>Share the venue, the date, and the atmosphere you are hoping for. Greg replies personally to every inquiry.</p>
+      <div class="ew-button-row" style="justify-content:center">
+        <a class="ew-button ew-button--gold" href="/contact/">Check availability</a>
+      </div>
+    </div>
+  </section>
+</main>

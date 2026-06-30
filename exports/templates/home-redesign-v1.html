@@ -106,6 +106,7 @@
     h2,
     .display {
       margin: 0;
+      color: inherit;
       font-family: Georgia, "Times New Roman", serif;
       font-weight: 400;
       line-height: .98;
@@ -217,6 +218,17 @@
     }
 
     .mosaic__large {
+      min-height: 720px;
+    }
+
+    .shot {
+      min-height: 354px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    .mosaic__large.shot {
       min-height: 720px;
     }
 
@@ -347,9 +359,10 @@
         min-height: auto;
       }
 
-      .mosaic__stack > *,
+      .shot,
       .mosaic__large {
         aspect-ratio: 4 / 5;
+        min-height: auto;
       }
 
       .gallery-head,
@@ -382,14 +395,14 @@
         </div>
       </div>
       <div class="hero__image">
-        <img src="../../wordpress/wp-content/uploads/2026/04/Surrey-Wedding-Photographers-9.jpg" alt="Wedding couple in an editorial outdoor moment">
+        <img src="../../wordpress/wp-content/uploads/2026/04/Surrey-Wedding-Photographers-9.jpg" alt="Wedding couple in an editorial outdoor moment" loading="eager">
       </div>
     </section>
 
     <section class="section" id="experience">
       <div class="section__inner split">
         <div class="portrait">
-          <img src="../../wordpress/wp-content/uploads/2026/06/82d756f0-de67-48f3-8031-a07446485a67.png" alt="Greg holding a camera">
+          <img src="../../wordpress/wp-content/uploads/2026/06/82d756f0-de67-48f3-8031-a07446485a67.png" alt="Greg holding a camera" loading="eager">
         </div>
         <div class="story">
           <p class="eyebrow">Behind the lens</p>
@@ -412,15 +425,13 @@
         </div>
         <div class="mosaic">
           <div class="mosaic__stack">
-            <img src="../../wordpress/wp-content/uploads/2026/04/DSCF0785.webp" alt="Editorial wedding detail">
-            <img src="../../wordpress/wp-content/uploads/2026/06/Emotional-Wedding-Photography-108.webp" alt="Emotional wedding portrait">
+            <div class="shot" role="img" aria-label="Editorial wedding detail" style="background-image:url('../../wordpress/wp-content/uploads/2026/04/DSCF0785.webp')"></div>
+            <div class="shot" role="img" aria-label="Emotional wedding portrait" style="background-image:url('../../wordpress/wp-content/uploads/2026/06/Emotional-Wedding-Photography-108.webp')"></div>
           </div>
-          <div class="mosaic__large">
-            <img src="../../wordpress/wp-content/uploads/2026/04/NatalieShane-Wedding_OG-290.webp" alt="Wedding couple portrait">
-          </div>
+          <div class="mosaic__large shot" role="img" aria-label="Wedding couple portrait" style="background-image:url('../../wordpress/wp-content/uploads/2026/04/NatalieShane-Wedding_OG-290.webp')"></div>
           <div class="mosaic__stack">
-            <img src="../../wordpress/wp-content/uploads/2026/06/Emotional-Wedding-Photography-109.webp" alt="Documentary wedding moment">
-            <img src="../../wordpress/wp-content/uploads/2026/06/DSCF9414-Edit-Edit-1536x1024.webp" alt="Editorial wedding scene">
+            <div class="shot" role="img" aria-label="Documentary wedding moment" style="background-image:url('../../wordpress/wp-content/uploads/2026/06/Emotional-Wedding-Photography-109.webp')"></div>
+            <div class="shot" role="img" aria-label="Editorial wedding scene" style="background-image:url('../../wordpress/wp-content/uploads/2026/06/DSCF9414-Edit-Edit-1536x1024.webp')"></div>
           </div>
         </div>
       </div>

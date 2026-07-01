@@ -303,8 +303,37 @@
 </style>
 
 <main class="ew-home-v1">
-  <section class="ew-hero">
-    <div class="ew-hero__copy">
+  <input class="ew-side-toggle" type="checkbox" id="ew-side-panel-toggle" aria-hidden="true">
+  <label class="ew-side-button" for="ew-side-panel-toggle" aria-label="Open menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </label>
+  <aside class="ew-side-panel" aria-label="Editorial menu">
+    <label class="ew-side-close" for="ew-side-panel-toggle" aria-label="Close menu">&times;</label>
+    <p class="ew-eyebrow">Emotional Weddings</p>
+    <nav>
+      <a href="/gallery/">Portfolio</a>
+      <a href="/services/">Experience</a>
+      <a href="/about/">About Greg</a>
+      <a href="/journal/">Journal</a>
+      <a href="/contact/">Inquire</a>
+    </nav>
+    <p>Editorial and documentary wedding photography for London, the UK, and destination celebrations. Quietly observed, emotionally honest, and composed with care.</p>
+  </aside>
+
+  <section class="ew-slider" aria-label="Featured wedding photography">
+    <div class="ew-slide">
+      <img src="/wp-content/uploads/2026/04/Surrey-Wedding-Photographers-9.jpg" alt="Wedding couple in an editorial outdoor moment" loading="eager">
+    </div>
+    <div class="ew-slide">
+      <img src="/wp-content/uploads/2026/04/NatalieShane-Wedding_OG-290.webp" alt="Wedding couple portrait" loading="eager">
+    </div>
+    <div class="ew-slide">
+      <img src="/wp-content/uploads/2026/06/Emotional-Wedding-Photography-109.webp" alt="Documentary wedding moment" loading="eager">
+    </div>
+    <a class="ew-slider__brand" href="/">Emotional Weddings</a>
+    <div class="ew-slider__copy">
       <p class="ew-eyebrow">London, UK and destination weddings</p>
       <h1>A quiet eye for unrepeatable moments.</h1>
       <p class="ew-lead">Editorial and documentary wedding photography for couples who want their day remembered with honesty, elegance, and feeling.</p>
@@ -313,10 +342,15 @@
         <a class="ew-button" href="/gallery/">View the work</a>
       </div>
     </div>
-    <div class="ew-hero__image">
-      <img src="/wp-content/uploads/2026/04/Surrey-Wedding-Photographers-9.jpg" alt="Wedding couple in an editorial outdoor moment" loading="eager">
-    </div>
   </section>
+
+  <nav class="ew-banner-menu" aria-label="Home feature menu">
+    <a href="/gallery/">Portfolio</a>
+    <a href="/services/">Experience</a>
+    <a href="/about/">About Greg</a>
+    <a href="/journal/">Journal</a>
+    <a href="/contact/">Inquire</a>
+  </nav>
 
   <section class="ew-section" id="experience">
     <div class="ew-section__inner ew-split">
